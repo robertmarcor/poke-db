@@ -1,9 +1,10 @@
-import React from "react";
+import GameCards from "./GameCards";
 
-type Props = {};
-
-function Games({}: Props) {
-  return <div>Games</div>;
+export default function Games() {
+  return (
+    <div className="grid gap-4">
+      <h1>Games</h1>
+      <GameCards />
+    </div>
+  );
 }
-
-export default Games;
