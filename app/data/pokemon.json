@@ -1,4102 +1,9753 @@
 [
   {
     "id": 1,
-    "name": "bulbasaur"
+    "name": "bulbasaur",
+    "displayName": "Bulbasaur",
+    "genus": "Seed Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 2,
-    "name": "ivysaur"
+    "name": "ivysaur",
+    "displayName": "Ivysaur",
+    "genus": "Seed Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 3,
-    "name": "venusaur"
+    "name": "venusaur",
+    "displayName": "Venusaur",
+    "genus": "Seed Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 4,
-    "name": "charmander"
+    "name": "charmander",
+    "displayName": "Charmander",
+    "genus": "Lizard Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 5,
-    "name": "charmeleon"
+    "name": "charmeleon",
+    "displayName": "Charmeleon",
+    "genus": "Flame Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 6,
-    "name": "charizard"
+    "name": "charizard",
+    "displayName": "Charizard",
+    "genus": "Flame Pokémon",
+    "types": [
+      "fire",
+      "flying"
+    ]
   },
   {
     "id": 7,
-    "name": "squirtle"
+    "name": "squirtle",
+    "displayName": "Squirtle",
+    "genus": "Tiny Turtle Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 8,
-    "name": "wartortle"
+    "name": "wartortle",
+    "displayName": "Wartortle",
+    "genus": "Turtle Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 9,
-    "name": "blastoise"
+    "name": "blastoise",
+    "displayName": "Blastoise",
+    "genus": "Shellfish Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 10,
-    "name": "caterpie"
+    "name": "caterpie",
+    "displayName": "Caterpie",
+    "genus": "Worm Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 11,
-    "name": "metapod"
+    "name": "metapod",
+    "displayName": "Metapod",
+    "genus": "Cocoon Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 12,
-    "name": "butterfree"
+    "name": "butterfree",
+    "displayName": "Butterfree",
+    "genus": "Butterfly Pokémon",
+    "types": [
+      "bug",
+      "flying"
+    ]
   },
   {
     "id": 13,
-    "name": "weedle"
+    "name": "weedle",
+    "displayName": "Weedle",
+    "genus": "Hairy Bug Pokémon",
+    "types": [
+      "bug",
+      "poison"
+    ]
   },
   {
     "id": 14,
-    "name": "kakuna"
+    "name": "kakuna",
+    "displayName": "Kakuna",
+    "genus": "Cocoon Pokémon",
+    "types": [
+      "bug",
+      "poison"
+    ]
   },
   {
     "id": 15,
-    "name": "beedrill"
+    "name": "beedrill",
+    "displayName": "Beedrill",
+    "genus": "Poison Bee Pokémon",
+    "types": [
+      "bug",
+      "poison"
+    ]
   },
   {
     "id": 16,
-    "name": "pidgey"
+    "name": "pidgey",
+    "displayName": "Pidgey",
+    "genus": "Tiny Bird Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 17,
-    "name": "pidgeotto"
+    "name": "pidgeotto",
+    "displayName": "Pidgeotto",
+    "genus": "Bird Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 18,
-    "name": "pidgeot"
+    "name": "pidgeot",
+    "displayName": "Pidgeot",
+    "genus": "Bird Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 19,
-    "name": "rattata"
+    "name": "rattata",
+    "displayName": "Rattata",
+    "genus": "Mouse Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 20,
-    "name": "raticate"
+    "name": "raticate",
+    "displayName": "Raticate",
+    "genus": "Mouse Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 21,
-    "name": "spearow"
+    "name": "spearow",
+    "displayName": "Spearow",
+    "genus": "Tiny Bird Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 22,
-    "name": "fearow"
+    "name": "fearow",
+    "displayName": "Fearow",
+    "genus": "Beak Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 23,
-    "name": "ekans"
+    "name": "ekans",
+    "displayName": "Ekans",
+    "genus": "Snake Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 24,
-    "name": "arbok"
+    "name": "arbok",
+    "displayName": "Arbok",
+    "genus": "Cobra Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 25,
-    "name": "pikachu"
+    "name": "pikachu",
+    "displayName": "Pikachu",
+    "genus": "Mouse Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 26,
-    "name": "raichu"
+    "name": "raichu",
+    "displayName": "Raichu",
+    "genus": "Mouse Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 27,
-    "name": "sandshrew"
+    "name": "sandshrew",
+    "displayName": "Sandshrew",
+    "genus": "Mouse Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 28,
-    "name": "sandslash"
+    "name": "sandslash",
+    "displayName": "Sandslash",
+    "genus": "Mouse Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 29,
-    "name": "nidoran-f"
+    "name": "nidoran-f",
+    "displayName": "Nidoran♀",
+    "genus": "Poison Pin Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 30,
-    "name": "nidorina"
+    "name": "nidorina",
+    "displayName": "Nidorina",
+    "genus": "Poison Pin Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 31,
-    "name": "nidoqueen"
+    "name": "nidoqueen",
+    "displayName": "Nidoqueen",
+    "genus": "Drill Pokémon",
+    "types": [
+      "poison",
+      "ground"
+    ]
   },
   {
     "id": 32,
-    "name": "nidoran-m"
+    "name": "nidoran-m",
+    "displayName": "Nidoran♂",
+    "genus": "Poison Pin Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 33,
-    "name": "nidorino"
+    "name": "nidorino",
+    "displayName": "Nidorino",
+    "genus": "Poison Pin Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 34,
-    "name": "nidoking"
+    "name": "nidoking",
+    "displayName": "Nidoking",
+    "genus": "Drill Pokémon",
+    "types": [
+      "poison",
+      "ground"
+    ]
   },
   {
     "id": 35,
-    "name": "clefairy"
+    "name": "clefairy",
+    "displayName": "Clefairy",
+    "genus": "Fairy Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 36,
-    "name": "clefable"
+    "name": "clefable",
+    "displayName": "Clefable",
+    "genus": "Fairy Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 37,
-    "name": "vulpix"
+    "name": "vulpix",
+    "displayName": "Vulpix",
+    "genus": "Fox Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 38,
-    "name": "ninetales"
+    "name": "ninetales",
+    "displayName": "Ninetales",
+    "genus": "Fox Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 39,
-    "name": "jigglypuff"
+    "name": "jigglypuff",
+    "displayName": "Jigglypuff",
+    "genus": "Balloon Pokémon",
+    "types": [
+      "normal",
+      "fairy"
+    ]
   },
   {
     "id": 40,
-    "name": "wigglytuff"
+    "name": "wigglytuff",
+    "displayName": "Wigglytuff",
+    "genus": "Balloon Pokémon",
+    "types": [
+      "normal",
+      "fairy"
+    ]
   },
   {
     "id": 41,
-    "name": "zubat"
+    "name": "zubat",
+    "displayName": "Zubat",
+    "genus": "Bat Pokémon",
+    "types": [
+      "poison",
+      "flying"
+    ]
   },
   {
     "id": 42,
-    "name": "golbat"
+    "name": "golbat",
+    "displayName": "Golbat",
+    "genus": "Bat Pokémon",
+    "types": [
+      "poison",
+      "flying"
+    ]
   },
   {
     "id": 43,
-    "name": "oddish"
+    "name": "oddish",
+    "displayName": "Oddish",
+    "genus": "Weed Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 44,
-    "name": "gloom"
+    "name": "gloom",
+    "displayName": "Gloom",
+    "genus": "Weed Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 45,
-    "name": "vileplume"
+    "name": "vileplume",
+    "displayName": "Vileplume",
+    "genus": "Flower Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 46,
-    "name": "paras"
+    "name": "paras",
+    "displayName": "Paras",
+    "genus": "Mushroom Pokémon",
+    "types": [
+      "bug",
+      "grass"
+    ]
   },
   {
     "id": 47,
-    "name": "parasect"
+    "name": "parasect",
+    "displayName": "Parasect",
+    "genus": "Mushroom Pokémon",
+    "types": [
+      "bug",
+      "grass"
+    ]
   },
   {
     "id": 48,
-    "name": "venonat"
+    "name": "venonat",
+    "displayName": "Venonat",
+    "genus": "Insect Pokémon",
+    "types": [
+      "bug",
+      "poison"
+    ]
   },
   {
     "id": 49,
-    "name": "venomoth"
+    "name": "venomoth",
+    "displayName": "Venomoth",
+    "genus": "Poison Moth Pokémon",
+    "types": [
+      "bug",
+      "poison"
+    ]
   },
   {
     "id": 50,
-    "name": "diglett"
+    "name": "diglett",
+    "displayName": "Diglett",
+    "genus": "Mole Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 51,
-    "name": "dugtrio"
+    "name": "dugtrio",
+    "displayName": "Dugtrio",
+    "genus": "Mole Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 52,
-    "name": "meowth"
+    "name": "meowth",
+    "displayName": "Meowth",
+    "genus": "Scratch Cat Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 53,
-    "name": "persian"
+    "name": "persian",
+    "displayName": "Persian",
+    "genus": "Classy Cat Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 54,
-    "name": "psyduck"
+    "name": "psyduck",
+    "displayName": "Psyduck",
+    "genus": "Duck Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 55,
-    "name": "golduck"
+    "name": "golduck",
+    "displayName": "Golduck",
+    "genus": "Duck Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 56,
-    "name": "mankey"
+    "name": "mankey",
+    "displayName": "Mankey",
+    "genus": "Pig Monkey Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 57,
-    "name": "primeape"
+    "name": "primeape",
+    "displayName": "Primeape",
+    "genus": "Pig Monkey Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 58,
-    "name": "growlithe"
+    "name": "growlithe",
+    "displayName": "Growlithe",
+    "genus": "Puppy Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 59,
-    "name": "arcanine"
+    "name": "arcanine",
+    "displayName": "Arcanine",
+    "genus": "Legendary Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 60,
-    "name": "poliwag"
+    "name": "poliwag",
+    "displayName": "Poliwag",
+    "genus": "Tadpole Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 61,
-    "name": "poliwhirl"
+    "name": "poliwhirl",
+    "displayName": "Poliwhirl",
+    "genus": "Tadpole Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 62,
-    "name": "poliwrath"
+    "name": "poliwrath",
+    "displayName": "Poliwrath",
+    "genus": "Tadpole Pokémon",
+    "types": [
+      "water",
+      "fighting"
+    ]
   },
   {
     "id": 63,
-    "name": "abra"
+    "name": "abra",
+    "displayName": "Abra",
+    "genus": "Psi Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 64,
-    "name": "kadabra"
+    "name": "kadabra",
+    "displayName": "Kadabra",
+    "genus": "Psi Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 65,
-    "name": "alakazam"
+    "name": "alakazam",
+    "displayName": "Alakazam",
+    "genus": "Psi Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 66,
-    "name": "machop"
+    "name": "machop",
+    "displayName": "Machop",
+    "genus": "Superpower Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 67,
-    "name": "machoke"
+    "name": "machoke",
+    "displayName": "Machoke",
+    "genus": "Superpower Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 68,
-    "name": "machamp"
+    "name": "machamp",
+    "displayName": "Machamp",
+    "genus": "Superpower Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 69,
-    "name": "bellsprout"
+    "name": "bellsprout",
+    "displayName": "Bellsprout",
+    "genus": "Flower Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 70,
-    "name": "weepinbell"
+    "name": "weepinbell",
+    "displayName": "Weepinbell",
+    "genus": "Flycatcher Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 71,
-    "name": "victreebel"
+    "name": "victreebel",
+    "displayName": "Victreebel",
+    "genus": "Flycatcher Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 72,
-    "name": "tentacool"
+    "name": "tentacool",
+    "displayName": "Tentacool",
+    "genus": "Jellyfish Pokémon",
+    "types": [
+      "water",
+      "poison"
+    ]
   },
   {
     "id": 73,
-    "name": "tentacruel"
+    "name": "tentacruel",
+    "displayName": "Tentacruel",
+    "genus": "Jellyfish Pokémon",
+    "types": [
+      "water",
+      "poison"
+    ]
   },
   {
     "id": 74,
-    "name": "geodude"
+    "name": "geodude",
+    "displayName": "Geodude",
+    "genus": "Rock Pokémon",
+    "types": [
+      "rock",
+      "ground"
+    ]
   },
   {
     "id": 75,
-    "name": "graveler"
+    "name": "graveler",
+    "displayName": "Graveler",
+    "genus": "Rock Pokémon",
+    "types": [
+      "rock",
+      "ground"
+    ]
   },
   {
     "id": 76,
-    "name": "golem"
+    "name": "golem",
+    "displayName": "Golem",
+    "genus": "Megaton Pokémon",
+    "types": [
+      "rock",
+      "ground"
+    ]
   },
   {
     "id": 77,
-    "name": "ponyta"
+    "name": "ponyta",
+    "displayName": "Ponyta",
+    "genus": "Fire Horse Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 78,
-    "name": "rapidash"
+    "name": "rapidash",
+    "displayName": "Rapidash",
+    "genus": "Fire Horse Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 79,
-    "name": "slowpoke"
+    "name": "slowpoke",
+    "displayName": "Slowpoke",
+    "genus": "Dopey Pokémon",
+    "types": [
+      "water",
+      "psychic"
+    ]
   },
   {
     "id": 80,
-    "name": "slowbro"
+    "name": "slowbro",
+    "displayName": "Slowbro",
+    "genus": "Hermit Crab Pokémon",
+    "types": [
+      "water",
+      "psychic"
+    ]
   },
   {
     "id": 81,
-    "name": "magnemite"
+    "name": "magnemite",
+    "displayName": "Magnemite",
+    "genus": "Magnet Pokémon",
+    "types": [
+      "electric",
+      "steel"
+    ]
   },
   {
     "id": 82,
-    "name": "magneton"
+    "name": "magneton",
+    "displayName": "Magneton",
+    "genus": "Magnet Pokémon",
+    "types": [
+      "electric",
+      "steel"
+    ]
   },
   {
     "id": 83,
-    "name": "farfetchd"
+    "name": "farfetchd",
+    "displayName": "Farfetch’d",
+    "genus": "Wild Duck Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 84,
-    "name": "doduo"
+    "name": "doduo",
+    "displayName": "Doduo",
+    "genus": "Twin Bird Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 85,
-    "name": "dodrio"
+    "name": "dodrio",
+    "displayName": "Dodrio",
+    "genus": "Triple Bird Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 86,
-    "name": "seel"
+    "name": "seel",
+    "displayName": "Seel",
+    "genus": "Sea Lion Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 87,
-    "name": "dewgong"
+    "name": "dewgong",
+    "displayName": "Dewgong",
+    "genus": "Sea Lion Pokémon",
+    "types": [
+      "water",
+      "ice"
+    ]
   },
   {
     "id": 88,
-    "name": "grimer"
+    "name": "grimer",
+    "displayName": "Grimer",
+    "genus": "Sludge Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 89,
-    "name": "muk"
+    "name": "muk",
+    "displayName": "Muk",
+    "genus": "Sludge Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 90,
-    "name": "shellder"
+    "name": "shellder",
+    "displayName": "Shellder",
+    "genus": "Bivalve Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 91,
-    "name": "cloyster"
+    "name": "cloyster",
+    "displayName": "Cloyster",
+    "genus": "Bivalve Pokémon",
+    "types": [
+      "water",
+      "ice"
+    ]
   },
   {
     "id": 92,
-    "name": "gastly"
+    "name": "gastly",
+    "displayName": "Gastly",
+    "genus": "Gas Pokémon",
+    "types": [
+      "ghost",
+      "poison"
+    ]
   },
   {
     "id": 93,
-    "name": "haunter"
+    "name": "haunter",
+    "displayName": "Haunter",
+    "genus": "Gas Pokémon",
+    "types": [
+      "ghost",
+      "poison"
+    ]
   },
   {
     "id": 94,
-    "name": "gengar"
+    "name": "gengar",
+    "displayName": "Gengar",
+    "genus": "Shadow Pokémon",
+    "types": [
+      "ghost",
+      "poison"
+    ]
   },
   {
     "id": 95,
-    "name": "onix"
+    "name": "onix",
+    "displayName": "Onix",
+    "genus": "Rock Snake Pokémon",
+    "types": [
+      "rock",
+      "ground"
+    ]
   },
   {
     "id": 96,
-    "name": "drowzee"
+    "name": "drowzee",
+    "displayName": "Drowzee",
+    "genus": "Hypnosis Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 97,
-    "name": "hypno"
+    "name": "hypno",
+    "displayName": "Hypno",
+    "genus": "Hypnosis Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 98,
-    "name": "krabby"
+    "name": "krabby",
+    "displayName": "Krabby",
+    "genus": "River Crab Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 99,
-    "name": "kingler"
+    "name": "kingler",
+    "displayName": "Kingler",
+    "genus": "Pincer Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 100,
-    "name": "voltorb"
+    "name": "voltorb",
+    "displayName": "Voltorb",
+    "genus": "Ball Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 101,
-    "name": "electrode"
+    "name": "electrode",
+    "displayName": "Electrode",
+    "genus": "Ball Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 102,
-    "name": "exeggcute"
+    "name": "exeggcute",
+    "displayName": "Exeggcute",
+    "genus": "Egg Pokémon",
+    "types": [
+      "grass",
+      "psychic"
+    ]
   },
   {
     "id": 103,
-    "name": "exeggutor"
+    "name": "exeggutor",
+    "displayName": "Exeggutor",
+    "genus": "Coconut Pokémon",
+    "types": [
+      "grass",
+      "psychic"
+    ]
   },
   {
     "id": 104,
-    "name": "cubone"
+    "name": "cubone",
+    "displayName": "Cubone",
+    "genus": "Lonely Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 105,
-    "name": "marowak"
+    "name": "marowak",
+    "displayName": "Marowak",
+    "genus": "Bone Keeper Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 106,
-    "name": "hitmonlee"
+    "name": "hitmonlee",
+    "displayName": "Hitmonlee",
+    "genus": "Kicking Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 107,
-    "name": "hitmonchan"
+    "name": "hitmonchan",
+    "displayName": "Hitmonchan",
+    "genus": "Punching Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 108,
-    "name": "lickitung"
+    "name": "lickitung",
+    "displayName": "Lickitung",
+    "genus": "Licking Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 109,
-    "name": "koffing"
+    "name": "koffing",
+    "displayName": "Koffing",
+    "genus": "Poison Gas Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 110,
-    "name": "weezing"
+    "name": "weezing",
+    "displayName": "Weezing",
+    "genus": "Poison Gas Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 111,
-    "name": "rhyhorn"
+    "name": "rhyhorn",
+    "displayName": "Rhyhorn",
+    "genus": "Spikes Pokémon",
+    "types": [
+      "ground",
+      "rock"
+    ]
   },
   {
     "id": 112,
-    "name": "rhydon"
+    "name": "rhydon",
+    "displayName": "Rhydon",
+    "genus": "Drill Pokémon",
+    "types": [
+      "ground",
+      "rock"
+    ]
   },
   {
     "id": 113,
-    "name": "chansey"
+    "name": "chansey",
+    "displayName": "Chansey",
+    "genus": "Egg Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 114,
-    "name": "tangela"
+    "name": "tangela",
+    "displayName": "Tangela",
+    "genus": "Vine Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 115,
-    "name": "kangaskhan"
+    "name": "kangaskhan",
+    "displayName": "Kangaskhan",
+    "genus": "Parent Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 116,
-    "name": "horsea"
+    "name": "horsea",
+    "displayName": "Horsea",
+    "genus": "Dragon Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 117,
-    "name": "seadra"
+    "name": "seadra",
+    "displayName": "Seadra",
+    "genus": "Dragon Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 118,
-    "name": "goldeen"
+    "name": "goldeen",
+    "displayName": "Goldeen",
+    "genus": "Goldfish Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 119,
-    "name": "seaking"
+    "name": "seaking",
+    "displayName": "Seaking",
+    "genus": "Goldfish Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 120,
-    "name": "staryu"
+    "name": "staryu",
+    "displayName": "Staryu",
+    "genus": "Star Shape Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 121,
-    "name": "starmie"
+    "name": "starmie",
+    "displayName": "Starmie",
+    "genus": "Mysterious Pokémon",
+    "types": [
+      "water",
+      "psychic"
+    ]
   },
   {
     "id": 122,
-    "name": "mr-mime"
+    "name": "mr-mime",
+    "displayName": "Mr. Mime",
+    "genus": "Barrier Pokémon",
+    "types": [
+      "psychic",
+      "fairy"
+    ]
   },
   {
     "id": 123,
-    "name": "scyther"
+    "name": "scyther",
+    "displayName": "Scyther",
+    "genus": "Mantis Pokémon",
+    "types": [
+      "bug",
+      "flying"
+    ]
   },
   {
     "id": 124,
-    "name": "jynx"
+    "name": "jynx",
+    "displayName": "Jynx",
+    "genus": "Human Shape Pokémon",
+    "types": [
+      "ice",
+      "psychic"
+    ]
   },
   {
     "id": 125,
-    "name": "electabuzz"
+    "name": "electabuzz",
+    "displayName": "Electabuzz",
+    "genus": "Electric Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 126,
-    "name": "magmar"
+    "name": "magmar",
+    "displayName": "Magmar",
+    "genus": "Spitfire Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 127,
-    "name": "pinsir"
+    "name": "pinsir",
+    "displayName": "Pinsir",
+    "genus": "Stag Beetle Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 128,
-    "name": "tauros"
+    "name": "tauros",
+    "displayName": "Tauros",
+    "genus": "Wild Bull Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 129,
-    "name": "magikarp"
+    "name": "magikarp",
+    "displayName": "Magikarp",
+    "genus": "Fish Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 130,
-    "name": "gyarados"
+    "name": "gyarados",
+    "displayName": "Gyarados",
+    "genus": "Atrocious Pokémon",
+    "types": [
+      "water",
+      "flying"
+    ]
   },
   {
     "id": 131,
-    "name": "lapras"
+    "name": "lapras",
+    "displayName": "Lapras",
+    "genus": "Transport Pokémon",
+    "types": [
+      "water",
+      "ice"
+    ]
   },
   {
     "id": 132,
-    "name": "ditto"
+    "name": "ditto",
+    "displayName": "Ditto",
+    "genus": "Transform Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 133,
-    "name": "eevee"
+    "name": "eevee",
+    "displayName": "Eevee",
+    "genus": "Evolution Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 134,
-    "name": "vaporeon"
+    "name": "vaporeon",
+    "displayName": "Vaporeon",
+    "genus": "Bubble Jet Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 135,
-    "name": "jolteon"
+    "name": "jolteon",
+    "displayName": "Jolteon",
+    "genus": "Lightning Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 136,
-    "name": "flareon"
+    "name": "flareon",
+    "displayName": "Flareon",
+    "genus": "Flame Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 137,
-    "name": "porygon"
+    "name": "porygon",
+    "displayName": "Porygon",
+    "genus": "Virtual Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 138,
-    "name": "omanyte"
+    "name": "omanyte",
+    "displayName": "Omanyte",
+    "genus": "Spiral Pokémon",
+    "types": [
+      "rock",
+      "water"
+    ]
   },
   {
     "id": 139,
-    "name": "omastar"
+    "name": "omastar",
+    "displayName": "Omastar",
+    "genus": "Spiral Pokémon",
+    "types": [
+      "rock",
+      "water"
+    ]
   },
   {
     "id": 140,
-    "name": "kabuto"
+    "name": "kabuto",
+    "displayName": "Kabuto",
+    "genus": "Shellfish Pokémon",
+    "types": [
+      "rock",
+      "water"
+    ]
   },
   {
     "id": 141,
-    "name": "kabutops"
+    "name": "kabutops",
+    "displayName": "Kabutops",
+    "genus": "Shellfish Pokémon",
+    "types": [
+      "rock",
+      "water"
+    ]
   },
   {
     "id": 142,
-    "name": "aerodactyl"
+    "name": "aerodactyl",
+    "displayName": "Aerodactyl",
+    "genus": "Fossil Pokémon",
+    "types": [
+      "rock",
+      "flying"
+    ]
   },
   {
     "id": 143,
-    "name": "snorlax"
+    "name": "snorlax",
+    "displayName": "Snorlax",
+    "genus": "Sleeping Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 144,
-    "name": "articuno"
+    "name": "articuno",
+    "displayName": "Articuno",
+    "genus": "Freeze Pokémon",
+    "types": [
+      "ice",
+      "flying"
+    ]
   },
   {
     "id": 145,
-    "name": "zapdos"
+    "name": "zapdos",
+    "displayName": "Zapdos",
+    "genus": "Electric Pokémon",
+    "types": [
+      "electric",
+      "flying"
+    ]
   },
   {
     "id": 146,
-    "name": "moltres"
+    "name": "moltres",
+    "displayName": "Moltres",
+    "genus": "Flame Pokémon",
+    "types": [
+      "fire",
+      "flying"
+    ]
   },
   {
     "id": 147,
-    "name": "dratini"
+    "name": "dratini",
+    "displayName": "Dratini",
+    "genus": "Dragon Pokémon",
+    "types": [
+      "dragon"
+    ]
   },
   {
     "id": 148,
-    "name": "dragonair"
+    "name": "dragonair",
+    "displayName": "Dragonair",
+    "genus": "Dragon Pokémon",
+    "types": [
+      "dragon"
+    ]
   },
   {
     "id": 149,
-    "name": "dragonite"
+    "name": "dragonite",
+    "displayName": "Dragonite",
+    "genus": "Dragon Pokémon",
+    "types": [
+      "dragon",
+      "flying"
+    ]
   },
   {
     "id": 150,
-    "name": "mewtwo"
+    "name": "mewtwo",
+    "displayName": "Mewtwo",
+    "genus": "Genetic Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 151,
-    "name": "mew"
+    "name": "mew",
+    "displayName": "Mew",
+    "genus": "New Species Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 152,
-    "name": "chikorita"
+    "name": "chikorita",
+    "displayName": "Chikorita",
+    "genus": "Leaf Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 153,
-    "name": "bayleef"
+    "name": "bayleef",
+    "displayName": "Bayleef",
+    "genus": "Leaf Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 154,
-    "name": "meganium"
+    "name": "meganium",
+    "displayName": "Meganium",
+    "genus": "Herb Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 155,
-    "name": "cyndaquil"
+    "name": "cyndaquil",
+    "displayName": "Cyndaquil",
+    "genus": "Fire Mouse Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 156,
-    "name": "quilava"
+    "name": "quilava",
+    "displayName": "Quilava",
+    "genus": "Volcano Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 157,
-    "name": "typhlosion"
+    "name": "typhlosion",
+    "displayName": "Typhlosion",
+    "genus": "Volcano Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 158,
-    "name": "totodile"
+    "name": "totodile",
+    "displayName": "Totodile",
+    "genus": "Big Jaw Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 159,
-    "name": "croconaw"
+    "name": "croconaw",
+    "displayName": "Croconaw",
+    "genus": "Big Jaw Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 160,
-    "name": "feraligatr"
+    "name": "feraligatr",
+    "displayName": "Feraligatr",
+    "genus": "Big Jaw Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 161,
-    "name": "sentret"
+    "name": "sentret",
+    "displayName": "Sentret",
+    "genus": "Scout Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 162,
-    "name": "furret"
+    "name": "furret",
+    "displayName": "Furret",
+    "genus": "Long Body Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 163,
-    "name": "hoothoot"
+    "name": "hoothoot",
+    "displayName": "Hoothoot",
+    "genus": "Owl Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 164,
-    "name": "noctowl"
+    "name": "noctowl",
+    "displayName": "Noctowl",
+    "genus": "Owl Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 165,
-    "name": "ledyba"
+    "name": "ledyba",
+    "displayName": "Ledyba",
+    "genus": "Five Star Pokémon",
+    "types": [
+      "bug",
+      "flying"
+    ]
   },
   {
     "id": 166,
-    "name": "ledian"
+    "name": "ledian",
+    "displayName": "Ledian",
+    "genus": "Five Star Pokémon",
+    "types": [
+      "bug",
+      "flying"
+    ]
   },
   {
     "id": 167,
-    "name": "spinarak"
+    "name": "spinarak",
+    "displayName": "Spinarak",
+    "genus": "String Spit Pokémon",
+    "types": [
+      "bug",
+      "poison"
+    ]
   },
   {
     "id": 168,
-    "name": "ariados"
+    "name": "ariados",
+    "displayName": "Ariados",
+    "genus": "Long Leg Pokémon",
+    "types": [
+      "bug",
+      "poison"
+    ]
   },
   {
     "id": 169,
-    "name": "crobat"
+    "name": "crobat",
+    "displayName": "Crobat",
+    "genus": "Bat Pokémon",
+    "types": [
+      "poison",
+      "flying"
+    ]
   },
   {
     "id": 170,
-    "name": "chinchou"
+    "name": "chinchou",
+    "displayName": "Chinchou",
+    "genus": "Angler Pokémon",
+    "types": [
+      "water",
+      "electric"
+    ]
   },
   {
     "id": 171,
-    "name": "lanturn"
+    "name": "lanturn",
+    "displayName": "Lanturn",
+    "genus": "Light Pokémon",
+    "types": [
+      "water",
+      "electric"
+    ]
   },
   {
     "id": 172,
-    "name": "pichu"
+    "name": "pichu",
+    "displayName": "Pichu",
+    "genus": "Tiny Mouse Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 173,
-    "name": "cleffa"
+    "name": "cleffa",
+    "displayName": "Cleffa",
+    "genus": "Star Shape Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 174,
-    "name": "igglybuff"
+    "name": "igglybuff",
+    "displayName": "Igglybuff",
+    "genus": "Balloon Pokémon",
+    "types": [
+      "normal",
+      "fairy"
+    ]
   },
   {
     "id": 175,
-    "name": "togepi"
+    "name": "togepi",
+    "displayName": "Togepi",
+    "genus": "Spike Ball Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 176,
-    "name": "togetic"
+    "name": "togetic",
+    "displayName": "Togetic",
+    "genus": "Happiness Pokémon",
+    "types": [
+      "fairy",
+      "flying"
+    ]
   },
   {
     "id": 177,
-    "name": "natu"
+    "name": "natu",
+    "displayName": "Natu",
+    "genus": "Tiny Bird Pokémon",
+    "types": [
+      "psychic",
+      "flying"
+    ]
   },
   {
     "id": 178,
-    "name": "xatu"
+    "name": "xatu",
+    "displayName": "Xatu",
+    "genus": "Mystic Pokémon",
+    "types": [
+      "psychic",
+      "flying"
+    ]
   },
   {
     "id": 179,
-    "name": "mareep"
+    "name": "mareep",
+    "displayName": "Mareep",
+    "genus": "Wool Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 180,
-    "name": "flaaffy"
+    "name": "flaaffy",
+    "displayName": "Flaaffy",
+    "genus": "Wool Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 181,
-    "name": "ampharos"
+    "name": "ampharos",
+    "displayName": "Ampharos",
+    "genus": "Light Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 182,
-    "name": "bellossom"
+    "name": "bellossom",
+    "displayName": "Bellossom",
+    "genus": "Flower Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 183,
-    "name": "marill"
+    "name": "marill",
+    "displayName": "Marill",
+    "genus": "Aqua Mouse Pokémon",
+    "types": [
+      "water",
+      "fairy"
+    ]
   },
   {
     "id": 184,
-    "name": "azumarill"
+    "name": "azumarill",
+    "displayName": "Azumarill",
+    "genus": "Aqua Rabbit Pokémon",
+    "types": [
+      "water",
+      "fairy"
+    ]
   },
   {
     "id": 185,
-    "name": "sudowoodo"
+    "name": "sudowoodo",
+    "displayName": "Sudowoodo",
+    "genus": "Imitation Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 186,
-    "name": "politoed"
+    "name": "politoed",
+    "displayName": "Politoed",
+    "genus": "Frog Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 187,
-    "name": "hoppip"
+    "name": "hoppip",
+    "displayName": "Hoppip",
+    "genus": "Cottonweed Pokémon",
+    "types": [
+      "grass",
+      "flying"
+    ]
   },
   {
     "id": 188,
-    "name": "skiploom"
+    "name": "skiploom",
+    "displayName": "Skiploom",
+    "genus": "Cottonweed Pokémon",
+    "types": [
+      "grass",
+      "flying"
+    ]
   },
   {
     "id": 189,
-    "name": "jumpluff"
+    "name": "jumpluff",
+    "displayName": "Jumpluff",
+    "genus": "Cottonweed Pokémon",
+    "types": [
+      "grass",
+      "flying"
+    ]
   },
   {
     "id": 190,
-    "name": "aipom"
+    "name": "aipom",
+    "displayName": "Aipom",
+    "genus": "Long Tail Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 191,
-    "name": "sunkern"
+    "name": "sunkern",
+    "displayName": "Sunkern",
+    "genus": "Seed Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 192,
-    "name": "sunflora"
+    "name": "sunflora",
+    "displayName": "Sunflora",
+    "genus": "Sun Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 193,
-    "name": "yanma"
+    "name": "yanma",
+    "displayName": "Yanma",
+    "genus": "Clear Wing Pokémon",
+    "types": [
+      "bug",
+      "flying"
+    ]
   },
   {
     "id": 194,
-    "name": "wooper"
+    "name": "wooper",
+    "displayName": "Wooper",
+    "genus": "Water Fish Pokémon",
+    "types": [
+      "water",
+      "ground"
+    ]
   },
   {
     "id": 195,
-    "name": "quagsire"
+    "name": "quagsire",
+    "displayName": "Quagsire",
+    "genus": "Water Fish Pokémon",
+    "types": [
+      "water",
+      "ground"
+    ]
   },
   {
     "id": 196,
-    "name": "espeon"
+    "name": "espeon",
+    "displayName": "Espeon",
+    "genus": "Sun Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 197,
-    "name": "umbreon"
+    "name": "umbreon",
+    "displayName": "Umbreon",
+    "genus": "Moonlight Pokémon",
+    "types": [
+      "dark"
+    ]
   },
   {
     "id": 198,
-    "name": "murkrow"
+    "name": "murkrow",
+    "displayName": "Murkrow",
+    "genus": "Darkness Pokémon",
+    "types": [
+      "dark",
+      "flying"
+    ]
   },
   {
     "id": 199,
-    "name": "slowking"
+    "name": "slowking",
+    "displayName": "Slowking",
+    "genus": "Royal Pokémon",
+    "types": [
+      "water",
+      "psychic"
+    ]
   },
   {
     "id": 200,
-    "name": "misdreavus"
+    "name": "misdreavus",
+    "displayName": "Misdreavus",
+    "genus": "Screech Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 201,
-    "name": "unown"
+    "name": "unown",
+    "displayName": "Unown",
+    "genus": "Symbol Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 202,
-    "name": "wobbuffet"
+    "name": "wobbuffet",
+    "displayName": "Wobbuffet",
+    "genus": "Patient Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 203,
-    "name": "girafarig"
+    "name": "girafarig",
+    "displayName": "Girafarig",
+    "genus": "Long Neck Pokémon",
+    "types": [
+      "normal",
+      "psychic"
+    ]
   },
   {
     "id": 204,
-    "name": "pineco"
+    "name": "pineco",
+    "displayName": "Pineco",
+    "genus": "Bagworm Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 205,
-    "name": "forretress"
+    "name": "forretress",
+    "displayName": "Forretress",
+    "genus": "Bagworm Pokémon",
+    "types": [
+      "bug",
+      "steel"
+    ]
   },
   {
     "id": 206,
-    "name": "dunsparce"
+    "name": "dunsparce",
+    "displayName": "Dunsparce",
+    "genus": "Land Snake Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 207,
-    "name": "gligar"
+    "name": "gligar",
+    "displayName": "Gligar",
+    "genus": "Fly Scorpion Pokémon",
+    "types": [
+      "ground",
+      "flying"
+    ]
   },
   {
     "id": 208,
-    "name": "steelix"
+    "name": "steelix",
+    "displayName": "Steelix",
+    "genus": "Iron Snake Pokémon",
+    "types": [
+      "steel",
+      "ground"
+    ]
   },
   {
     "id": 209,
-    "name": "snubbull"
+    "name": "snubbull",
+    "displayName": "Snubbull",
+    "genus": "Fairy Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 210,
-    "name": "granbull"
+    "name": "granbull",
+    "displayName": "Granbull",
+    "genus": "Fairy Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 211,
-    "name": "qwilfish"
+    "name": "qwilfish",
+    "displayName": "Qwilfish",
+    "genus": "Balloon Pokémon",
+    "types": [
+      "water",
+      "poison"
+    ]
   },
   {
     "id": 212,
-    "name": "scizor"
+    "name": "scizor",
+    "displayName": "Scizor",
+    "genus": "Pincer Pokémon",
+    "types": [
+      "bug",
+      "steel"
+    ]
   },
   {
     "id": 213,
-    "name": "shuckle"
+    "name": "shuckle",
+    "displayName": "Shuckle",
+    "genus": "Mold Pokémon",
+    "types": [
+      "bug",
+      "rock"
+    ]
   },
   {
     "id": 214,
-    "name": "heracross"
+    "name": "heracross",
+    "displayName": "Heracross",
+    "genus": "Single Horn Pokémon",
+    "types": [
+      "bug",
+      "fighting"
+    ]
   },
   {
     "id": 215,
-    "name": "sneasel"
+    "name": "sneasel",
+    "displayName": "Sneasel",
+    "genus": "Sharp Claw Pokémon",
+    "types": [
+      "dark",
+      "ice"
+    ]
   },
   {
     "id": 216,
-    "name": "teddiursa"
+    "name": "teddiursa",
+    "displayName": "Teddiursa",
+    "genus": "Little Bear Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 217,
-    "name": "ursaring"
+    "name": "ursaring",
+    "displayName": "Ursaring",
+    "genus": "Hibernator Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 218,
-    "name": "slugma"
+    "name": "slugma",
+    "displayName": "Slugma",
+    "genus": "Lava Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 219,
-    "name": "magcargo"
+    "name": "magcargo",
+    "displayName": "Magcargo",
+    "genus": "Lava Pokémon",
+    "types": [
+      "fire",
+      "rock"
+    ]
   },
   {
     "id": 220,
-    "name": "swinub"
+    "name": "swinub",
+    "displayName": "Swinub",
+    "genus": "Pig Pokémon",
+    "types": [
+      "ice",
+      "ground"
+    ]
   },
   {
     "id": 221,
-    "name": "piloswine"
+    "name": "piloswine",
+    "displayName": "Piloswine",
+    "genus": "Swine Pokémon",
+    "types": [
+      "ice",
+      "ground"
+    ]
   },
   {
     "id": 222,
-    "name": "corsola"
+    "name": "corsola",
+    "displayName": "Corsola",
+    "genus": "Coral Pokémon",
+    "types": [
+      "water",
+      "rock"
+    ]
   },
   {
     "id": 223,
-    "name": "remoraid"
+    "name": "remoraid",
+    "displayName": "Remoraid",
+    "genus": "Jet Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 224,
-    "name": "octillery"
+    "name": "octillery",
+    "displayName": "Octillery",
+    "genus": "Jet Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 225,
-    "name": "delibird"
+    "name": "delibird",
+    "displayName": "Delibird",
+    "genus": "Delivery Pokémon",
+    "types": [
+      "ice",
+      "flying"
+    ]
   },
   {
     "id": 226,
-    "name": "mantine"
+    "name": "mantine",
+    "displayName": "Mantine",
+    "genus": "Kite Pokémon",
+    "types": [
+      "water",
+      "flying"
+    ]
   },
   {
     "id": 227,
-    "name": "skarmory"
+    "name": "skarmory",
+    "displayName": "Skarmory",
+    "genus": "Armor Bird Pokémon",
+    "types": [
+      "steel",
+      "flying"
+    ]
   },
   {
     "id": 228,
-    "name": "houndour"
+    "name": "houndour",
+    "displayName": "Houndour",
+    "genus": "Dark Pokémon",
+    "types": [
+      "dark",
+      "fire"
+    ]
   },
   {
     "id": 229,
-    "name": "houndoom"
+    "name": "houndoom",
+    "displayName": "Houndoom",
+    "genus": "Dark Pokémon",
+    "types": [
+      "dark",
+      "fire"
+    ]
   },
   {
     "id": 230,
-    "name": "kingdra"
+    "name": "kingdra",
+    "displayName": "Kingdra",
+    "genus": "Dragon Pokémon",
+    "types": [
+      "water",
+      "dragon"
+    ]
   },
   {
     "id": 231,
-    "name": "phanpy"
+    "name": "phanpy",
+    "displayName": "Phanpy",
+    "genus": "Long Nose Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 232,
-    "name": "donphan"
+    "name": "donphan",
+    "displayName": "Donphan",
+    "genus": "Armor Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 233,
-    "name": "porygon2"
+    "name": "porygon2",
+    "displayName": "Porygon2",
+    "genus": "Virtual Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 234,
-    "name": "stantler"
+    "name": "stantler",
+    "displayName": "Stantler",
+    "genus": "Big Horn Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 235,
-    "name": "smeargle"
+    "name": "smeargle",
+    "displayName": "Smeargle",
+    "genus": "Painter Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 236,
-    "name": "tyrogue"
+    "name": "tyrogue",
+    "displayName": "Tyrogue",
+    "genus": "Scuffle Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 237,
-    "name": "hitmontop"
+    "name": "hitmontop",
+    "displayName": "Hitmontop",
+    "genus": "Handstand Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 238,
-    "name": "smoochum"
+    "name": "smoochum",
+    "displayName": "Smoochum",
+    "genus": "Kiss Pokémon",
+    "types": [
+      "ice",
+      "psychic"
+    ]
   },
   {
     "id": 239,
-    "name": "elekid"
+    "name": "elekid",
+    "displayName": "Elekid",
+    "genus": "Electric Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 240,
-    "name": "magby"
+    "name": "magby",
+    "displayName": "Magby",
+    "genus": "Live Coal Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 241,
-    "name": "miltank"
+    "name": "miltank",
+    "displayName": "Miltank",
+    "genus": "Milk Cow Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 242,
-    "name": "blissey"
+    "name": "blissey",
+    "displayName": "Blissey",
+    "genus": "Happiness Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 243,
-    "name": "raikou"
+    "name": "raikou",
+    "displayName": "Raikou",
+    "genus": "Thunder Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 244,
-    "name": "entei"
+    "name": "entei",
+    "displayName": "Entei",
+    "genus": "Volcano Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 245,
-    "name": "suicune"
+    "name": "suicune",
+    "displayName": "Suicune",
+    "genus": "Aurora Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 246,
-    "name": "larvitar"
+    "name": "larvitar",
+    "displayName": "Larvitar",
+    "genus": "Rock Skin Pokémon",
+    "types": [
+      "rock",
+      "ground"
+    ]
   },
   {
     "id": 247,
-    "name": "pupitar"
+    "name": "pupitar",
+    "displayName": "Pupitar",
+    "genus": "Hard Shell Pokémon",
+    "types": [
+      "rock",
+      "ground"
+    ]
   },
   {
     "id": 248,
-    "name": "tyranitar"
+    "name": "tyranitar",
+    "displayName": "Tyranitar",
+    "genus": "Armor Pokémon",
+    "types": [
+      "rock",
+      "dark"
+    ]
   },
   {
     "id": 249,
-    "name": "lugia"
+    "name": "lugia",
+    "displayName": "Lugia",
+    "genus": "Diving Pokémon",
+    "types": [
+      "psychic",
+      "flying"
+    ]
   },
   {
     "id": 250,
-    "name": "ho-oh"
+    "name": "ho-oh",
+    "displayName": "Ho-Oh",
+    "genus": "Rainbow Pokémon",
+    "types": [
+      "fire",
+      "flying"
+    ]
   },
   {
     "id": 251,
-    "name": "celebi"
+    "name": "celebi",
+    "displayName": "Celebi",
+    "genus": "Time Travel Pokémon",
+    "types": [
+      "psychic",
+      "grass"
+    ]
   },
   {
     "id": 252,
-    "name": "treecko"
+    "name": "treecko",
+    "displayName": "Treecko",
+    "genus": "Wood Gecko Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 253,
-    "name": "grovyle"
+    "name": "grovyle",
+    "displayName": "Grovyle",
+    "genus": "Wood Gecko Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 254,
-    "name": "sceptile"
+    "name": "sceptile",
+    "displayName": "Sceptile",
+    "genus": "Forest Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 255,
-    "name": "torchic"
+    "name": "torchic",
+    "displayName": "Torchic",
+    "genus": "Chick Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 256,
-    "name": "combusken"
+    "name": "combusken",
+    "displayName": "Combusken",
+    "genus": "Young Fowl Pokémon",
+    "types": [
+      "fire",
+      "fighting"
+    ]
   },
   {
     "id": 257,
-    "name": "blaziken"
+    "name": "blaziken",
+    "displayName": "Blaziken",
+    "genus": "Blaze Pokémon",
+    "types": [
+      "fire",
+      "fighting"
+    ]
   },
   {
     "id": 258,
-    "name": "mudkip"
+    "name": "mudkip",
+    "displayName": "Mudkip",
+    "genus": "Mud Fish Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 259,
-    "name": "marshtomp"
+    "name": "marshtomp",
+    "displayName": "Marshtomp",
+    "genus": "Mud Fish Pokémon",
+    "types": [
+      "water",
+      "ground"
+    ]
   },
   {
     "id": 260,
-    "name": "swampert"
+    "name": "swampert",
+    "displayName": "Swampert",
+    "genus": "Mud Fish Pokémon",
+    "types": [
+      "water",
+      "ground"
+    ]
   },
   {
     "id": 261,
-    "name": "poochyena"
+    "name": "poochyena",
+    "displayName": "Poochyena",
+    "genus": "Bite Pokémon",
+    "types": [
+      "dark"
+    ]
   },
   {
     "id": 262,
-    "name": "mightyena"
+    "name": "mightyena",
+    "displayName": "Mightyena",
+    "genus": "Bite Pokémon",
+    "types": [
+      "dark"
+    ]
   },
   {
     "id": 263,
-    "name": "zigzagoon"
+    "name": "zigzagoon",
+    "displayName": "Zigzagoon",
+    "genus": "Tiny Raccoon Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 264,
-    "name": "linoone"
+    "name": "linoone",
+    "displayName": "Linoone",
+    "genus": "Rushing Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 265,
-    "name": "wurmple"
+    "name": "wurmple",
+    "displayName": "Wurmple",
+    "genus": "Worm Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 266,
-    "name": "silcoon"
+    "name": "silcoon",
+    "displayName": "Silcoon",
+    "genus": "Cocoon Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 267,
-    "name": "beautifly"
+    "name": "beautifly",
+    "displayName": "Beautifly",
+    "genus": "Butterfly Pokémon",
+    "types": [
+      "bug",
+      "flying"
+    ]
   },
   {
     "id": 268,
-    "name": "cascoon"
+    "name": "cascoon",
+    "displayName": "Cascoon",
+    "genus": "Cocoon Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 269,
-    "name": "dustox"
+    "name": "dustox",
+    "displayName": "Dustox",
+    "genus": "Poison Moth Pokémon",
+    "types": [
+      "bug",
+      "poison"
+    ]
   },
   {
     "id": 270,
-    "name": "lotad"
+    "name": "lotad",
+    "displayName": "Lotad",
+    "genus": "Water Weed Pokémon",
+    "types": [
+      "water",
+      "grass"
+    ]
   },
   {
     "id": 271,
-    "name": "lombre"
+    "name": "lombre",
+    "displayName": "Lombre",
+    "genus": "Jolly Pokémon",
+    "types": [
+      "water",
+      "grass"
+    ]
   },
   {
     "id": 272,
-    "name": "ludicolo"
+    "name": "ludicolo",
+    "displayName": "Ludicolo",
+    "genus": "Carefree Pokémon",
+    "types": [
+      "water",
+      "grass"
+    ]
   },
   {
     "id": 273,
-    "name": "seedot"
+    "name": "seedot",
+    "displayName": "Seedot",
+    "genus": "Acorn Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 274,
-    "name": "nuzleaf"
+    "name": "nuzleaf",
+    "displayName": "Nuzleaf",
+    "genus": "Wily Pokémon",
+    "types": [
+      "grass",
+      "dark"
+    ]
   },
   {
     "id": 275,
-    "name": "shiftry"
+    "name": "shiftry",
+    "displayName": "Shiftry",
+    "genus": "Wicked Pokémon",
+    "types": [
+      "grass",
+      "dark"
+    ]
   },
   {
     "id": 276,
-    "name": "taillow"
+    "name": "taillow",
+    "displayName": "Taillow",
+    "genus": "Tiny Swallow Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 277,
-    "name": "swellow"
+    "name": "swellow",
+    "displayName": "Swellow",
+    "genus": "Swallow Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 278,
-    "name": "wingull"
+    "name": "wingull",
+    "displayName": "Wingull",
+    "genus": "Seagull Pokémon",
+    "types": [
+      "water",
+      "flying"
+    ]
   },
   {
     "id": 279,
-    "name": "pelipper"
+    "name": "pelipper",
+    "displayName": "Pelipper",
+    "genus": "Water Bird Pokémon",
+    "types": [
+      "water",
+      "flying"
+    ]
   },
   {
     "id": 280,
-    "name": "ralts"
+    "name": "ralts",
+    "displayName": "Ralts",
+    "genus": "Feeling Pokémon",
+    "types": [
+      "psychic",
+      "fairy"
+    ]
   },
   {
     "id": 281,
-    "name": "kirlia"
+    "name": "kirlia",
+    "displayName": "Kirlia",
+    "genus": "Emotion Pokémon",
+    "types": [
+      "psychic",
+      "fairy"
+    ]
   },
   {
     "id": 282,
-    "name": "gardevoir"
+    "name": "gardevoir",
+    "displayName": "Gardevoir",
+    "genus": "Embrace Pokémon",
+    "types": [
+      "psychic",
+      "fairy"
+    ]
   },
   {
     "id": 283,
-    "name": "surskit"
+    "name": "surskit",
+    "displayName": "Surskit",
+    "genus": "Pond Skater Pokémon",
+    "types": [
+      "bug",
+      "water"
+    ]
   },
   {
     "id": 284,
-    "name": "masquerain"
+    "name": "masquerain",
+    "displayName": "Masquerain",
+    "genus": "Eyeball Pokémon",
+    "types": [
+      "bug",
+      "flying"
+    ]
   },
   {
     "id": 285,
-    "name": "shroomish"
+    "name": "shroomish",
+    "displayName": "Shroomish",
+    "genus": "Mushroom Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 286,
-    "name": "breloom"
+    "name": "breloom",
+    "displayName": "Breloom",
+    "genus": "Mushroom Pokémon",
+    "types": [
+      "grass",
+      "fighting"
+    ]
   },
   {
     "id": 287,
-    "name": "slakoth"
+    "name": "slakoth",
+    "displayName": "Slakoth",
+    "genus": "Slacker Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 288,
-    "name": "vigoroth"
+    "name": "vigoroth",
+    "displayName": "Vigoroth",
+    "genus": "Wild Monkey Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 289,
-    "name": "slaking"
+    "name": "slaking",
+    "displayName": "Slaking",
+    "genus": "Lazy Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 290,
-    "name": "nincada"
+    "name": "nincada",
+    "displayName": "Nincada",
+    "genus": "Trainee Pokémon",
+    "types": [
+      "bug",
+      "ground"
+    ]
   },
   {
     "id": 291,
-    "name": "ninjask"
+    "name": "ninjask",
+    "displayName": "Ninjask",
+    "genus": "Ninja Pokémon",
+    "types": [
+      "bug",
+      "flying"
+    ]
   },
   {
     "id": 292,
-    "name": "shedinja"
+    "name": "shedinja",
+    "displayName": "Shedinja",
+    "genus": "Shed Pokémon",
+    "types": [
+      "bug",
+      "ghost"
+    ]
   },
   {
     "id": 293,
-    "name": "whismur"
+    "name": "whismur",
+    "displayName": "Whismur",
+    "genus": "Whisper Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 294,
-    "name": "loudred"
+    "name": "loudred",
+    "displayName": "Loudred",
+    "genus": "Big Voice Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 295,
-    "name": "exploud"
+    "name": "exploud",
+    "displayName": "Exploud",
+    "genus": "Loud Noise Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 296,
-    "name": "makuhita"
+    "name": "makuhita",
+    "displayName": "Makuhita",
+    "genus": "Guts Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 297,
-    "name": "hariyama"
+    "name": "hariyama",
+    "displayName": "Hariyama",
+    "genus": "Arm Thrust Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 298,
-    "name": "azurill"
+    "name": "azurill",
+    "displayName": "Azurill",
+    "genus": "Polka Dot Pokémon",
+    "types": [
+      "normal",
+      "fairy"
+    ]
   },
   {
     "id": 299,
-    "name": "nosepass"
+    "name": "nosepass",
+    "displayName": "Nosepass",
+    "genus": "Compass Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 300,
-    "name": "skitty"
+    "name": "skitty",
+    "displayName": "Skitty",
+    "genus": "Kitten Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 301,
-    "name": "delcatty"
+    "name": "delcatty",
+    "displayName": "Delcatty",
+    "genus": "Prim Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 302,
-    "name": "sableye"
+    "name": "sableye",
+    "displayName": "Sableye",
+    "genus": "Darkness Pokémon",
+    "types": [
+      "dark",
+      "ghost"
+    ]
   },
   {
     "id": 303,
-    "name": "mawile"
+    "name": "mawile",
+    "displayName": "Mawile",
+    "genus": "Deceiver Pokémon",
+    "types": [
+      "steel",
+      "fairy"
+    ]
   },
   {
     "id": 304,
-    "name": "aron"
+    "name": "aron",
+    "displayName": "Aron",
+    "genus": "Iron Armor Pokémon",
+    "types": [
+      "steel",
+      "rock"
+    ]
   },
   {
     "id": 305,
-    "name": "lairon"
+    "name": "lairon",
+    "displayName": "Lairon",
+    "genus": "Iron Armor Pokémon",
+    "types": [
+      "steel",
+      "rock"
+    ]
   },
   {
     "id": 306,
-    "name": "aggron"
+    "name": "aggron",
+    "displayName": "Aggron",
+    "genus": "Iron Armor Pokémon",
+    "types": [
+      "steel",
+      "rock"
+    ]
   },
   {
     "id": 307,
-    "name": "meditite"
+    "name": "meditite",
+    "displayName": "Meditite",
+    "genus": "Meditate Pokémon",
+    "types": [
+      "fighting",
+      "psychic"
+    ]
   },
   {
     "id": 308,
-    "name": "medicham"
+    "name": "medicham",
+    "displayName": "Medicham",
+    "genus": "Meditate Pokémon",
+    "types": [
+      "fighting",
+      "psychic"
+    ]
   },
   {
     "id": 309,
-    "name": "electrike"
+    "name": "electrike",
+    "displayName": "Electrike",
+    "genus": "Lightning Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 310,
-    "name": "manectric"
+    "name": "manectric",
+    "displayName": "Manectric",
+    "genus": "Discharge Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 311,
-    "name": "plusle"
+    "name": "plusle",
+    "displayName": "Plusle",
+    "genus": "Cheering Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 312,
-    "name": "minun"
+    "name": "minun",
+    "displayName": "Minun",
+    "genus": "Cheering Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 313,
-    "name": "volbeat"
+    "name": "volbeat",
+    "displayName": "Volbeat",
+    "genus": "Firefly Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 314,
-    "name": "illumise"
+    "name": "illumise",
+    "displayName": "Illumise",
+    "genus": "Firefly Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 315,
-    "name": "roselia"
+    "name": "roselia",
+    "displayName": "Roselia",
+    "genus": "Thorn Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 316,
-    "name": "gulpin"
+    "name": "gulpin",
+    "displayName": "Gulpin",
+    "genus": "Stomach Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 317,
-    "name": "swalot"
+    "name": "swalot",
+    "displayName": "Swalot",
+    "genus": "Poison Bag Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 318,
-    "name": "carvanha"
+    "name": "carvanha",
+    "displayName": "Carvanha",
+    "genus": "Savage Pokémon",
+    "types": [
+      "water",
+      "dark"
+    ]
   },
   {
     "id": 319,
-    "name": "sharpedo"
+    "name": "sharpedo",
+    "displayName": "Sharpedo",
+    "genus": "Brutal Pokémon",
+    "types": [
+      "water",
+      "dark"
+    ]
   },
   {
     "id": 320,
-    "name": "wailmer"
+    "name": "wailmer",
+    "displayName": "Wailmer",
+    "genus": "Ball Whale Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 321,
-    "name": "wailord"
+    "name": "wailord",
+    "displayName": "Wailord",
+    "genus": "Float Whale Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 322,
-    "name": "numel"
+    "name": "numel",
+    "displayName": "Numel",
+    "genus": "Numb Pokémon",
+    "types": [
+      "fire",
+      "ground"
+    ]
   },
   {
     "id": 323,
-    "name": "camerupt"
+    "name": "camerupt",
+    "displayName": "Camerupt",
+    "genus": "Eruption Pokémon",
+    "types": [
+      "fire",
+      "ground"
+    ]
   },
   {
     "id": 324,
-    "name": "torkoal"
+    "name": "torkoal",
+    "displayName": "Torkoal",
+    "genus": "Coal Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 325,
-    "name": "spoink"
+    "name": "spoink",
+    "displayName": "Spoink",
+    "genus": "Bounce Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 326,
-    "name": "grumpig"
+    "name": "grumpig",
+    "displayName": "Grumpig",
+    "genus": "Manipulate Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 327,
-    "name": "spinda"
+    "name": "spinda",
+    "displayName": "Spinda",
+    "genus": "Spot Panda Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 328,
-    "name": "trapinch"
+    "name": "trapinch",
+    "displayName": "Trapinch",
+    "genus": "Ant Pit Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 329,
-    "name": "vibrava"
+    "name": "vibrava",
+    "displayName": "Vibrava",
+    "genus": "Vibration Pokémon",
+    "types": [
+      "ground",
+      "dragon"
+    ]
   },
   {
     "id": 330,
-    "name": "flygon"
+    "name": "flygon",
+    "displayName": "Flygon",
+    "genus": "Mystic Pokémon",
+    "types": [
+      "ground",
+      "dragon"
+    ]
   },
   {
     "id": 331,
-    "name": "cacnea"
+    "name": "cacnea",
+    "displayName": "Cacnea",
+    "genus": "Cactus Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 332,
-    "name": "cacturne"
+    "name": "cacturne",
+    "displayName": "Cacturne",
+    "genus": "Scarecrow Pokémon",
+    "types": [
+      "grass",
+      "dark"
+    ]
   },
   {
     "id": 333,
-    "name": "swablu"
+    "name": "swablu",
+    "displayName": "Swablu",
+    "genus": "Cotton Bird Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 334,
-    "name": "altaria"
+    "name": "altaria",
+    "displayName": "Altaria",
+    "genus": "Humming Pokémon",
+    "types": [
+      "dragon",
+      "flying"
+    ]
   },
   {
     "id": 335,
-    "name": "zangoose"
+    "name": "zangoose",
+    "displayName": "Zangoose",
+    "genus": "Cat Ferret Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 336,
-    "name": "seviper"
+    "name": "seviper",
+    "displayName": "Seviper",
+    "genus": "Fang Snake Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 337,
-    "name": "lunatone"
+    "name": "lunatone",
+    "displayName": "Lunatone",
+    "genus": "Meteorite Pokémon",
+    "types": [
+      "rock",
+      "psychic"
+    ]
   },
   {
     "id": 338,
-    "name": "solrock"
+    "name": "solrock",
+    "displayName": "Solrock",
+    "genus": "Meteorite Pokémon",
+    "types": [
+      "rock",
+      "psychic"
+    ]
   },
   {
     "id": 339,
-    "name": "barboach"
+    "name": "barboach",
+    "displayName": "Barboach",
+    "genus": "Whiskers Pokémon",
+    "types": [
+      "water",
+      "ground"
+    ]
   },
   {
     "id": 340,
-    "name": "whiscash"
+    "name": "whiscash",
+    "displayName": "Whiscash",
+    "genus": "Whiskers Pokémon",
+    "types": [
+      "water",
+      "ground"
+    ]
   },
   {
     "id": 341,
-    "name": "corphish"
+    "name": "corphish",
+    "displayName": "Corphish",
+    "genus": "Ruffian Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 342,
-    "name": "crawdaunt"
+    "name": "crawdaunt",
+    "displayName": "Crawdaunt",
+    "genus": "Rogue Pokémon",
+    "types": [
+      "water",
+      "dark"
+    ]
   },
   {
     "id": 343,
-    "name": "baltoy"
+    "name": "baltoy",
+    "displayName": "Baltoy",
+    "genus": "Clay Doll Pokémon",
+    "types": [
+      "ground",
+      "psychic"
+    ]
   },
   {
     "id": 344,
-    "name": "claydol"
+    "name": "claydol",
+    "displayName": "Claydol",
+    "genus": "Clay Doll Pokémon",
+    "types": [
+      "ground",
+      "psychic"
+    ]
   },
   {
     "id": 345,
-    "name": "lileep"
+    "name": "lileep",
+    "displayName": "Lileep",
+    "genus": "Sea Lily Pokémon",
+    "types": [
+      "rock",
+      "grass"
+    ]
   },
   {
     "id": 346,
-    "name": "cradily"
+    "name": "cradily",
+    "displayName": "Cradily",
+    "genus": "Barnacle Pokémon",
+    "types": [
+      "rock",
+      "grass"
+    ]
   },
   {
     "id": 347,
-    "name": "anorith"
+    "name": "anorith",
+    "displayName": "Anorith",
+    "genus": "Old Shrimp Pokémon",
+    "types": [
+      "rock",
+      "bug"
+    ]
   },
   {
     "id": 348,
-    "name": "armaldo"
+    "name": "armaldo",
+    "displayName": "Armaldo",
+    "genus": "Plate Pokémon",
+    "types": [
+      "rock",
+      "bug"
+    ]
   },
   {
     "id": 349,
-    "name": "feebas"
+    "name": "feebas",
+    "displayName": "Feebas",
+    "genus": "Fish Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 350,
-    "name": "milotic"
+    "name": "milotic",
+    "displayName": "Milotic",
+    "genus": "Tender Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 351,
-    "name": "castform"
+    "name": "castform",
+    "displayName": "Castform",
+    "genus": "Weather Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 352,
-    "name": "kecleon"
+    "name": "kecleon",
+    "displayName": "Kecleon",
+    "genus": "Color Swap Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 353,
-    "name": "shuppet"
+    "name": "shuppet",
+    "displayName": "Shuppet",
+    "genus": "Puppet Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 354,
-    "name": "banette"
+    "name": "banette",
+    "displayName": "Banette",
+    "genus": "Marionette Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 355,
-    "name": "duskull"
+    "name": "duskull",
+    "displayName": "Duskull",
+    "genus": "Requiem Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 356,
-    "name": "dusclops"
+    "name": "dusclops",
+    "displayName": "Dusclops",
+    "genus": "Beckon Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 357,
-    "name": "tropius"
+    "name": "tropius",
+    "displayName": "Tropius",
+    "genus": "Fruit Pokémon",
+    "types": [
+      "grass",
+      "flying"
+    ]
   },
   {
     "id": 358,
-    "name": "chimecho"
+    "name": "chimecho",
+    "displayName": "Chimecho",
+    "genus": "Wind Chime Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 359,
-    "name": "absol"
+    "name": "absol",
+    "displayName": "Absol",
+    "genus": "Disaster Pokémon",
+    "types": [
+      "dark"
+    ]
   },
   {
     "id": 360,
-    "name": "wynaut"
+    "name": "wynaut",
+    "displayName": "Wynaut",
+    "genus": "Bright Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 361,
-    "name": "snorunt"
+    "name": "snorunt",
+    "displayName": "Snorunt",
+    "genus": "Snow Hat Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 362,
-    "name": "glalie"
+    "name": "glalie",
+    "displayName": "Glalie",
+    "genus": "Face Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 363,
-    "name": "spheal"
+    "name": "spheal",
+    "displayName": "Spheal",
+    "genus": "Clap Pokémon",
+    "types": [
+      "ice",
+      "water"
+    ]
   },
   {
     "id": 364,
-    "name": "sealeo"
+    "name": "sealeo",
+    "displayName": "Sealeo",
+    "genus": "Ball Roll Pokémon",
+    "types": [
+      "ice",
+      "water"
+    ]
   },
   {
     "id": 365,
-    "name": "walrein"
+    "name": "walrein",
+    "displayName": "Walrein",
+    "genus": "Ice Break Pokémon",
+    "types": [
+      "ice",
+      "water"
+    ]
   },
   {
     "id": 366,
-    "name": "clamperl"
+    "name": "clamperl",
+    "displayName": "Clamperl",
+    "genus": "Bivalve Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 367,
-    "name": "huntail"
+    "name": "huntail",
+    "displayName": "Huntail",
+    "genus": "Deep Sea Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 368,
-    "name": "gorebyss"
+    "name": "gorebyss",
+    "displayName": "Gorebyss",
+    "genus": "South Sea Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 369,
-    "name": "relicanth"
+    "name": "relicanth",
+    "displayName": "Relicanth",
+    "genus": "Longevity Pokémon",
+    "types": [
+      "water",
+      "rock"
+    ]
   },
   {
     "id": 370,
-    "name": "luvdisc"
+    "name": "luvdisc",
+    "displayName": "Luvdisc",
+    "genus": "Rendezvous Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 371,
-    "name": "bagon"
+    "name": "bagon",
+    "displayName": "Bagon",
+    "genus": "Rock Head Pokémon",
+    "types": [
+      "dragon"
+    ]
   },
   {
     "id": 372,
-    "name": "shelgon"
+    "name": "shelgon",
+    "displayName": "Shelgon",
+    "genus": "Endurance Pokémon",
+    "types": [
+      "dragon"
+    ]
   },
   {
     "id": 373,
-    "name": "salamence"
+    "name": "salamence",
+    "displayName": "Salamence",
+    "genus": "Dragon Pokémon",
+    "types": [
+      "dragon",
+      "flying"
+    ]
   },
   {
     "id": 374,
-    "name": "beldum"
+    "name": "beldum",
+    "displayName": "Beldum",
+    "genus": "Iron Ball Pokémon",
+    "types": [
+      "steel",
+      "psychic"
+    ]
   },
   {
     "id": 375,
-    "name": "metang"
+    "name": "metang",
+    "displayName": "Metang",
+    "genus": "Iron Claw Pokémon",
+    "types": [
+      "steel",
+      "psychic"
+    ]
   },
   {
     "id": 376,
-    "name": "metagross"
+    "name": "metagross",
+    "displayName": "Metagross",
+    "genus": "Iron Leg Pokémon",
+    "types": [
+      "steel",
+      "psychic"
+    ]
   },
   {
     "id": 377,
-    "name": "regirock"
+    "name": "regirock",
+    "displayName": "Regirock",
+    "genus": "Rock Peak Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 378,
-    "name": "regice"
+    "name": "regice",
+    "displayName": "Regice",
+    "genus": "Iceberg Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 379,
-    "name": "registeel"
+    "name": "registeel",
+    "displayName": "Registeel",
+    "genus": "Iron Pokémon",
+    "types": [
+      "steel"
+    ]
   },
   {
     "id": 380,
-    "name": "latias"
+    "name": "latias",
+    "displayName": "Latias",
+    "genus": "Eon Pokémon",
+    "types": [
+      "dragon",
+      "psychic"
+    ]
   },
   {
     "id": 381,
-    "name": "latios"
+    "name": "latios",
+    "displayName": "Latios",
+    "genus": "Eon Pokémon",
+    "types": [
+      "dragon",
+      "psychic"
+    ]
   },
   {
     "id": 382,
-    "name": "kyogre"
+    "name": "kyogre",
+    "displayName": "Kyogre",
+    "genus": "Sea Basin Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 383,
-    "name": "groudon"
+    "name": "groudon",
+    "displayName": "Groudon",
+    "genus": "Continent Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 384,
-    "name": "rayquaza"
+    "name": "rayquaza",
+    "displayName": "Rayquaza",
+    "genus": "Sky High Pokémon",
+    "types": [
+      "dragon",
+      "flying"
+    ]
   },
   {
     "id": 385,
-    "name": "jirachi"
+    "name": "jirachi",
+    "displayName": "Jirachi",
+    "genus": "Wish Pokémon",
+    "types": [
+      "steel",
+      "psychic"
+    ]
   },
   {
     "id": 386,
-    "name": "deoxys"
+    "name": "deoxys",
+    "displayName": "Deoxys",
+    "genus": "DNA Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 387,
-    "name": "turtwig"
+    "name": "turtwig",
+    "displayName": "Turtwig",
+    "genus": "Tiny Leaf Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 388,
-    "name": "grotle"
+    "name": "grotle",
+    "displayName": "Grotle",
+    "genus": "Grove Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 389,
-    "name": "torterra"
+    "name": "torterra",
+    "displayName": "Torterra",
+    "genus": "Continent Pokémon",
+    "types": [
+      "grass",
+      "ground"
+    ]
   },
   {
     "id": 390,
-    "name": "chimchar"
+    "name": "chimchar",
+    "displayName": "Chimchar",
+    "genus": "Chimp Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 391,
-    "name": "monferno"
+    "name": "monferno",
+    "displayName": "Monferno",
+    "genus": "Playful Pokémon",
+    "types": [
+      "fire",
+      "fighting"
+    ]
   },
   {
     "id": 392,
-    "name": "infernape"
+    "name": "infernape",
+    "displayName": "Infernape",
+    "genus": "Flame Pokémon",
+    "types": [
+      "fire",
+      "fighting"
+    ]
   },
   {
     "id": 393,
-    "name": "piplup"
+    "name": "piplup",
+    "displayName": "Piplup",
+    "genus": "Penguin Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 394,
-    "name": "prinplup"
+    "name": "prinplup",
+    "displayName": "Prinplup",
+    "genus": "Penguin Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 395,
-    "name": "empoleon"
+    "name": "empoleon",
+    "displayName": "Empoleon",
+    "genus": "Emperor Pokémon",
+    "types": [
+      "water",
+      "steel"
+    ]
   },
   {
     "id": 396,
-    "name": "starly"
+    "name": "starly",
+    "displayName": "Starly",
+    "genus": "Starling Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 397,
-    "name": "staravia"
+    "name": "staravia",
+    "displayName": "Staravia",
+    "genus": "Starling Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 398,
-    "name": "staraptor"
+    "name": "staraptor",
+    "displayName": "Staraptor",
+    "genus": "Predator Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 399,
-    "name": "bidoof"
+    "name": "bidoof",
+    "displayName": "Bidoof",
+    "genus": "Plump Mouse Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 400,
-    "name": "bibarel"
+    "name": "bibarel",
+    "displayName": "Bibarel",
+    "genus": "Beaver Pokémon",
+    "types": [
+      "normal",
+      "water"
+    ]
   },
   {
     "id": 401,
-    "name": "kricketot"
+    "name": "kricketot",
+    "displayName": "Kricketot",
+    "genus": "Cricket Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 402,
-    "name": "kricketune"
+    "name": "kricketune",
+    "displayName": "Kricketune",
+    "genus": "Cricket Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 403,
-    "name": "shinx"
+    "name": "shinx",
+    "displayName": "Shinx",
+    "genus": "Flash Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 404,
-    "name": "luxio"
+    "name": "luxio",
+    "displayName": "Luxio",
+    "genus": "Spark Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 405,
-    "name": "luxray"
+    "name": "luxray",
+    "displayName": "Luxray",
+    "genus": "Gleam Eyes Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 406,
-    "name": "budew"
+    "name": "budew",
+    "displayName": "Budew",
+    "genus": "Bud Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 407,
-    "name": "roserade"
+    "name": "roserade",
+    "displayName": "Roserade",
+    "genus": "Bouquet Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 408,
-    "name": "cranidos"
+    "name": "cranidos",
+    "displayName": "Cranidos",
+    "genus": "Head Butt Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 409,
-    "name": "rampardos"
+    "name": "rampardos",
+    "displayName": "Rampardos",
+    "genus": "Head Butt Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 410,
-    "name": "shieldon"
+    "name": "shieldon",
+    "displayName": "Shieldon",
+    "genus": "Shield Pokémon",
+    "types": [
+      "rock",
+      "steel"
+    ]
   },
   {
     "id": 411,
-    "name": "bastiodon"
+    "name": "bastiodon",
+    "displayName": "Bastiodon",
+    "genus": "Shield Pokémon",
+    "types": [
+      "rock",
+      "steel"
+    ]
   },
   {
     "id": 412,
-    "name": "burmy"
+    "name": "burmy",
+    "displayName": "Burmy",
+    "genus": "Bagworm Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 413,
-    "name": "wormadam"
+    "name": "wormadam",
+    "displayName": "Wormadam",
+    "genus": "Bagworm Pokémon",
+    "types": [
+      "bug",
+      "grass"
+    ]
   },
   {
     "id": 414,
-    "name": "mothim"
+    "name": "mothim",
+    "displayName": "Mothim",
+    "genus": "Moth Pokémon",
+    "types": [
+      "bug",
+      "flying"
+    ]
   },
   {
     "id": 415,
-    "name": "combee"
+    "name": "combee",
+    "displayName": "Combee",
+    "genus": "Tiny Bee Pokémon",
+    "types": [
+      "bug",
+      "flying"
+    ]
   },
   {
     "id": 416,
-    "name": "vespiquen"
+    "name": "vespiquen",
+    "displayName": "Vespiquen",
+    "genus": "Beehive Pokémon",
+    "types": [
+      "bug",
+      "flying"
+    ]
   },
   {
     "id": 417,
-    "name": "pachirisu"
+    "name": "pachirisu",
+    "displayName": "Pachirisu",
+    "genus": "EleSquirrel Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 418,
-    "name": "buizel"
+    "name": "buizel",
+    "displayName": "Buizel",
+    "genus": "Sea Weasel Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 419,
-    "name": "floatzel"
+    "name": "floatzel",
+    "displayName": "Floatzel",
+    "genus": "Sea Weasel Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 420,
-    "name": "cherubi"
+    "name": "cherubi",
+    "displayName": "Cherubi",
+    "genus": "Cherry Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 421,
-    "name": "cherrim"
+    "name": "cherrim",
+    "displayName": "Cherrim",
+    "genus": "Blossom Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 422,
-    "name": "shellos"
+    "name": "shellos",
+    "displayName": "Shellos",
+    "genus": "Sea Slug Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 423,
-    "name": "gastrodon"
+    "name": "gastrodon",
+    "displayName": "Gastrodon",
+    "genus": "Sea Slug Pokémon",
+    "types": [
+      "water",
+      "ground"
+    ]
   },
   {
     "id": 424,
-    "name": "ambipom"
+    "name": "ambipom",
+    "displayName": "Ambipom",
+    "genus": "Long Tail Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 425,
-    "name": "drifloon"
+    "name": "drifloon",
+    "displayName": "Drifloon",
+    "genus": "Balloon Pokémon",
+    "types": [
+      "ghost",
+      "flying"
+    ]
   },
   {
     "id": 426,
-    "name": "drifblim"
+    "name": "drifblim",
+    "displayName": "Drifblim",
+    "genus": "Blimp Pokémon",
+    "types": [
+      "ghost",
+      "flying"
+    ]
   },
   {
     "id": 427,
-    "name": "buneary"
+    "name": "buneary",
+    "displayName": "Buneary",
+    "genus": "Rabbit Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 428,
-    "name": "lopunny"
+    "name": "lopunny",
+    "displayName": "Lopunny",
+    "genus": "Rabbit Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 429,
-    "name": "mismagius"
+    "name": "mismagius",
+    "displayName": "Mismagius",
+    "genus": "Magical Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 430,
-    "name": "honchkrow"
+    "name": "honchkrow",
+    "displayName": "Honchkrow",
+    "genus": "Big Boss Pokémon",
+    "types": [
+      "dark",
+      "flying"
+    ]
   },
   {
     "id": 431,
-    "name": "glameow"
+    "name": "glameow",
+    "displayName": "Glameow",
+    "genus": "Catty Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 432,
-    "name": "purugly"
+    "name": "purugly",
+    "displayName": "Purugly",
+    "genus": "Tiger Cat Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 433,
-    "name": "chingling"
+    "name": "chingling",
+    "displayName": "Chingling",
+    "genus": "Bell Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 434,
-    "name": "stunky"
+    "name": "stunky",
+    "displayName": "Stunky",
+    "genus": "Skunk Pokémon",
+    "types": [
+      "poison",
+      "dark"
+    ]
   },
   {
     "id": 435,
-    "name": "skuntank"
+    "name": "skuntank",
+    "displayName": "Skuntank",
+    "genus": "Skunk Pokémon",
+    "types": [
+      "poison",
+      "dark"
+    ]
   },
   {
     "id": 436,
-    "name": "bronzor"
+    "name": "bronzor",
+    "displayName": "Bronzor",
+    "genus": "Bronze Pokémon",
+    "types": [
+      "steel",
+      "psychic"
+    ]
   },
   {
     "id": 437,
-    "name": "bronzong"
+    "name": "bronzong",
+    "displayName": "Bronzong",
+    "genus": "Bronze Bell Pokémon",
+    "types": [
+      "steel",
+      "psychic"
+    ]
   },
   {
     "id": 438,
-    "name": "bonsly"
+    "name": "bonsly",
+    "displayName": "Bonsly",
+    "genus": "Bonsai Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 439,
-    "name": "mime-jr"
+    "name": "mime-jr",
+    "displayName": "Mime Jr.",
+    "genus": "Mime Pokémon",
+    "types": [
+      "psychic",
+      "fairy"
+    ]
   },
   {
     "id": 440,
-    "name": "happiny"
+    "name": "happiny",
+    "displayName": "Happiny",
+    "genus": "Playhouse Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 441,
-    "name": "chatot"
+    "name": "chatot",
+    "displayName": "Chatot",
+    "genus": "Music Note Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 442,
-    "name": "spiritomb"
+    "name": "spiritomb",
+    "displayName": "Spiritomb",
+    "genus": "Forbidden Pokémon",
+    "types": [
+      "ghost",
+      "dark"
+    ]
   },
   {
     "id": 443,
-    "name": "gible"
+    "name": "gible",
+    "displayName": "Gible",
+    "genus": "Land Shark Pokémon",
+    "types": [
+      "dragon",
+      "ground"
+    ]
   },
   {
     "id": 444,
-    "name": "gabite"
+    "name": "gabite",
+    "displayName": "Gabite",
+    "genus": "Cave Pokémon",
+    "types": [
+      "dragon",
+      "ground"
+    ]
   },
   {
     "id": 445,
-    "name": "garchomp"
+    "name": "garchomp",
+    "displayName": "Garchomp",
+    "genus": "Mach Pokémon",
+    "types": [
+      "dragon",
+      "ground"
+    ]
   },
   {
     "id": 446,
-    "name": "munchlax"
+    "name": "munchlax",
+    "displayName": "Munchlax",
+    "genus": "Big Eater Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 447,
-    "name": "riolu"
+    "name": "riolu",
+    "displayName": "Riolu",
+    "genus": "Emanation Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 448,
-    "name": "lucario"
+    "name": "lucario",
+    "displayName": "Lucario",
+    "genus": "Aura Pokémon",
+    "types": [
+      "fighting",
+      "steel"
+    ]
   },
   {
     "id": 449,
-    "name": "hippopotas"
+    "name": "hippopotas",
+    "displayName": "Hippopotas",
+    "genus": "Hippo Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 450,
-    "name": "hippowdon"
+    "name": "hippowdon",
+    "displayName": "Hippowdon",
+    "genus": "Heavyweight Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 451,
-    "name": "skorupi"
+    "name": "skorupi",
+    "displayName": "Skorupi",
+    "genus": "Scorpion Pokémon",
+    "types": [
+      "poison",
+      "bug"
+    ]
   },
   {
     "id": 452,
-    "name": "drapion"
+    "name": "drapion",
+    "displayName": "Drapion",
+    "genus": "Ogre Scorpion Pokémon",
+    "types": [
+      "poison",
+      "dark"
+    ]
   },
   {
     "id": 453,
-    "name": "croagunk"
+    "name": "croagunk",
+    "displayName": "Croagunk",
+    "genus": "Toxic Mouth Pokémon",
+    "types": [
+      "poison",
+      "fighting"
+    ]
   },
   {
     "id": 454,
-    "name": "toxicroak"
+    "name": "toxicroak",
+    "displayName": "Toxicroak",
+    "genus": "Toxic Mouth Pokémon",
+    "types": [
+      "poison",
+      "fighting"
+    ]
   },
   {
     "id": 455,
-    "name": "carnivine"
+    "name": "carnivine",
+    "displayName": "Carnivine",
+    "genus": "Bug Catcher Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 456,
-    "name": "finneon"
+    "name": "finneon",
+    "displayName": "Finneon",
+    "genus": "Wing Fish Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 457,
-    "name": "lumineon"
+    "name": "lumineon",
+    "displayName": "Lumineon",
+    "genus": "Neon Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 458,
-    "name": "mantyke"
+    "name": "mantyke",
+    "displayName": "Mantyke",
+    "genus": "Kite Pokémon",
+    "types": [
+      "water",
+      "flying"
+    ]
   },
   {
     "id": 459,
-    "name": "snover"
+    "name": "snover",
+    "displayName": "Snover",
+    "genus": "Frost Tree Pokémon",
+    "types": [
+      "grass",
+      "ice"
+    ]
   },
   {
     "id": 460,
-    "name": "abomasnow"
+    "name": "abomasnow",
+    "displayName": "Abomasnow",
+    "genus": "Frost Tree Pokémon",
+    "types": [
+      "grass",
+      "ice"
+    ]
   },
   {
     "id": 461,
-    "name": "weavile"
+    "name": "weavile",
+    "displayName": "Weavile",
+    "genus": "Sharp Claw Pokémon",
+    "types": [
+      "dark",
+      "ice"
+    ]
   },
   {
     "id": 462,
-    "name": "magnezone"
+    "name": "magnezone",
+    "displayName": "Magnezone",
+    "genus": "Magnet Area Pokémon",
+    "types": [
+      "electric",
+      "steel"
+    ]
   },
   {
     "id": 463,
-    "name": "lickilicky"
+    "name": "lickilicky",
+    "displayName": "Lickilicky",
+    "genus": "Licking Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 464,
-    "name": "rhyperior"
+    "name": "rhyperior",
+    "displayName": "Rhyperior",
+    "genus": "Drill Pokémon",
+    "types": [
+      "ground",
+      "rock"
+    ]
   },
   {
     "id": 465,
-    "name": "tangrowth"
+    "name": "tangrowth",
+    "displayName": "Tangrowth",
+    "genus": "Vine Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 466,
-    "name": "electivire"
+    "name": "electivire",
+    "displayName": "Electivire",
+    "genus": "Thunderbolt Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 467,
-    "name": "magmortar"
+    "name": "magmortar",
+    "displayName": "Magmortar",
+    "genus": "Blast Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 468,
-    "name": "togekiss"
+    "name": "togekiss",
+    "displayName": "Togekiss",
+    "genus": "Jubilee Pokémon",
+    "types": [
+      "fairy",
+      "flying"
+    ]
   },
   {
     "id": 469,
-    "name": "yanmega"
+    "name": "yanmega",
+    "displayName": "Yanmega",
+    "genus": "Ogre Darner Pokémon",
+    "types": [
+      "bug",
+      "flying"
+    ]
   },
   {
     "id": 470,
-    "name": "leafeon"
+    "name": "leafeon",
+    "displayName": "Leafeon",
+    "genus": "Verdant Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 471,
-    "name": "glaceon"
+    "name": "glaceon",
+    "displayName": "Glaceon",
+    "genus": "Fresh Snow Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 472,
-    "name": "gliscor"
+    "name": "gliscor",
+    "displayName": "Gliscor",
+    "genus": "Fang Scorpion Pokémon",
+    "types": [
+      "ground",
+      "flying"
+    ]
   },
   {
     "id": 473,
-    "name": "mamoswine"
+    "name": "mamoswine",
+    "displayName": "Mamoswine",
+    "genus": "Twin Tusk Pokémon",
+    "types": [
+      "ice",
+      "ground"
+    ]
   },
   {
     "id": 474,
-    "name": "porygon-z"
+    "name": "porygon-z",
+    "displayName": "Porygon-Z",
+    "genus": "Virtual Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 475,
-    "name": "gallade"
+    "name": "gallade",
+    "displayName": "Gallade",
+    "genus": "Blade Pokémon",
+    "types": [
+      "psychic",
+      "fighting"
+    ]
   },
   {
     "id": 476,
-    "name": "probopass"
+    "name": "probopass",
+    "displayName": "Probopass",
+    "genus": "Compass Pokémon",
+    "types": [
+      "rock",
+      "steel"
+    ]
   },
   {
     "id": 477,
-    "name": "dusknoir"
+    "name": "dusknoir",
+    "displayName": "Dusknoir",
+    "genus": "Gripper Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 478,
-    "name": "froslass"
+    "name": "froslass",
+    "displayName": "Froslass",
+    "genus": "Snow Land Pokémon",
+    "types": [
+      "ice",
+      "ghost"
+    ]
   },
   {
     "id": 479,
-    "name": "rotom"
+    "name": "rotom",
+    "displayName": "Rotom",
+    "genus": "Plasma Pokémon",
+    "types": [
+      "electric",
+      "ghost"
+    ]
   },
   {
     "id": 480,
-    "name": "uxie"
+    "name": "uxie",
+    "displayName": "Uxie",
+    "genus": "Knowledge Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 481,
-    "name": "mesprit"
+    "name": "mesprit",
+    "displayName": "Mesprit",
+    "genus": "Emotion Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 482,
-    "name": "azelf"
+    "name": "azelf",
+    "displayName": "Azelf",
+    "genus": "Willpower Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 483,
-    "name": "dialga"
+    "name": "dialga",
+    "displayName": "Dialga",
+    "genus": "Temporal Pokémon",
+    "types": [
+      "steel",
+      "dragon"
+    ]
   },
   {
     "id": 484,
-    "name": "palkia"
+    "name": "palkia",
+    "displayName": "Palkia",
+    "genus": "Spatial Pokémon",
+    "types": [
+      "water",
+      "dragon"
+    ]
   },
   {
     "id": 485,
-    "name": "heatran"
+    "name": "heatran",
+    "displayName": "Heatran",
+    "genus": "Lava Dome Pokémon",
+    "types": [
+      "fire",
+      "steel"
+    ]
   },
   {
     "id": 486,
-    "name": "regigigas"
+    "name": "regigigas",
+    "displayName": "Regigigas",
+    "genus": "Colossal Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 487,
-    "name": "giratina"
+    "name": "giratina",
+    "displayName": "Giratina",
+    "genus": "Renegade Pokémon",
+    "types": [
+      "ghost",
+      "dragon"
+    ]
   },
   {
     "id": 488,
-    "name": "cresselia"
+    "name": "cresselia",
+    "displayName": "Cresselia",
+    "genus": "Lunar Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 489,
-    "name": "phione"
+    "name": "phione",
+    "displayName": "Phione",
+    "genus": "Sea Drifter Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 490,
-    "name": "manaphy"
+    "name": "manaphy",
+    "displayName": "Manaphy",
+    "genus": "Seafaring Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 491,
-    "name": "darkrai"
+    "name": "darkrai",
+    "displayName": "Darkrai",
+    "genus": "Pitch-Black Pokémon",
+    "types": [
+      "dark"
+    ]
   },
   {
     "id": 492,
-    "name": "shaymin"
+    "name": "shaymin",
+    "displayName": "Shaymin",
+    "genus": "Gratitude Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 493,
-    "name": "arceus"
+    "name": "arceus",
+    "displayName": "Arceus",
+    "genus": "Alpha Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 494,
-    "name": "victini"
+    "name": "victini",
+    "displayName": "Victini",
+    "genus": "Victory Pokémon",
+    "types": [
+      "psychic",
+      "fire"
+    ]
   },
   {
     "id": 495,
-    "name": "snivy"
+    "name": "snivy",
+    "displayName": "Snivy",
+    "genus": "Grass Snake Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 496,
-    "name": "servine"
+    "name": "servine",
+    "displayName": "Servine",
+    "genus": "Grass Snake Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 497,
-    "name": "serperior"
+    "name": "serperior",
+    "displayName": "Serperior",
+    "genus": "Regal Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 498,
-    "name": "tepig"
+    "name": "tepig",
+    "displayName": "Tepig",
+    "genus": "Fire Pig Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 499,
-    "name": "pignite"
+    "name": "pignite",
+    "displayName": "Pignite",
+    "genus": "Fire Pig Pokémon",
+    "types": [
+      "fire",
+      "fighting"
+    ]
   },
   {
     "id": 500,
-    "name": "emboar"
+    "name": "emboar",
+    "displayName": "Emboar",
+    "genus": "Mega Fire Pig Pokémon",
+    "types": [
+      "fire",
+      "fighting"
+    ]
   },
   {
     "id": 501,
-    "name": "oshawott"
+    "name": "oshawott",
+    "displayName": "Oshawott",
+    "genus": "Sea Otter Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 502,
-    "name": "dewott"
+    "name": "dewott",
+    "displayName": "Dewott",
+    "genus": "Discipline Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 503,
-    "name": "samurott"
+    "name": "samurott",
+    "displayName": "Samurott",
+    "genus": "Formidable Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 504,
-    "name": "patrat"
+    "name": "patrat",
+    "displayName": "Patrat",
+    "genus": "Scout Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 505,
-    "name": "watchog"
+    "name": "watchog",
+    "displayName": "Watchog",
+    "genus": "Lookout Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 506,
-    "name": "lillipup"
+    "name": "lillipup",
+    "displayName": "Lillipup",
+    "genus": "Puppy Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 507,
-    "name": "herdier"
+    "name": "herdier",
+    "displayName": "Herdier",
+    "genus": "Loyal Dog Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 508,
-    "name": "stoutland"
+    "name": "stoutland",
+    "displayName": "Stoutland",
+    "genus": "Big-Hearted Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 509,
-    "name": "purrloin"
+    "name": "purrloin",
+    "displayName": "Purrloin",
+    "genus": "Devious Pokémon",
+    "types": [
+      "dark"
+    ]
   },
   {
     "id": 510,
-    "name": "liepard"
+    "name": "liepard",
+    "displayName": "Liepard",
+    "genus": "Cruel Pokémon",
+    "types": [
+      "dark"
+    ]
   },
   {
     "id": 511,
-    "name": "pansage"
+    "name": "pansage",
+    "displayName": "Pansage",
+    "genus": "Grass Monkey Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 512,
-    "name": "simisage"
+    "name": "simisage",
+    "displayName": "Simisage",
+    "genus": "Thorn Monkey Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 513,
-    "name": "pansear"
+    "name": "pansear",
+    "displayName": "Pansear",
+    "genus": "High Temp Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 514,
-    "name": "simisear"
+    "name": "simisear",
+    "displayName": "Simisear",
+    "genus": "Ember Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 515,
-    "name": "panpour"
+    "name": "panpour",
+    "displayName": "Panpour",
+    "genus": "Spray Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 516,
-    "name": "simipour"
+    "name": "simipour",
+    "displayName": "Simipour",
+    "genus": "Geyser Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 517,
-    "name": "munna"
+    "name": "munna",
+    "displayName": "Munna",
+    "genus": "Dream Eater Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 518,
-    "name": "musharna"
+    "name": "musharna",
+    "displayName": "Musharna",
+    "genus": "Drowsing Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 519,
-    "name": "pidove"
+    "name": "pidove",
+    "displayName": "Pidove",
+    "genus": "Tiny Pigeon Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 520,
-    "name": "tranquill"
+    "name": "tranquill",
+    "displayName": "Tranquill",
+    "genus": "Wild Pigeon Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 521,
-    "name": "unfezant"
+    "name": "unfezant",
+    "displayName": "Unfezant",
+    "genus": "Proud Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 522,
-    "name": "blitzle"
+    "name": "blitzle",
+    "displayName": "Blitzle",
+    "genus": "Electrified Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 523,
-    "name": "zebstrika"
+    "name": "zebstrika",
+    "displayName": "Zebstrika",
+    "genus": "Thunderbolt Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 524,
-    "name": "roggenrola"
+    "name": "roggenrola",
+    "displayName": "Roggenrola",
+    "genus": "Mantle Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 525,
-    "name": "boldore"
+    "name": "boldore",
+    "displayName": "Boldore",
+    "genus": "Ore Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 526,
-    "name": "gigalith"
+    "name": "gigalith",
+    "displayName": "Gigalith",
+    "genus": "Compressed Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 527,
-    "name": "woobat"
+    "name": "woobat",
+    "displayName": "Woobat",
+    "genus": "Bat Pokémon",
+    "types": [
+      "psychic",
+      "flying"
+    ]
   },
   {
     "id": 528,
-    "name": "swoobat"
+    "name": "swoobat",
+    "displayName": "Swoobat",
+    "genus": "Courting Pokémon",
+    "types": [
+      "psychic",
+      "flying"
+    ]
   },
   {
     "id": 529,
-    "name": "drilbur"
+    "name": "drilbur",
+    "displayName": "Drilbur",
+    "genus": "Mole Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 530,
-    "name": "excadrill"
+    "name": "excadrill",
+    "displayName": "Excadrill",
+    "genus": "Subterrene Pokémon",
+    "types": [
+      "ground",
+      "steel"
+    ]
   },
   {
     "id": 531,
-    "name": "audino"
+    "name": "audino",
+    "displayName": "Audino",
+    "genus": "Hearing Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 532,
-    "name": "timburr"
+    "name": "timburr",
+    "displayName": "Timburr",
+    "genus": "Muscular Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 533,
-    "name": "gurdurr"
+    "name": "gurdurr",
+    "displayName": "Gurdurr",
+    "genus": "Muscular Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 534,
-    "name": "conkeldurr"
+    "name": "conkeldurr",
+    "displayName": "Conkeldurr",
+    "genus": "Muscular Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 535,
-    "name": "tympole"
+    "name": "tympole",
+    "displayName": "Tympole",
+    "genus": "Tadpole Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 536,
-    "name": "palpitoad"
+    "name": "palpitoad",
+    "displayName": "Palpitoad",
+    "genus": "Vibration Pokémon",
+    "types": [
+      "water",
+      "ground"
+    ]
   },
   {
     "id": 537,
-    "name": "seismitoad"
+    "name": "seismitoad",
+    "displayName": "Seismitoad",
+    "genus": "Vibration Pokémon",
+    "types": [
+      "water",
+      "ground"
+    ]
   },
   {
     "id": 538,
-    "name": "throh"
+    "name": "throh",
+    "displayName": "Throh",
+    "genus": "Judo Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 539,
-    "name": "sawk"
+    "name": "sawk",
+    "displayName": "Sawk",
+    "genus": "Karate Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 540,
-    "name": "sewaddle"
+    "name": "sewaddle",
+    "displayName": "Sewaddle",
+    "genus": "Sewing Pokémon",
+    "types": [
+      "bug",
+      "grass"
+    ]
   },
   {
     "id": 541,
-    "name": "swadloon"
+    "name": "swadloon",
+    "displayName": "Swadloon",
+    "genus": "Leaf-Wrapped Pokémon",
+    "types": [
+      "bug",
+      "grass"
+    ]
   },
   {
     "id": 542,
-    "name": "leavanny"
+    "name": "leavanny",
+    "displayName": "Leavanny",
+    "genus": "Nurturing Pokémon",
+    "types": [
+      "bug",
+      "grass"
+    ]
   },
   {
     "id": 543,
-    "name": "venipede"
+    "name": "venipede",
+    "displayName": "Venipede",
+    "genus": "Centipede Pokémon",
+    "types": [
+      "bug",
+      "poison"
+    ]
   },
   {
     "id": 544,
-    "name": "whirlipede"
+    "name": "whirlipede",
+    "displayName": "Whirlipede",
+    "genus": "Curlipede Pokémon",
+    "types": [
+      "bug",
+      "poison"
+    ]
   },
   {
     "id": 545,
-    "name": "scolipede"
+    "name": "scolipede",
+    "displayName": "Scolipede",
+    "genus": "Megapede Pokémon",
+    "types": [
+      "bug",
+      "poison"
+    ]
   },
   {
     "id": 546,
-    "name": "cottonee"
+    "name": "cottonee",
+    "displayName": "Cottonee",
+    "genus": "Cotton Puff Pokémon",
+    "types": [
+      "grass",
+      "fairy"
+    ]
   },
   {
     "id": 547,
-    "name": "whimsicott"
+    "name": "whimsicott",
+    "displayName": "Whimsicott",
+    "genus": "Windveiled Pokémon",
+    "types": [
+      "grass",
+      "fairy"
+    ]
   },
   {
     "id": 548,
-    "name": "petilil"
+    "name": "petilil",
+    "displayName": "Petilil",
+    "genus": "Bulb Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 549,
-    "name": "lilligant"
+    "name": "lilligant",
+    "displayName": "Lilligant",
+    "genus": "Flowering Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 550,
-    "name": "basculin"
+    "name": "basculin",
+    "displayName": "Basculin",
+    "genus": "Hostile Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 551,
-    "name": "sandile"
+    "name": "sandile",
+    "displayName": "Sandile",
+    "genus": "Desert Croc Pokémon",
+    "types": [
+      "ground",
+      "dark"
+    ]
   },
   {
     "id": 552,
-    "name": "krokorok"
+    "name": "krokorok",
+    "displayName": "Krokorok",
+    "genus": "Desert Croc Pokémon",
+    "types": [
+      "ground",
+      "dark"
+    ]
   },
   {
     "id": 553,
-    "name": "krookodile"
+    "name": "krookodile",
+    "displayName": "Krookodile",
+    "genus": "Intimidation Pokémon",
+    "types": [
+      "ground",
+      "dark"
+    ]
   },
   {
     "id": 554,
-    "name": "darumaka"
+    "name": "darumaka",
+    "displayName": "Darumaka",
+    "genus": "Zen Charm Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 555,
-    "name": "darmanitan"
+    "name": "darmanitan",
+    "displayName": "Darmanitan",
+    "genus": "Blazing Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 556,
-    "name": "maractus"
+    "name": "maractus",
+    "displayName": "Maractus",
+    "genus": "Cactus Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 557,
-    "name": "dwebble"
+    "name": "dwebble",
+    "displayName": "Dwebble",
+    "genus": "Rock Inn Pokémon",
+    "types": [
+      "bug",
+      "rock"
+    ]
   },
   {
     "id": 558,
-    "name": "crustle"
+    "name": "crustle",
+    "displayName": "Crustle",
+    "genus": "Stone Home Pokémon",
+    "types": [
+      "bug",
+      "rock"
+    ]
   },
   {
     "id": 559,
-    "name": "scraggy"
+    "name": "scraggy",
+    "displayName": "Scraggy",
+    "genus": "Shedding Pokémon",
+    "types": [
+      "dark",
+      "fighting"
+    ]
   },
   {
     "id": 560,
-    "name": "scrafty"
+    "name": "scrafty",
+    "displayName": "Scrafty",
+    "genus": "Hoodlum Pokémon",
+    "types": [
+      "dark",
+      "fighting"
+    ]
   },
   {
     "id": 561,
-    "name": "sigilyph"
+    "name": "sigilyph",
+    "displayName": "Sigilyph",
+    "genus": "Avianoid Pokémon",
+    "types": [
+      "psychic",
+      "flying"
+    ]
   },
   {
     "id": 562,
-    "name": "yamask"
+    "name": "yamask",
+    "displayName": "Yamask",
+    "genus": "Spirit Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 563,
-    "name": "cofagrigus"
+    "name": "cofagrigus",
+    "displayName": "Cofagrigus",
+    "genus": "Coffin Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 564,
-    "name": "tirtouga"
+    "name": "tirtouga",
+    "displayName": "Tirtouga",
+    "genus": "Prototurtle Pokémon",
+    "types": [
+      "water",
+      "rock"
+    ]
   },
   {
     "id": 565,
-    "name": "carracosta"
+    "name": "carracosta",
+    "displayName": "Carracosta",
+    "genus": "Prototurtle Pokémon",
+    "types": [
+      "water",
+      "rock"
+    ]
   },
   {
     "id": 566,
-    "name": "archen"
+    "name": "archen",
+    "displayName": "Archen",
+    "genus": "First Bird Pokémon",
+    "types": [
+      "rock",
+      "flying"
+    ]
   },
   {
     "id": 567,
-    "name": "archeops"
+    "name": "archeops",
+    "displayName": "Archeops",
+    "genus": "First Bird Pokémon",
+    "types": [
+      "rock",
+      "flying"
+    ]
   },
   {
     "id": 568,
-    "name": "trubbish"
+    "name": "trubbish",
+    "displayName": "Trubbish",
+    "genus": "Trash Bag Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 569,
-    "name": "garbodor"
+    "name": "garbodor",
+    "displayName": "Garbodor",
+    "genus": "Trash Heap Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 570,
-    "name": "zorua"
+    "name": "zorua",
+    "displayName": "Zorua",
+    "genus": "Tricky Fox Pokémon",
+    "types": [
+      "dark"
+    ]
   },
   {
     "id": 571,
-    "name": "zoroark"
+    "name": "zoroark",
+    "displayName": "Zoroark",
+    "genus": "Illusion Fox Pokémon",
+    "types": [
+      "dark"
+    ]
   },
   {
     "id": 572,
-    "name": "minccino"
+    "name": "minccino",
+    "displayName": "Minccino",
+    "genus": "Chinchilla Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 573,
-    "name": "cinccino"
+    "name": "cinccino",
+    "displayName": "Cinccino",
+    "genus": "Scarf Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 574,
-    "name": "gothita"
+    "name": "gothita",
+    "displayName": "Gothita",
+    "genus": "Fixation Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 575,
-    "name": "gothorita"
+    "name": "gothorita",
+    "displayName": "Gothorita",
+    "genus": "Manipulate Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 576,
-    "name": "gothitelle"
+    "name": "gothitelle",
+    "displayName": "Gothitelle",
+    "genus": "Astral Body Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 577,
-    "name": "solosis"
+    "name": "solosis",
+    "displayName": "Solosis",
+    "genus": "Cell Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 578,
-    "name": "duosion"
+    "name": "duosion",
+    "displayName": "Duosion",
+    "genus": "Mitosis Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 579,
-    "name": "reuniclus"
+    "name": "reuniclus",
+    "displayName": "Reuniclus",
+    "genus": "Multiplying Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 580,
-    "name": "ducklett"
+    "name": "ducklett",
+    "displayName": "Ducklett",
+    "genus": "Water Bird Pokémon",
+    "types": [
+      "water",
+      "flying"
+    ]
   },
   {
     "id": 581,
-    "name": "swanna"
+    "name": "swanna",
+    "displayName": "Swanna",
+    "genus": "White Bird Pokémon",
+    "types": [
+      "water",
+      "flying"
+    ]
   },
   {
     "id": 582,
-    "name": "vanillite"
+    "name": "vanillite",
+    "displayName": "Vanillite",
+    "genus": "Fresh Snow Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 583,
-    "name": "vanillish"
+    "name": "vanillish",
+    "displayName": "Vanillish",
+    "genus": "Icy Snow Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 584,
-    "name": "vanilluxe"
+    "name": "vanilluxe",
+    "displayName": "Vanilluxe",
+    "genus": "Snowstorm Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 585,
-    "name": "deerling"
+    "name": "deerling",
+    "displayName": "Deerling",
+    "genus": "Season Pokémon",
+    "types": [
+      "normal",
+      "grass"
+    ]
   },
   {
     "id": 586,
-    "name": "sawsbuck"
+    "name": "sawsbuck",
+    "displayName": "Sawsbuck",
+    "genus": "Season Pokémon",
+    "types": [
+      "normal",
+      "grass"
+    ]
   },
   {
     "id": 587,
-    "name": "emolga"
+    "name": "emolga",
+    "displayName": "Emolga",
+    "genus": "Sky Squirrel Pokémon",
+    "types": [
+      "electric",
+      "flying"
+    ]
   },
   {
     "id": 588,
-    "name": "karrablast"
+    "name": "karrablast",
+    "displayName": "Karrablast",
+    "genus": "Clamping Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 589,
-    "name": "escavalier"
+    "name": "escavalier",
+    "displayName": "Escavalier",
+    "genus": "Cavalry Pokémon",
+    "types": [
+      "bug",
+      "steel"
+    ]
   },
   {
     "id": 590,
-    "name": "foongus"
+    "name": "foongus",
+    "displayName": "Foongus",
+    "genus": "Mushroom Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 591,
-    "name": "amoonguss"
+    "name": "amoonguss",
+    "displayName": "Amoonguss",
+    "genus": "Mushroom Pokémon",
+    "types": [
+      "grass",
+      "poison"
+    ]
   },
   {
     "id": 592,
-    "name": "frillish"
+    "name": "frillish",
+    "displayName": "Frillish",
+    "genus": "Floating Pokémon",
+    "types": [
+      "water",
+      "ghost"
+    ]
   },
   {
     "id": 593,
-    "name": "jellicent"
+    "name": "jellicent",
+    "displayName": "Jellicent",
+    "genus": "Floating Pokémon",
+    "types": [
+      "water",
+      "ghost"
+    ]
   },
   {
     "id": 594,
-    "name": "alomomola"
+    "name": "alomomola",
+    "displayName": "Alomomola",
+    "genus": "Caring Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 595,
-    "name": "joltik"
+    "name": "joltik",
+    "displayName": "Joltik",
+    "genus": "Attaching Pokémon",
+    "types": [
+      "bug",
+      "electric"
+    ]
   },
   {
     "id": 596,
-    "name": "galvantula"
+    "name": "galvantula",
+    "displayName": "Galvantula",
+    "genus": "EleSpider Pokémon",
+    "types": [
+      "bug",
+      "electric"
+    ]
   },
   {
     "id": 597,
-    "name": "ferroseed"
+    "name": "ferroseed",
+    "displayName": "Ferroseed",
+    "genus": "Thorn Seed Pokémon",
+    "types": [
+      "grass",
+      "steel"
+    ]
   },
   {
     "id": 598,
-    "name": "ferrothorn"
+    "name": "ferrothorn",
+    "displayName": "Ferrothorn",
+    "genus": "Thorn Pod Pokémon",
+    "types": [
+      "grass",
+      "steel"
+    ]
   },
   {
     "id": 599,
-    "name": "klink"
+    "name": "klink",
+    "displayName": "Klink",
+    "genus": "Gear Pokémon",
+    "types": [
+      "steel"
+    ]
   },
   {
     "id": 600,
-    "name": "klang"
+    "name": "klang",
+    "displayName": "Klang",
+    "genus": "Gear Pokémon",
+    "types": [
+      "steel"
+    ]
   },
   {
     "id": 601,
-    "name": "klinklang"
+    "name": "klinklang",
+    "displayName": "Klinklang",
+    "genus": "Gear Pokémon",
+    "types": [
+      "steel"
+    ]
   },
   {
     "id": 602,
-    "name": "tynamo"
+    "name": "tynamo",
+    "displayName": "Tynamo",
+    "genus": "EleFish Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 603,
-    "name": "eelektrik"
+    "name": "eelektrik",
+    "displayName": "Eelektrik",
+    "genus": "EleFish Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 604,
-    "name": "eelektross"
+    "name": "eelektross",
+    "displayName": "Eelektross",
+    "genus": "EleFish Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 605,
-    "name": "elgyem"
+    "name": "elgyem",
+    "displayName": "Elgyem",
+    "genus": "Cerebral Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 606,
-    "name": "beheeyem"
+    "name": "beheeyem",
+    "displayName": "Beheeyem",
+    "genus": "Cerebral Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 607,
-    "name": "litwick"
+    "name": "litwick",
+    "displayName": "Litwick",
+    "genus": "Candle Pokémon",
+    "types": [
+      "ghost",
+      "fire"
+    ]
   },
   {
     "id": 608,
-    "name": "lampent"
+    "name": "lampent",
+    "displayName": "Lampent",
+    "genus": "Lamp Pokémon",
+    "types": [
+      "ghost",
+      "fire"
+    ]
   },
   {
     "id": 609,
-    "name": "chandelure"
+    "name": "chandelure",
+    "displayName": "Chandelure",
+    "genus": "Luring Pokémon",
+    "types": [
+      "ghost",
+      "fire"
+    ]
   },
   {
     "id": 610,
-    "name": "axew"
+    "name": "axew",
+    "displayName": "Axew",
+    "genus": "Tusk Pokémon",
+    "types": [
+      "dragon"
+    ]
   },
   {
     "id": 611,
-    "name": "fraxure"
+    "name": "fraxure",
+    "displayName": "Fraxure",
+    "genus": "Axe Jaw Pokémon",
+    "types": [
+      "dragon"
+    ]
   },
   {
     "id": 612,
-    "name": "haxorus"
+    "name": "haxorus",
+    "displayName": "Haxorus",
+    "genus": "Axe Jaw Pokémon",
+    "types": [
+      "dragon"
+    ]
   },
   {
     "id": 613,
-    "name": "cubchoo"
+    "name": "cubchoo",
+    "displayName": "Cubchoo",
+    "genus": "Chill Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 614,
-    "name": "beartic"
+    "name": "beartic",
+    "displayName": "Beartic",
+    "genus": "Freezing Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 615,
-    "name": "cryogonal"
+    "name": "cryogonal",
+    "displayName": "Cryogonal",
+    "genus": "Crystallizing Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 616,
-    "name": "shelmet"
+    "name": "shelmet",
+    "displayName": "Shelmet",
+    "genus": "Snail Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 617,
-    "name": "accelgor"
+    "name": "accelgor",
+    "displayName": "Accelgor",
+    "genus": "Shell Out Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 618,
-    "name": "stunfisk"
+    "name": "stunfisk",
+    "displayName": "Stunfisk",
+    "genus": "Trap Pokémon",
+    "types": [
+      "ground",
+      "electric"
+    ]
   },
   {
     "id": 619,
-    "name": "mienfoo"
+    "name": "mienfoo",
+    "displayName": "Mienfoo",
+    "genus": "Martial Arts Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 620,
-    "name": "mienshao"
+    "name": "mienshao",
+    "displayName": "Mienshao",
+    "genus": "Martial Arts Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 621,
-    "name": "druddigon"
+    "name": "druddigon",
+    "displayName": "Druddigon",
+    "genus": "Cave Pokémon",
+    "types": [
+      "dragon"
+    ]
   },
   {
     "id": 622,
-    "name": "golett"
+    "name": "golett",
+    "displayName": "Golett",
+    "genus": "Automaton Pokémon",
+    "types": [
+      "ground",
+      "ghost"
+    ]
   },
   {
     "id": 623,
-    "name": "golurk"
+    "name": "golurk",
+    "displayName": "Golurk",
+    "genus": "Automaton Pokémon",
+    "types": [
+      "ground",
+      "ghost"
+    ]
   },
   {
     "id": 624,
-    "name": "pawniard"
+    "name": "pawniard",
+    "displayName": "Pawniard",
+    "genus": "Sharp Blade Pokémon",
+    "types": [
+      "dark",
+      "steel"
+    ]
   },
   {
     "id": 625,
-    "name": "bisharp"
+    "name": "bisharp",
+    "displayName": "Bisharp",
+    "genus": "Sword Blade Pokémon",
+    "types": [
+      "dark",
+      "steel"
+    ]
   },
   {
     "id": 626,
-    "name": "bouffalant"
+    "name": "bouffalant",
+    "displayName": "Bouffalant",
+    "genus": "Bash Buffalo Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 627,
-    "name": "rufflet"
+    "name": "rufflet",
+    "displayName": "Rufflet",
+    "genus": "Eaglet Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 628,
-    "name": "braviary"
+    "name": "braviary",
+    "displayName": "Braviary",
+    "genus": "Valiant Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 629,
-    "name": "vullaby"
+    "name": "vullaby",
+    "displayName": "Vullaby",
+    "genus": "Diapered Pokémon",
+    "types": [
+      "dark",
+      "flying"
+    ]
   },
   {
     "id": 630,
-    "name": "mandibuzz"
+    "name": "mandibuzz",
+    "displayName": "Mandibuzz",
+    "genus": "Bone Vulture Pokémon",
+    "types": [
+      "dark",
+      "flying"
+    ]
   },
   {
     "id": 631,
-    "name": "heatmor"
+    "name": "heatmor",
+    "displayName": "Heatmor",
+    "genus": "Anteater Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 632,
-    "name": "durant"
+    "name": "durant",
+    "displayName": "Durant",
+    "genus": "Iron Ant Pokémon",
+    "types": [
+      "bug",
+      "steel"
+    ]
   },
   {
     "id": 633,
-    "name": "deino"
+    "name": "deino",
+    "displayName": "Deino",
+    "genus": "Irate Pokémon",
+    "types": [
+      "dark",
+      "dragon"
+    ]
   },
   {
     "id": 634,
-    "name": "zweilous"
+    "name": "zweilous",
+    "displayName": "Zweilous",
+    "genus": "Hostile Pokémon",
+    "types": [
+      "dark",
+      "dragon"
+    ]
   },
   {
     "id": 635,
-    "name": "hydreigon"
+    "name": "hydreigon",
+    "displayName": "Hydreigon",
+    "genus": "Brutal Pokémon",
+    "types": [
+      "dark",
+      "dragon"
+    ]
   },
   {
     "id": 636,
-    "name": "larvesta"
+    "name": "larvesta",
+    "displayName": "Larvesta",
+    "genus": "Torch Pokémon",
+    "types": [
+      "bug",
+      "fire"
+    ]
   },
   {
     "id": 637,
-    "name": "volcarona"
+    "name": "volcarona",
+    "displayName": "Volcarona",
+    "genus": "Sun Pokémon",
+    "types": [
+      "bug",
+      "fire"
+    ]
   },
   {
     "id": 638,
-    "name": "cobalion"
+    "name": "cobalion",
+    "displayName": "Cobalion",
+    "genus": "Iron Will Pokémon",
+    "types": [
+      "steel",
+      "fighting"
+    ]
   },
   {
     "id": 639,
-    "name": "terrakion"
+    "name": "terrakion",
+    "displayName": "Terrakion",
+    "genus": "Cavern Pokémon",
+    "types": [
+      "rock",
+      "fighting"
+    ]
   },
   {
     "id": 640,
-    "name": "virizion"
+    "name": "virizion",
+    "displayName": "Virizion",
+    "genus": "Grassland Pokémon",
+    "types": [
+      "grass",
+      "fighting"
+    ]
   },
   {
     "id": 641,
-    "name": "tornadus"
+    "name": "tornadus",
+    "displayName": "Tornadus",
+    "genus": "Cyclone Pokémon",
+    "types": [
+      "flying"
+    ]
   },
   {
     "id": 642,
-    "name": "thundurus"
+    "name": "thundurus",
+    "displayName": "Thundurus",
+    "genus": "Bolt Strike Pokémon",
+    "types": [
+      "electric",
+      "flying"
+    ]
   },
   {
     "id": 643,
-    "name": "reshiram"
+    "name": "reshiram",
+    "displayName": "Reshiram",
+    "genus": "Vast White Pokémon",
+    "types": [
+      "dragon",
+      "fire"
+    ]
   },
   {
     "id": 644,
-    "name": "zekrom"
+    "name": "zekrom",
+    "displayName": "Zekrom",
+    "genus": "Deep Black Pokémon",
+    "types": [
+      "dragon",
+      "electric"
+    ]
   },
   {
     "id": 645,
-    "name": "landorus"
+    "name": "landorus",
+    "displayName": "Landorus",
+    "genus": "Abundance Pokémon",
+    "types": [
+      "ground",
+      "flying"
+    ]
   },
   {
     "id": 646,
-    "name": "kyurem"
+    "name": "kyurem",
+    "displayName": "Kyurem",
+    "genus": "Boundary Pokémon",
+    "types": [
+      "dragon",
+      "ice"
+    ]
   },
   {
     "id": 647,
-    "name": "keldeo"
+    "name": "keldeo",
+    "displayName": "Keldeo",
+    "genus": "Colt Pokémon",
+    "types": [
+      "water",
+      "fighting"
+    ]
   },
   {
     "id": 648,
-    "name": "meloetta"
+    "name": "meloetta",
+    "displayName": "Meloetta",
+    "genus": "Melody Pokémon",
+    "types": [
+      "normal",
+      "psychic"
+    ]
   },
   {
     "id": 649,
-    "name": "genesect"
+    "name": "genesect",
+    "displayName": "Genesect",
+    "genus": "Paleozoic Pokémon",
+    "types": [
+      "bug",
+      "steel"
+    ]
   },
   {
     "id": 650,
-    "name": "chespin"
+    "name": "chespin",
+    "displayName": "Chespin",
+    "genus": "Spiny Nut Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 651,
-    "name": "quilladin"
+    "name": "quilladin",
+    "displayName": "Quilladin",
+    "genus": "Spiny Armor Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 652,
-    "name": "chesnaught"
+    "name": "chesnaught",
+    "displayName": "Chesnaught",
+    "genus": "Spiny Armor Pokémon",
+    "types": [
+      "grass",
+      "fighting"
+    ]
   },
   {
     "id": 653,
-    "name": "fennekin"
+    "name": "fennekin",
+    "displayName": "Fennekin",
+    "genus": "Fox Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 654,
-    "name": "braixen"
+    "name": "braixen",
+    "displayName": "Braixen",
+    "genus": "Fox Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 655,
-    "name": "delphox"
+    "name": "delphox",
+    "displayName": "Delphox",
+    "genus": "Fox Pokémon",
+    "types": [
+      "fire",
+      "psychic"
+    ]
   },
   {
     "id": 656,
-    "name": "froakie"
+    "name": "froakie",
+    "displayName": "Froakie",
+    "genus": "Bubble Frog Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 657,
-    "name": "frogadier"
+    "name": "frogadier",
+    "displayName": "Frogadier",
+    "genus": "Bubble Frog Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 658,
-    "name": "greninja"
+    "name": "greninja",
+    "displayName": "Greninja",
+    "genus": "Ninja Pokémon",
+    "types": [
+      "water",
+      "dark"
+    ]
   },
   {
     "id": 659,
-    "name": "bunnelby"
+    "name": "bunnelby",
+    "displayName": "Bunnelby",
+    "genus": "Digging Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 660,
-    "name": "diggersby"
+    "name": "diggersby",
+    "displayName": "Diggersby",
+    "genus": "Digging Pokémon",
+    "types": [
+      "normal",
+      "ground"
+    ]
   },
   {
     "id": 661,
-    "name": "fletchling"
+    "name": "fletchling",
+    "displayName": "Fletchling",
+    "genus": "Tiny Robin Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 662,
-    "name": "fletchinder"
+    "name": "fletchinder",
+    "displayName": "Fletchinder",
+    "genus": "Ember Pokémon",
+    "types": [
+      "fire",
+      "flying"
+    ]
   },
   {
     "id": 663,
-    "name": "talonflame"
+    "name": "talonflame",
+    "displayName": "Talonflame",
+    "genus": "Scorching Pokémon",
+    "types": [
+      "fire",
+      "flying"
+    ]
   },
   {
     "id": 664,
-    "name": "scatterbug"
+    "name": "scatterbug",
+    "displayName": "Scatterbug",
+    "genus": "Scatterdust Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 665,
-    "name": "spewpa"
+    "name": "spewpa",
+    "displayName": "Spewpa",
+    "genus": "Scatterdust Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 666,
-    "name": "vivillon"
+    "name": "vivillon",
+    "displayName": "Vivillon",
+    "genus": "Scale Pokémon",
+    "types": [
+      "bug",
+      "flying"
+    ]
   },
   {
     "id": 667,
-    "name": "litleo"
+    "name": "litleo",
+    "displayName": "Litleo",
+    "genus": "Lion Cub Pokémon",
+    "types": [
+      "fire",
+      "normal"
+    ]
   },
   {
     "id": 668,
-    "name": "pyroar"
+    "name": "pyroar",
+    "displayName": "Pyroar",
+    "genus": "Royal Pokémon",
+    "types": [
+      "fire",
+      "normal"
+    ]
   },
   {
     "id": 669,
-    "name": "flabebe"
+    "name": "flabebe",
+    "displayName": "Flabébé",
+    "genus": "Single Bloom Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 670,
-    "name": "floette"
+    "name": "floette",
+    "displayName": "Floette",
+    "genus": "Single Bloom Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 671,
-    "name": "florges"
+    "name": "florges",
+    "displayName": "Florges",
+    "genus": "Garden Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 672,
-    "name": "skiddo"
+    "name": "skiddo",
+    "displayName": "Skiddo",
+    "genus": "Mount Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 673,
-    "name": "gogoat"
+    "name": "gogoat",
+    "displayName": "Gogoat",
+    "genus": "Mount Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 674,
-    "name": "pancham"
+    "name": "pancham",
+    "displayName": "Pancham",
+    "genus": "Playful Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 675,
-    "name": "pangoro"
+    "name": "pangoro",
+    "displayName": "Pangoro",
+    "genus": "Daunting Pokémon",
+    "types": [
+      "fighting",
+      "dark"
+    ]
   },
   {
     "id": 676,
-    "name": "furfrou"
+    "name": "furfrou",
+    "displayName": "Furfrou",
+    "genus": "Poodle Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 677,
-    "name": "espurr"
+    "name": "espurr",
+    "displayName": "Espurr",
+    "genus": "Restraint Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 678,
-    "name": "meowstic"
+    "name": "meowstic",
+    "displayName": "Meowstic",
+    "genus": "Constraint Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 679,
-    "name": "honedge"
+    "name": "honedge",
+    "displayName": "Honedge",
+    "genus": "Sword Pokémon",
+    "types": [
+      "steel",
+      "ghost"
+    ]
   },
   {
     "id": 680,
-    "name": "doublade"
+    "name": "doublade",
+    "displayName": "Doublade",
+    "genus": "Sword Pokémon",
+    "types": [
+      "steel",
+      "ghost"
+    ]
   },
   {
     "id": 681,
-    "name": "aegislash"
+    "name": "aegislash",
+    "displayName": "Aegislash",
+    "genus": "Royal Sword Pokémon",
+    "types": [
+      "steel",
+      "ghost"
+    ]
   },
   {
     "id": 682,
-    "name": "spritzee"
+    "name": "spritzee",
+    "displayName": "Spritzee",
+    "genus": "Perfume Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 683,
-    "name": "aromatisse"
+    "name": "aromatisse",
+    "displayName": "Aromatisse",
+    "genus": "Fragrance Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 684,
-    "name": "swirlix"
+    "name": "swirlix",
+    "displayName": "Swirlix",
+    "genus": "Cotton Candy Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 685,
-    "name": "slurpuff"
+    "name": "slurpuff",
+    "displayName": "Slurpuff",
+    "genus": "Meringue Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 686,
-    "name": "inkay"
+    "name": "inkay",
+    "displayName": "Inkay",
+    "genus": "Revolving Pokémon",
+    "types": [
+      "dark",
+      "psychic"
+    ]
   },
   {
     "id": 687,
-    "name": "malamar"
+    "name": "malamar",
+    "displayName": "Malamar",
+    "genus": "Overturning Pokémon",
+    "types": [
+      "dark",
+      "psychic"
+    ]
   },
   {
     "id": 688,
-    "name": "binacle"
+    "name": "binacle",
+    "displayName": "Binacle",
+    "genus": "Two-Handed Pokémon",
+    "types": [
+      "rock",
+      "water"
+    ]
   },
   {
     "id": 689,
-    "name": "barbaracle"
+    "name": "barbaracle",
+    "displayName": "Barbaracle",
+    "genus": "Collective Pokémon",
+    "types": [
+      "rock",
+      "water"
+    ]
   },
   {
     "id": 690,
-    "name": "skrelp"
+    "name": "skrelp",
+    "displayName": "Skrelp",
+    "genus": "Mock Kelp Pokémon",
+    "types": [
+      "poison",
+      "water"
+    ]
   },
   {
     "id": 691,
-    "name": "dragalge"
+    "name": "dragalge",
+    "displayName": "Dragalge",
+    "genus": "Mock Kelp Pokémon",
+    "types": [
+      "poison",
+      "dragon"
+    ]
   },
   {
     "id": 692,
-    "name": "clauncher"
+    "name": "clauncher",
+    "displayName": "Clauncher",
+    "genus": "Water Gun Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 693,
-    "name": "clawitzer"
+    "name": "clawitzer",
+    "displayName": "Clawitzer",
+    "genus": "Howitzer Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 694,
-    "name": "helioptile"
+    "name": "helioptile",
+    "displayName": "Helioptile",
+    "genus": "Generator Pokémon",
+    "types": [
+      "electric",
+      "normal"
+    ]
   },
   {
     "id": 695,
-    "name": "heliolisk"
+    "name": "heliolisk",
+    "displayName": "Heliolisk",
+    "genus": "Generator Pokémon",
+    "types": [
+      "electric",
+      "normal"
+    ]
   },
   {
     "id": 696,
-    "name": "tyrunt"
+    "name": "tyrunt",
+    "displayName": "Tyrunt",
+    "genus": "Royal Heir Pokémon",
+    "types": [
+      "rock",
+      "dragon"
+    ]
   },
   {
     "id": 697,
-    "name": "tyrantrum"
+    "name": "tyrantrum",
+    "displayName": "Tyrantrum",
+    "genus": "Despot Pokémon",
+    "types": [
+      "rock",
+      "dragon"
+    ]
   },
   {
     "id": 698,
-    "name": "amaura"
+    "name": "amaura",
+    "displayName": "Amaura",
+    "genus": "Tundra Pokémon",
+    "types": [
+      "rock",
+      "ice"
+    ]
   },
   {
     "id": 699,
-    "name": "aurorus"
+    "name": "aurorus",
+    "displayName": "Aurorus",
+    "genus": "Tundra Pokémon",
+    "types": [
+      "rock",
+      "ice"
+    ]
   },
   {
     "id": 700,
-    "name": "sylveon"
+    "name": "sylveon",
+    "displayName": "Sylveon",
+    "genus": "Intertwining Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 701,
-    "name": "hawlucha"
+    "name": "hawlucha",
+    "displayName": "Hawlucha",
+    "genus": "Wrestling Pokémon",
+    "types": [
+      "fighting",
+      "flying"
+    ]
   },
   {
     "id": 702,
-    "name": "dedenne"
+    "name": "dedenne",
+    "displayName": "Dedenne",
+    "genus": "Antenna Pokémon",
+    "types": [
+      "electric",
+      "fairy"
+    ]
   },
   {
     "id": 703,
-    "name": "carbink"
+    "name": "carbink",
+    "displayName": "Carbink",
+    "genus": "Jewel Pokémon",
+    "types": [
+      "rock",
+      "fairy"
+    ]
   },
   {
     "id": 704,
-    "name": "goomy"
+    "name": "goomy",
+    "displayName": "Goomy",
+    "genus": "Soft Tissue Pokémon",
+    "types": [
+      "dragon"
+    ]
   },
   {
     "id": 705,
-    "name": "sliggoo"
+    "name": "sliggoo",
+    "displayName": "Sliggoo",
+    "genus": "Soft Tissue Pokémon",
+    "types": [
+      "dragon"
+    ]
   },
   {
     "id": 706,
-    "name": "goodra"
+    "name": "goodra",
+    "displayName": "Goodra",
+    "genus": "Dragon Pokémon",
+    "types": [
+      "dragon"
+    ]
   },
   {
     "id": 707,
-    "name": "klefki"
+    "name": "klefki",
+    "displayName": "Klefki",
+    "genus": "Key Ring Pokémon",
+    "types": [
+      "steel",
+      "fairy"
+    ]
   },
   {
     "id": 708,
-    "name": "phantump"
+    "name": "phantump",
+    "displayName": "Phantump",
+    "genus": "Stump Pokémon",
+    "types": [
+      "ghost",
+      "grass"
+    ]
   },
   {
     "id": 709,
-    "name": "trevenant"
+    "name": "trevenant",
+    "displayName": "Trevenant",
+    "genus": "Elder Tree Pokémon",
+    "types": [
+      "ghost",
+      "grass"
+    ]
   },
   {
     "id": 710,
-    "name": "pumpkaboo"
+    "name": "pumpkaboo",
+    "displayName": "Pumpkaboo",
+    "genus": "Pumpkin Pokémon",
+    "types": [
+      "ghost",
+      "grass"
+    ]
   },
   {
     "id": 711,
-    "name": "gourgeist"
+    "name": "gourgeist",
+    "displayName": "Gourgeist",
+    "genus": "Pumpkin Pokémon",
+    "types": [
+      "ghost",
+      "grass"
+    ]
   },
   {
     "id": 712,
-    "name": "bergmite"
+    "name": "bergmite",
+    "displayName": "Bergmite",
+    "genus": "Ice Chunk Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 713,
-    "name": "avalugg"
+    "name": "avalugg",
+    "displayName": "Avalugg",
+    "genus": "Iceberg Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 714,
-    "name": "noibat"
+    "name": "noibat",
+    "displayName": "Noibat",
+    "genus": "Sound Wave Pokémon",
+    "types": [
+      "flying",
+      "dragon"
+    ]
   },
   {
     "id": 715,
-    "name": "noivern"
+    "name": "noivern",
+    "displayName": "Noivern",
+    "genus": "Sound Wave Pokémon",
+    "types": [
+      "flying",
+      "dragon"
+    ]
   },
   {
     "id": 716,
-    "name": "xerneas"
+    "name": "xerneas",
+    "displayName": "Xerneas",
+    "genus": "Life Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 717,
-    "name": "yveltal"
+    "name": "yveltal",
+    "displayName": "Yveltal",
+    "genus": "Destruction Pokémon",
+    "types": [
+      "dark",
+      "flying"
+    ]
   },
   {
     "id": 718,
-    "name": "zygarde"
+    "name": "zygarde",
+    "displayName": "Zygarde",
+    "genus": "Order Pokémon",
+    "types": [
+      "dragon",
+      "ground"
+    ]
   },
   {
     "id": 719,
-    "name": "diancie"
+    "name": "diancie",
+    "displayName": "Diancie",
+    "genus": "Jewel Pokémon",
+    "types": [
+      "rock",
+      "fairy"
+    ]
   },
   {
     "id": 720,
-    "name": "hoopa"
+    "name": "hoopa",
+    "displayName": "Hoopa",
+    "genus": "Mischief Pokémon",
+    "types": [
+      "psychic",
+      "ghost"
+    ]
   },
   {
     "id": 721,
-    "name": "volcanion"
+    "name": "volcanion",
+    "displayName": "Volcanion",
+    "genus": "Steam Pokémon",
+    "types": [
+      "fire",
+      "water"
+    ]
   },
   {
     "id": 722,
-    "name": "rowlet"
+    "name": "rowlet",
+    "displayName": "Rowlet",
+    "genus": "Grass Quill Pokémon",
+    "types": [
+      "grass",
+      "flying"
+    ]
   },
   {
     "id": 723,
-    "name": "dartrix"
+    "name": "dartrix",
+    "displayName": "Dartrix",
+    "genus": "Blade Quill Pokémon",
+    "types": [
+      "grass",
+      "flying"
+    ]
   },
   {
     "id": 724,
-    "name": "decidueye"
+    "name": "decidueye",
+    "displayName": "Decidueye",
+    "genus": "Arrow Quill Pokémon",
+    "types": [
+      "grass",
+      "ghost"
+    ]
   },
   {
     "id": 725,
-    "name": "litten"
+    "name": "litten",
+    "displayName": "Litten",
+    "genus": "Fire Cat Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 726,
-    "name": "torracat"
+    "name": "torracat",
+    "displayName": "Torracat",
+    "genus": "Fire Cat Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 727,
-    "name": "incineroar"
+    "name": "incineroar",
+    "displayName": "Incineroar",
+    "genus": "Heel Pokémon",
+    "types": [
+      "fire",
+      "dark"
+    ]
   },
   {
     "id": 728,
-    "name": "popplio"
+    "name": "popplio",
+    "displayName": "Popplio",
+    "genus": "Sea Lion Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 729,
-    "name": "brionne"
+    "name": "brionne",
+    "displayName": "Brionne",
+    "genus": "Pop Star Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 730,
-    "name": "primarina"
+    "name": "primarina",
+    "displayName": "Primarina",
+    "genus": "Soloist Pokémon",
+    "types": [
+      "water",
+      "fairy"
+    ]
   },
   {
     "id": 731,
-    "name": "pikipek"
+    "name": "pikipek",
+    "displayName": "Pikipek",
+    "genus": "Woodpecker Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 732,
-    "name": "trumbeak"
+    "name": "trumbeak",
+    "displayName": "Trumbeak",
+    "genus": "Bugle Beak Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 733,
-    "name": "toucannon"
+    "name": "toucannon",
+    "displayName": "Toucannon",
+    "genus": "Cannon Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 734,
-    "name": "yungoos"
+    "name": "yungoos",
+    "displayName": "Yungoos",
+    "genus": "Loitering Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 735,
-    "name": "gumshoos"
+    "name": "gumshoos",
+    "displayName": "Gumshoos",
+    "genus": "Stakeout Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 736,
-    "name": "grubbin"
+    "name": "grubbin",
+    "displayName": "Grubbin",
+    "genus": "Larva Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 737,
-    "name": "charjabug"
+    "name": "charjabug",
+    "displayName": "Charjabug",
+    "genus": "Battery Pokémon",
+    "types": [
+      "bug",
+      "electric"
+    ]
   },
   {
     "id": 738,
-    "name": "vikavolt"
+    "name": "vikavolt",
+    "displayName": "Vikavolt",
+    "genus": "Stag Beetle Pokémon",
+    "types": [
+      "bug",
+      "electric"
+    ]
   },
   {
     "id": 739,
-    "name": "crabrawler"
+    "name": "crabrawler",
+    "displayName": "Crabrawler",
+    "genus": "Boxing Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 740,
-    "name": "crabominable"
+    "name": "crabominable",
+    "displayName": "Crabominable",
+    "genus": "Woolly Crab Pokémon",
+    "types": [
+      "fighting",
+      "ice"
+    ]
   },
   {
     "id": 741,
-    "name": "oricorio"
+    "name": "oricorio",
+    "displayName": "Oricorio",
+    "genus": "Dancing Pokémon",
+    "types": [
+      "fire",
+      "flying"
+    ]
   },
   {
     "id": 742,
-    "name": "cutiefly"
+    "name": "cutiefly",
+    "displayName": "Cutiefly",
+    "genus": "Bee Fly Pokémon",
+    "types": [
+      "bug",
+      "fairy"
+    ]
   },
   {
     "id": 743,
-    "name": "ribombee"
+    "name": "ribombee",
+    "displayName": "Ribombee",
+    "genus": "Bee Fly Pokémon",
+    "types": [
+      "bug",
+      "fairy"
+    ]
   },
   {
     "id": 744,
-    "name": "rockruff"
+    "name": "rockruff",
+    "displayName": "Rockruff",
+    "genus": "Puppy Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 745,
-    "name": "lycanroc"
+    "name": "lycanroc",
+    "displayName": "Lycanroc",
+    "genus": "Wolf Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 746,
-    "name": "wishiwashi"
+    "name": "wishiwashi",
+    "displayName": "Wishiwashi",
+    "genus": "Small Fry Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 747,
-    "name": "mareanie"
+    "name": "mareanie",
+    "displayName": "Mareanie",
+    "genus": "Brutal Star Pokémon",
+    "types": [
+      "poison",
+      "water"
+    ]
   },
   {
     "id": 748,
-    "name": "toxapex"
+    "name": "toxapex",
+    "displayName": "Toxapex",
+    "genus": "Brutal Star Pokémon",
+    "types": [
+      "poison",
+      "water"
+    ]
   },
   {
     "id": 749,
-    "name": "mudbray"
+    "name": "mudbray",
+    "displayName": "Mudbray",
+    "genus": "Donkey Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 750,
-    "name": "mudsdale"
+    "name": "mudsdale",
+    "displayName": "Mudsdale",
+    "genus": "Draft Horse Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 751,
-    "name": "dewpider"
+    "name": "dewpider",
+    "displayName": "Dewpider",
+    "genus": "Water Bubble Pokémon",
+    "types": [
+      "water",
+      "bug"
+    ]
   },
   {
     "id": 752,
-    "name": "araquanid"
+    "name": "araquanid",
+    "displayName": "Araquanid",
+    "genus": "Water Bubble Pokémon",
+    "types": [
+      "water",
+      "bug"
+    ]
   },
   {
     "id": 753,
-    "name": "fomantis"
+    "name": "fomantis",
+    "displayName": "Fomantis",
+    "genus": "Sickle Grass Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 754,
-    "name": "lurantis"
+    "name": "lurantis",
+    "displayName": "Lurantis",
+    "genus": "Bloom Sickle Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 755,
-    "name": "morelull"
+    "name": "morelull",
+    "displayName": "Morelull",
+    "genus": "Illuminating Pokémon",
+    "types": [
+      "grass",
+      "fairy"
+    ]
   },
   {
     "id": 756,
-    "name": "shiinotic"
+    "name": "shiinotic",
+    "displayName": "Shiinotic",
+    "genus": "Illuminating Pokémon",
+    "types": [
+      "grass",
+      "fairy"
+    ]
   },
   {
     "id": 757,
-    "name": "salandit"
+    "name": "salandit",
+    "displayName": "Salandit",
+    "genus": "Toxic Lizard Pokémon",
+    "types": [
+      "poison",
+      "fire"
+    ]
   },
   {
     "id": 758,
-    "name": "salazzle"
+    "name": "salazzle",
+    "displayName": "Salazzle",
+    "genus": "Toxic Lizard Pokémon",
+    "types": [
+      "poison",
+      "fire"
+    ]
   },
   {
     "id": 759,
-    "name": "stufful"
+    "name": "stufful",
+    "displayName": "Stufful",
+    "genus": "Flailing Pokémon",
+    "types": [
+      "normal",
+      "fighting"
+    ]
   },
   {
     "id": 760,
-    "name": "bewear"
+    "name": "bewear",
+    "displayName": "Bewear",
+    "genus": "Strong Arm Pokémon",
+    "types": [
+      "normal",
+      "fighting"
+    ]
   },
   {
     "id": 761,
-    "name": "bounsweet"
+    "name": "bounsweet",
+    "displayName": "Bounsweet",
+    "genus": "Fruit Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 762,
-    "name": "steenee"
+    "name": "steenee",
+    "displayName": "Steenee",
+    "genus": "Fruit Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 763,
-    "name": "tsareena"
+    "name": "tsareena",
+    "displayName": "Tsareena",
+    "genus": "Fruit Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 764,
-    "name": "comfey"
+    "name": "comfey",
+    "displayName": "Comfey",
+    "genus": "Posy Picker Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 765,
-    "name": "oranguru"
+    "name": "oranguru",
+    "displayName": "Oranguru",
+    "genus": "Sage Pokémon",
+    "types": [
+      "normal",
+      "psychic"
+    ]
   },
   {
     "id": 766,
-    "name": "passimian"
+    "name": "passimian",
+    "displayName": "Passimian",
+    "genus": "Teamwork Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 767,
-    "name": "wimpod"
+    "name": "wimpod",
+    "displayName": "Wimpod",
+    "genus": "Turn Tail Pokémon",
+    "types": [
+      "bug",
+      "water"
+    ]
   },
   {
     "id": 768,
-    "name": "golisopod"
+    "name": "golisopod",
+    "displayName": "Golisopod",
+    "genus": "Hard Scale Pokémon",
+    "types": [
+      "bug",
+      "water"
+    ]
   },
   {
     "id": 769,
-    "name": "sandygast"
+    "name": "sandygast",
+    "displayName": "Sandygast",
+    "genus": "Sand Heap Pokémon",
+    "types": [
+      "ghost",
+      "ground"
+    ]
   },
   {
     "id": 770,
-    "name": "palossand"
+    "name": "palossand",
+    "displayName": "Palossand",
+    "genus": "Sand Castle Pokémon",
+    "types": [
+      "ghost",
+      "ground"
+    ]
   },
   {
     "id": 771,
-    "name": "pyukumuku"
+    "name": "pyukumuku",
+    "displayName": "Pyukumuku",
+    "genus": "Sea Cucumber Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 772,
-    "name": "type-null"
+    "name": "type-null",
+    "displayName": "Type: Null",
+    "genus": "Synthetic Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 773,
-    "name": "silvally"
+    "name": "silvally",
+    "displayName": "Silvally",
+    "genus": "Synthetic Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 774,
-    "name": "minior"
+    "name": "minior",
+    "displayName": "Minior",
+    "genus": "Meteor Pokémon",
+    "types": [
+      "rock",
+      "flying"
+    ]
   },
   {
     "id": 775,
-    "name": "komala"
+    "name": "komala",
+    "displayName": "Komala",
+    "genus": "Drowsing Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 776,
-    "name": "turtonator"
+    "name": "turtonator",
+    "displayName": "Turtonator",
+    "genus": "Blast Turtle Pokémon",
+    "types": [
+      "fire",
+      "dragon"
+    ]
   },
   {
     "id": 777,
-    "name": "togedemaru"
+    "name": "togedemaru",
+    "displayName": "Togedemaru",
+    "genus": "Roly-Poly Pokémon",
+    "types": [
+      "electric",
+      "steel"
+    ]
   },
   {
     "id": 778,
-    "name": "mimikyu"
+    "name": "mimikyu",
+    "displayName": "Mimikyu",
+    "genus": "Disguise Pokémon",
+    "types": [
+      "ghost",
+      "fairy"
+    ]
   },
   {
     "id": 779,
-    "name": "bruxish"
+    "name": "bruxish",
+    "displayName": "Bruxish",
+    "genus": "Gnash Teeth Pokémon",
+    "types": [
+      "water",
+      "psychic"
+    ]
   },
   {
     "id": 780,
-    "name": "drampa"
+    "name": "drampa",
+    "displayName": "Drampa",
+    "genus": "Placid Pokémon",
+    "types": [
+      "normal",
+      "dragon"
+    ]
   },
   {
     "id": 781,
-    "name": "dhelmise"
+    "name": "dhelmise",
+    "displayName": "Dhelmise",
+    "genus": "Sea Creeper Pokémon",
+    "types": [
+      "ghost",
+      "grass"
+    ]
   },
   {
     "id": 782,
-    "name": "jangmo-o"
+    "name": "jangmo-o",
+    "displayName": "Jangmo-o",
+    "genus": "Scaly Pokémon",
+    "types": [
+      "dragon"
+    ]
   },
   {
     "id": 783,
-    "name": "hakamo-o"
+    "name": "hakamo-o",
+    "displayName": "Hakamo-o",
+    "genus": "Scaly Pokémon",
+    "types": [
+      "dragon",
+      "fighting"
+    ]
   },
   {
     "id": 784,
-    "name": "kommo-o"
+    "name": "kommo-o",
+    "displayName": "Kommo-o",
+    "genus": "Scaly Pokémon",
+    "types": [
+      "dragon",
+      "fighting"
+    ]
   },
   {
     "id": 785,
-    "name": "tapu-koko"
+    "name": "tapu-koko",
+    "displayName": "Tapu Koko",
+    "genus": "Land Spirit Pokémon",
+    "types": [
+      "electric",
+      "fairy"
+    ]
   },
   {
     "id": 786,
-    "name": "tapu-lele"
+    "name": "tapu-lele",
+    "displayName": "Tapu Lele",
+    "genus": "Land Spirit Pokémon",
+    "types": [
+      "psychic",
+      "fairy"
+    ]
   },
   {
     "id": 787,
-    "name": "tapu-bulu"
+    "name": "tapu-bulu",
+    "displayName": "Tapu Bulu",
+    "genus": "Land Spirit Pokémon",
+    "types": [
+      "grass",
+      "fairy"
+    ]
   },
   {
     "id": 788,
-    "name": "tapu-fini"
+    "name": "tapu-fini",
+    "displayName": "Tapu Fini",
+    "genus": "Land Spirit Pokémon",
+    "types": [
+      "water",
+      "fairy"
+    ]
   },
   {
     "id": 789,
-    "name": "cosmog"
+    "name": "cosmog",
+    "displayName": "Cosmog",
+    "genus": "Nebula Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 790,
-    "name": "cosmoem"
+    "name": "cosmoem",
+    "displayName": "Cosmoem",
+    "genus": "Protostar Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 791,
-    "name": "solgaleo"
+    "name": "solgaleo",
+    "displayName": "Solgaleo",
+    "genus": "Sunne Pokémon",
+    "types": [
+      "psychic",
+      "steel"
+    ]
   },
   {
     "id": 792,
-    "name": "lunala"
+    "name": "lunala",
+    "displayName": "Lunala",
+    "genus": "Moone Pokémon",
+    "types": [
+      "psychic",
+      "ghost"
+    ]
   },
   {
     "id": 793,
-    "name": "nihilego"
+    "name": "nihilego",
+    "displayName": "Nihilego",
+    "genus": "Parasite Pokémon",
+    "types": [
+      "rock",
+      "poison"
+    ]
   },
   {
     "id": 794,
-    "name": "buzzwole"
+    "name": "buzzwole",
+    "displayName": "Buzzwole",
+    "genus": "Swollen Pokémon",
+    "types": [
+      "bug",
+      "fighting"
+    ]
   },
   {
     "id": 795,
-    "name": "pheromosa"
+    "name": "pheromosa",
+    "displayName": "Pheromosa",
+    "genus": "Lissome Pokémon",
+    "types": [
+      "bug",
+      "fighting"
+    ]
   },
   {
     "id": 796,
-    "name": "xurkitree"
+    "name": "xurkitree",
+    "displayName": "Xurkitree",
+    "genus": "Glowing Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 797,
-    "name": "celesteela"
+    "name": "celesteela",
+    "displayName": "Celesteela",
+    "genus": "Launch Pokémon",
+    "types": [
+      "steel",
+      "flying"
+    ]
   },
   {
     "id": 798,
-    "name": "kartana"
+    "name": "kartana",
+    "displayName": "Kartana",
+    "genus": "Drawn Sword Pokémon",
+    "types": [
+      "grass",
+      "steel"
+    ]
   },
   {
     "id": 799,
-    "name": "guzzlord"
+    "name": "guzzlord",
+    "displayName": "Guzzlord",
+    "genus": "Junkivore Pokémon",
+    "types": [
+      "dark",
+      "dragon"
+    ]
   },
   {
     "id": 800,
-    "name": "necrozma"
+    "name": "necrozma",
+    "displayName": "Necrozma",
+    "genus": "Prism Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 801,
-    "name": "magearna"
+    "name": "magearna",
+    "displayName": "Magearna",
+    "genus": "Artificial Pokémon",
+    "types": [
+      "steel",
+      "fairy"
+    ]
   },
   {
     "id": 802,
-    "name": "marshadow"
+    "name": "marshadow",
+    "displayName": "Marshadow",
+    "genus": "Gloomdweller Pokémon",
+    "types": [
+      "fighting",
+      "ghost"
+    ]
   },
   {
     "id": 803,
-    "name": "poipole"
+    "name": "poipole",
+    "displayName": "Poipole",
+    "genus": "Poison Pin Pokémon",
+    "types": [
+      "poison"
+    ]
   },
   {
     "id": 804,
-    "name": "naganadel"
+    "name": "naganadel",
+    "displayName": "Naganadel",
+    "genus": "Poison Pin Pokémon",
+    "types": [
+      "poison",
+      "dragon"
+    ]
   },
   {
     "id": 805,
-    "name": "stakataka"
+    "name": "stakataka",
+    "displayName": "Stakataka",
+    "genus": "Rampart Pokémon",
+    "types": [
+      "rock",
+      "steel"
+    ]
   },
   {
     "id": 806,
-    "name": "blacephalon"
+    "name": "blacephalon",
+    "displayName": "Blacephalon",
+    "genus": "Fireworks Pokémon",
+    "types": [
+      "fire",
+      "ghost"
+    ]
   },
   {
     "id": 807,
-    "name": "zeraora"
+    "name": "zeraora",
+    "displayName": "Zeraora",
+    "genus": "Thunderclap Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 808,
-    "name": "meltan"
+    "name": "meltan",
+    "displayName": "Meltan",
+    "genus": "Hex Nut Pokémon",
+    "types": [
+      "steel"
+    ]
   },
   {
     "id": 809,
-    "name": "melmetal"
+    "name": "melmetal",
+    "displayName": "Melmetal",
+    "genus": "Hex Nut Pokémon",
+    "types": [
+      "steel"
+    ]
   },
   {
     "id": 810,
-    "name": "grookey"
+    "name": "grookey",
+    "displayName": "Grookey",
+    "genus": "Chimp Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 811,
-    "name": "thwackey"
+    "name": "thwackey",
+    "displayName": "Thwackey",
+    "genus": "Beat Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 812,
-    "name": "rillaboom"
+    "name": "rillaboom",
+    "displayName": "Rillaboom",
+    "genus": "Drummer Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 813,
-    "name": "scorbunny"
+    "name": "scorbunny",
+    "displayName": "Scorbunny",
+    "genus": "Rabbit Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 814,
-    "name": "raboot"
+    "name": "raboot",
+    "displayName": "Raboot",
+    "genus": "Rabbit Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 815,
-    "name": "cinderace"
+    "name": "cinderace",
+    "displayName": "Cinderace",
+    "genus": "Striker Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 816,
-    "name": "sobble"
+    "name": "sobble",
+    "displayName": "Sobble",
+    "genus": "Water Lizard Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 817,
-    "name": "drizzile"
+    "name": "drizzile",
+    "displayName": "Drizzile",
+    "genus": "Water Lizard Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 818,
-    "name": "inteleon"
+    "name": "inteleon",
+    "displayName": "Inteleon",
+    "genus": "Secret Agent Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 819,
-    "name": "skwovet"
+    "name": "skwovet",
+    "displayName": "Skwovet",
+    "genus": "Cheeky Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 820,
-    "name": "greedent"
+    "name": "greedent",
+    "displayName": "Greedent",
+    "genus": "Greedy Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 821,
-    "name": "rookidee"
+    "name": "rookidee",
+    "displayName": "Rookidee",
+    "genus": "Tiny Bird Pokémon",
+    "types": [
+      "flying"
+    ]
   },
   {
     "id": 822,
-    "name": "corvisquire"
+    "name": "corvisquire",
+    "displayName": "Corvisquire",
+    "genus": "Raven Pokémon",
+    "types": [
+      "flying"
+    ]
   },
   {
     "id": 823,
-    "name": "corviknight"
+    "name": "corviknight",
+    "displayName": "Corviknight",
+    "genus": "Raven Pokémon",
+    "types": [
+      "flying",
+      "steel"
+    ]
   },
   {
     "id": 824,
-    "name": "blipbug"
+    "name": "blipbug",
+    "displayName": "Blipbug",
+    "genus": "Larva Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 825,
-    "name": "dottler"
+    "name": "dottler",
+    "displayName": "Dottler",
+    "genus": "Radome Pokémon",
+    "types": [
+      "bug",
+      "psychic"
+    ]
   },
   {
     "id": 826,
-    "name": "orbeetle"
+    "name": "orbeetle",
+    "displayName": "Orbeetle",
+    "genus": "Seven Spot Pokémon",
+    "types": [
+      "bug",
+      "psychic"
+    ]
   },
   {
     "id": 827,
-    "name": "nickit"
+    "name": "nickit",
+    "displayName": "Nickit",
+    "genus": "Fox Pokémon",
+    "types": [
+      "dark"
+    ]
   },
   {
     "id": 828,
-    "name": "thievul"
+    "name": "thievul",
+    "displayName": "Thievul",
+    "genus": "Fox Pokémon",
+    "types": [
+      "dark"
+    ]
   },
   {
     "id": 829,
-    "name": "gossifleur"
+    "name": "gossifleur",
+    "displayName": "Gossifleur",
+    "genus": "Flowering Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 830,
-    "name": "eldegoss"
+    "name": "eldegoss",
+    "displayName": "Eldegoss",
+    "genus": "Cotton Bloom Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 831,
-    "name": "wooloo"
+    "name": "wooloo",
+    "displayName": "Wooloo",
+    "genus": "Sheep Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 832,
-    "name": "dubwool"
+    "name": "dubwool",
+    "displayName": "Dubwool",
+    "genus": "Sheep Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 833,
-    "name": "chewtle"
+    "name": "chewtle",
+    "displayName": "Chewtle",
+    "genus": "Snapping Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 834,
-    "name": "drednaw"
+    "name": "drednaw",
+    "displayName": "Drednaw",
+    "genus": "Bite Pokémon",
+    "types": [
+      "water",
+      "rock"
+    ]
   },
   {
     "id": 835,
-    "name": "yamper"
+    "name": "yamper",
+    "displayName": "Yamper",
+    "genus": "Puppy Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 836,
-    "name": "boltund"
+    "name": "boltund",
+    "displayName": "Boltund",
+    "genus": "Dog Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 837,
-    "name": "rolycoly"
+    "name": "rolycoly",
+    "displayName": "Rolycoly",
+    "genus": "Coal Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 838,
-    "name": "carkol"
+    "name": "carkol",
+    "displayName": "Carkol",
+    "genus": "Coal Pokémon",
+    "types": [
+      "rock",
+      "fire"
+    ]
   },
   {
     "id": 839,
-    "name": "coalossal"
+    "name": "coalossal",
+    "displayName": "Coalossal",
+    "genus": "Coal Pokémon",
+    "types": [
+      "rock",
+      "fire"
+    ]
   },
   {
     "id": 840,
-    "name": "applin"
+    "name": "applin",
+    "displayName": "Applin",
+    "genus": "Apple Core Pokémon",
+    "types": [
+      "grass",
+      "dragon"
+    ]
   },
   {
     "id": 841,
-    "name": "flapple"
+    "name": "flapple",
+    "displayName": "Flapple",
+    "genus": "Apple Wing Pokémon",
+    "types": [
+      "grass",
+      "dragon"
+    ]
   },
   {
     "id": 842,
-    "name": "appletun"
+    "name": "appletun",
+    "displayName": "Appletun",
+    "genus": "Apple Nectar Pokémon",
+    "types": [
+      "grass",
+      "dragon"
+    ]
   },
   {
     "id": 843,
-    "name": "silicobra"
+    "name": "silicobra",
+    "displayName": "Silicobra",
+    "genus": "Sand Snake Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 844,
-    "name": "sandaconda"
+    "name": "sandaconda",
+    "displayName": "Sandaconda",
+    "genus": "Sand Snake Pokémon",
+    "types": [
+      "ground"
+    ]
   },
   {
     "id": 845,
-    "name": "cramorant"
+    "name": "cramorant",
+    "displayName": "Cramorant",
+    "genus": "Gulp Pokémon",
+    "types": [
+      "flying",
+      "water"
+    ]
   },
   {
     "id": 846,
-    "name": "arrokuda"
+    "name": "arrokuda",
+    "displayName": "Arrokuda",
+    "genus": "Rush Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 847,
-    "name": "barraskewda"
+    "name": "barraskewda",
+    "displayName": "Barraskewda",
+    "genus": "Skewer Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 848,
-    "name": "toxel"
+    "name": "toxel",
+    "displayName": "Toxel",
+    "genus": "Baby Pokémon",
+    "types": [
+      "electric",
+      "poison"
+    ]
   },
   {
     "id": 849,
-    "name": "toxtricity"
+    "name": "toxtricity",
+    "displayName": "Toxtricity",
+    "genus": "Punk Pokémon",
+    "types": [
+      "electric",
+      "poison"
+    ]
   },
   {
     "id": 850,
-    "name": "sizzlipede"
+    "name": "sizzlipede",
+    "displayName": "Sizzlipede",
+    "genus": "Radiator Pokémon",
+    "types": [
+      "fire",
+      "bug"
+    ]
   },
   {
     "id": 851,
-    "name": "centiskorch"
+    "name": "centiskorch",
+    "displayName": "Centiskorch",
+    "genus": "Radiator Pokémon",
+    "types": [
+      "fire",
+      "bug"
+    ]
   },
   {
     "id": 852,
-    "name": "clobbopus"
+    "name": "clobbopus",
+    "displayName": "Clobbopus",
+    "genus": "Tantrum Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 853,
-    "name": "grapploct"
+    "name": "grapploct",
+    "displayName": "Grapploct",
+    "genus": "Jujitsu Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 854,
-    "name": "sinistea"
+    "name": "sinistea",
+    "displayName": "Sinistea",
+    "genus": "Black Tea Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 855,
-    "name": "polteageist"
+    "name": "polteageist",
+    "displayName": "Polteageist",
+    "genus": "Black Tea Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 856,
-    "name": "hatenna"
+    "name": "hatenna",
+    "displayName": "Hatenna",
+    "genus": "Calm Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 857,
-    "name": "hattrem"
+    "name": "hattrem",
+    "displayName": "Hattrem",
+    "genus": "Serene Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 858,
-    "name": "hatterene"
+    "name": "hatterene",
+    "displayName": "Hatterene",
+    "genus": "Silent Pokémon",
+    "types": [
+      "psychic",
+      "fairy"
+    ]
   },
   {
     "id": 859,
-    "name": "impidimp"
+    "name": "impidimp",
+    "displayName": "Impidimp",
+    "genus": "Wily Pokémon",
+    "types": [
+      "dark",
+      "fairy"
+    ]
   },
   {
     "id": 860,
-    "name": "morgrem"
+    "name": "morgrem",
+    "displayName": "Morgrem",
+    "genus": "Devious Pokémon",
+    "types": [
+      "dark",
+      "fairy"
+    ]
   },
   {
     "id": 861,
-    "name": "grimmsnarl"
+    "name": "grimmsnarl",
+    "displayName": "Grimmsnarl",
+    "genus": "Bulk Up Pokémon",
+    "types": [
+      "dark",
+      "fairy"
+    ]
   },
   {
     "id": 862,
-    "name": "obstagoon"
+    "name": "obstagoon",
+    "displayName": "Obstagoon",
+    "genus": "Blocking Pokémon",
+    "types": [
+      "dark",
+      "normal"
+    ]
   },
   {
     "id": 863,
-    "name": "perrserker"
+    "name": "perrserker",
+    "displayName": "Perrserker",
+    "genus": "Viking Pokémon",
+    "types": [
+      "steel"
+    ]
   },
   {
     "id": 864,
-    "name": "cursola"
+    "name": "cursola",
+    "displayName": "Cursola",
+    "genus": "Coral Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 865,
-    "name": "sirfetchd"
+    "name": "sirfetchd",
+    "displayName": "Sirfetch’d",
+    "genus": "Wild Duck Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 866,
-    "name": "mr-rime"
+    "name": "mr-rime",
+    "displayName": "Mr. Rime",
+    "genus": "Comedian Pokémon",
+    "types": [
+      "ice",
+      "psychic"
+    ]
   },
   {
     "id": 867,
-    "name": "runerigus"
+    "name": "runerigus",
+    "displayName": "Runerigus",
+    "genus": "Grudge Pokémon",
+    "types": [
+      "ground",
+      "ghost"
+    ]
   },
   {
     "id": 868,
-    "name": "milcery"
+    "name": "milcery",
+    "displayName": "Milcery",
+    "genus": "Cream Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 869,
-    "name": "alcremie"
+    "name": "alcremie",
+    "displayName": "Alcremie",
+    "genus": "Cream Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 870,
-    "name": "falinks"
+    "name": "falinks",
+    "displayName": "Falinks",
+    "genus": "Formation Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 871,
-    "name": "pincurchin"
+    "name": "pincurchin",
+    "displayName": "Pincurchin",
+    "genus": "Sea Urchin Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 872,
-    "name": "snom"
+    "name": "snom",
+    "displayName": "Snom",
+    "genus": "Worm Pokémon",
+    "types": [
+      "ice",
+      "bug"
+    ]
   },
   {
     "id": 873,
-    "name": "frosmoth"
+    "name": "frosmoth",
+    "displayName": "Frosmoth",
+    "genus": "Frost Moth Pokémon",
+    "types": [
+      "ice",
+      "bug"
+    ]
   },
   {
     "id": 874,
-    "name": "stonjourner"
+    "name": "stonjourner",
+    "displayName": "Stonjourner",
+    "genus": "Big Rock Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 875,
-    "name": "eiscue"
+    "name": "eiscue",
+    "displayName": "Eiscue",
+    "genus": "Penguin Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 876,
-    "name": "indeedee"
+    "name": "indeedee",
+    "displayName": "Indeedee",
+    "genus": "Emotion Pokémon",
+    "types": [
+      "psychic",
+      "normal"
+    ]
   },
   {
     "id": 877,
-    "name": "morpeko"
+    "name": "morpeko",
+    "displayName": "Morpeko",
+    "genus": "Two-Sided Pokémon",
+    "types": [
+      "electric",
+      "dark"
+    ]
   },
   {
     "id": 878,
-    "name": "cufant"
+    "name": "cufant",
+    "displayName": "Cufant",
+    "genus": "Copperderm Pokémon",
+    "types": [
+      "steel"
+    ]
   },
   {
     "id": 879,
-    "name": "copperajah"
+    "name": "copperajah",
+    "displayName": "Copperajah",
+    "genus": "Copperderm Pokémon",
+    "types": [
+      "steel"
+    ]
   },
   {
     "id": 880,
-    "name": "dracozolt"
+    "name": "dracozolt",
+    "displayName": "Dracozolt",
+    "genus": "Fossil Pokémon",
+    "types": [
+      "electric",
+      "dragon"
+    ]
   },
   {
     "id": 881,
-    "name": "arctozolt"
+    "name": "arctozolt",
+    "displayName": "Arctozolt",
+    "genus": "Fossil Pokémon",
+    "types": [
+      "electric",
+      "ice"
+    ]
   },
   {
     "id": 882,
-    "name": "dracovish"
+    "name": "dracovish",
+    "displayName": "Dracovish",
+    "genus": "Fossil Pokémon",
+    "types": [
+      "water",
+      "dragon"
+    ]
   },
   {
     "id": 883,
-    "name": "arctovish"
+    "name": "arctovish",
+    "displayName": "Arctovish",
+    "genus": "Fossil Pokémon",
+    "types": [
+      "water",
+      "ice"
+    ]
   },
   {
     "id": 884,
-    "name": "duraludon"
+    "name": "duraludon",
+    "displayName": "Duraludon",
+    "genus": "Alloy Pokémon",
+    "types": [
+      "steel",
+      "dragon"
+    ]
   },
   {
     "id": 885,
-    "name": "dreepy"
+    "name": "dreepy",
+    "displayName": "Dreepy",
+    "genus": "Lingering Pokémon",
+    "types": [
+      "dragon",
+      "ghost"
+    ]
   },
   {
     "id": 886,
-    "name": "drakloak"
+    "name": "drakloak",
+    "displayName": "Drakloak",
+    "genus": "Caretaker Pokémon",
+    "types": [
+      "dragon",
+      "ghost"
+    ]
   },
   {
     "id": 887,
-    "name": "dragapult"
+    "name": "dragapult",
+    "displayName": "Dragapult",
+    "genus": "Stealth Pokémon",
+    "types": [
+      "dragon",
+      "ghost"
+    ]
   },
   {
     "id": 888,
-    "name": "zacian"
+    "name": "zacian",
+    "displayName": "Zacian",
+    "genus": "Warrior Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 889,
-    "name": "zamazenta"
+    "name": "zamazenta",
+    "displayName": "Zamazenta",
+    "genus": "Warrior Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 890,
-    "name": "eternatus"
+    "name": "eternatus",
+    "displayName": "Eternatus",
+    "genus": "Gigantic Pokémon",
+    "types": [
+      "poison",
+      "dragon"
+    ]
   },
   {
     "id": 891,
-    "name": "kubfu"
+    "name": "kubfu",
+    "displayName": "Kubfu",
+    "genus": "Wushu Pokémon",
+    "types": [
+      "fighting"
+    ]
   },
   {
     "id": 892,
-    "name": "urshifu"
+    "name": "urshifu",
+    "displayName": "Urshifu",
+    "genus": "Wushu Pokémon",
+    "types": [
+      "fighting",
+      "dark"
+    ]
   },
   {
     "id": 893,
-    "name": "zarude"
+    "name": "zarude",
+    "displayName": "Zarude",
+    "genus": "Rogue Monkey Pokémon",
+    "types": [
+      "dark",
+      "grass"
+    ]
   },
   {
     "id": 894,
-    "name": "regieleki"
+    "name": "regieleki",
+    "displayName": "Regieleki",
+    "genus": "Electron Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 895,
-    "name": "regidrago"
+    "name": "regidrago",
+    "displayName": "Regidrago",
+    "genus": "Dragon Orb Pokémon",
+    "types": [
+      "dragon"
+    ]
   },
   {
     "id": 896,
-    "name": "glastrier"
+    "name": "glastrier",
+    "displayName": "Glastrier",
+    "genus": "Wild Horse Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 897,
-    "name": "spectrier"
+    "name": "spectrier",
+    "displayName": "Spectrier",
+    "genus": "Swift Horse Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 898,
-    "name": "calyrex"
+    "name": "calyrex",
+    "displayName": "Calyrex",
+    "genus": "King Pokémon",
+    "types": [
+      "psychic",
+      "grass"
+    ]
   },
   {
     "id": 899,
-    "name": "wyrdeer"
+    "name": "wyrdeer",
+    "displayName": "Wyrdeer",
+    "genus": "Big Horn Pokémon",
+    "types": [
+      "normal",
+      "psychic"
+    ]
   },
   {
     "id": 900,
-    "name": "kleavor"
+    "name": "kleavor",
+    "displayName": "Kleavor",
+    "genus": "Axe Pokémon",
+    "types": [
+      "bug",
+      "rock"
+    ]
   },
   {
     "id": 901,
-    "name": "ursaluna"
+    "name": "ursaluna",
+    "displayName": "Ursaluna",
+    "genus": "Peat Pokémon",
+    "types": [
+      "ground",
+      "normal"
+    ]
   },
   {
     "id": 902,
-    "name": "basculegion"
+    "name": "basculegion",
+    "displayName": "Basculegion",
+    "genus": "Big Fish Pokémon",
+    "types": [
+      "water",
+      "ghost"
+    ]
   },
   {
     "id": 903,
-    "name": "sneasler"
+    "name": "sneasler",
+    "displayName": "Sneasler",
+    "genus": "Free Climb Pokémon",
+    "types": [
+      "fighting",
+      "poison"
+    ]
   },
   {
     "id": 904,
-    "name": "overqwil"
+    "name": "overqwil",
+    "displayName": "Overqwil",
+    "genus": "Pin Cluster Pokémon",
+    "types": [
+      "dark",
+      "poison"
+    ]
   },
   {
     "id": 905,
-    "name": "enamorus"
+    "name": "enamorus",
+    "displayName": "Enamorus",
+    "genus": "Love-Hate Pokémon",
+    "types": [
+      "fairy",
+      "flying"
+    ]
   },
   {
     "id": 906,
-    "name": "sprigatito"
+    "name": "sprigatito",
+    "displayName": "Sprigatito",
+    "genus": "Grass Cat Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 907,
-    "name": "floragato"
+    "name": "floragato",
+    "displayName": "Floragato",
+    "genus": "Grass Cat Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 908,
-    "name": "meowscarada"
+    "name": "meowscarada",
+    "displayName": "Meowscarada",
+    "genus": "Magician Pokémon",
+    "types": [
+      "grass",
+      "dark"
+    ]
   },
   {
     "id": 909,
-    "name": "fuecoco"
+    "name": "fuecoco",
+    "displayName": "Fuecoco",
+    "genus": "Fire Croc Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 910,
-    "name": "crocalor"
+    "name": "crocalor",
+    "displayName": "Crocalor",
+    "genus": "Fire Croc Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 911,
-    "name": "skeledirge"
+    "name": "skeledirge",
+    "displayName": "Skeledirge",
+    "genus": "Singer Pokémon",
+    "types": [
+      "fire",
+      "ghost"
+    ]
   },
   {
     "id": 912,
-    "name": "quaxly"
+    "name": "quaxly",
+    "displayName": "Quaxly",
+    "genus": "Duckling Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 913,
-    "name": "quaxwell"
+    "name": "quaxwell",
+    "displayName": "Quaxwell",
+    "genus": "Practicing Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 914,
-    "name": "quaquaval"
+    "name": "quaquaval",
+    "displayName": "Quaquaval",
+    "genus": "Dancer Pokémon",
+    "types": [
+      "water",
+      "fighting"
+    ]
   },
   {
     "id": 915,
-    "name": "lechonk"
+    "name": "lechonk",
+    "displayName": "Lechonk",
+    "genus": "Hog Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 916,
-    "name": "oinkologne"
+    "name": "oinkologne",
+    "displayName": "Oinkologne",
+    "genus": "Hog Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 917,
-    "name": "tarountula"
+    "name": "tarountula",
+    "displayName": "Tarountula",
+    "genus": "String Ball Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 918,
-    "name": "spidops"
+    "name": "spidops",
+    "displayName": "Spidops",
+    "genus": "Trap Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 919,
-    "name": "nymble"
+    "name": "nymble",
+    "displayName": "Nymble",
+    "genus": "Grasshopper Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 920,
-    "name": "lokix"
+    "name": "lokix",
+    "displayName": "Lokix",
+    "genus": "Grasshopper Pokémon",
+    "types": [
+      "bug",
+      "dark"
+    ]
   },
   {
     "id": 921,
-    "name": "pawmi"
+    "name": "pawmi",
+    "displayName": "Pawmi",
+    "genus": "Mouse Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 922,
-    "name": "pawmo"
+    "name": "pawmo",
+    "displayName": "Pawmo",
+    "genus": "Mouse Pokémon",
+    "types": [
+      "electric",
+      "fighting"
+    ]
   },
   {
     "id": 923,
-    "name": "pawmot"
+    "name": "pawmot",
+    "displayName": "Pawmot",
+    "genus": "Hands-On Pokémon",
+    "types": [
+      "electric",
+      "fighting"
+    ]
   },
   {
     "id": 924,
-    "name": "tandemaus"
+    "name": "tandemaus",
+    "displayName": "Tandemaus",
+    "genus": "Couple Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 925,
-    "name": "maushold"
+    "name": "maushold",
+    "displayName": "Maushold",
+    "genus": "Family Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 926,
-    "name": "fidough"
+    "name": "fidough",
+    "displayName": "Fidough",
+    "genus": "Puppy Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 927,
-    "name": "dachsbun"
+    "name": "dachsbun",
+    "displayName": "Dachsbun",
+    "genus": "Dog Pokémon",
+    "types": [
+      "fairy"
+    ]
   },
   {
     "id": 928,
-    "name": "smoliv"
+    "name": "smoliv",
+    "displayName": "Smoliv",
+    "genus": "Olive Pokémon",
+    "types": [
+      "grass",
+      "normal"
+    ]
   },
   {
     "id": 929,
-    "name": "dolliv"
+    "name": "dolliv",
+    "displayName": "Dolliv",
+    "genus": "Olive Pokémon",
+    "types": [
+      "grass",
+      "normal"
+    ]
   },
   {
     "id": 930,
-    "name": "arboliva"
+    "name": "arboliva",
+    "displayName": "Arboliva",
+    "genus": "Olive Pokémon",
+    "types": [
+      "grass",
+      "normal"
+    ]
   },
   {
     "id": 931,
-    "name": "squawkabilly"
+    "name": "squawkabilly",
+    "displayName": "Squawkabilly",
+    "genus": "Parrot Pokémon",
+    "types": [
+      "normal",
+      "flying"
+    ]
   },
   {
     "id": 932,
-    "name": "nacli"
+    "name": "nacli",
+    "displayName": "Nacli",
+    "genus": "Rock Salt Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 933,
-    "name": "naclstack"
+    "name": "naclstack",
+    "displayName": "Naclstack",
+    "genus": "Rock Salt Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 934,
-    "name": "garganacl"
+    "name": "garganacl",
+    "displayName": "Garganacl",
+    "genus": "Rock Salt Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 935,
-    "name": "charcadet"
+    "name": "charcadet",
+    "displayName": "Charcadet",
+    "genus": "Fire Child Pokémon",
+    "types": [
+      "fire"
+    ]
   },
   {
     "id": 936,
-    "name": "armarouge"
+    "name": "armarouge",
+    "displayName": "Armarouge",
+    "genus": "Fire Warrior Pokémon",
+    "types": [
+      "fire",
+      "psychic"
+    ]
   },
   {
     "id": 937,
-    "name": "ceruledge"
+    "name": "ceruledge",
+    "displayName": "Ceruledge",
+    "genus": "Fire Blades Pokémon",
+    "types": [
+      "fire",
+      "ghost"
+    ]
   },
   {
     "id": 938,
-    "name": "tadbulb"
+    "name": "tadbulb",
+    "displayName": "Tadbulb",
+    "genus": "EleTadpole Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 939,
-    "name": "bellibolt"
+    "name": "bellibolt",
+    "displayName": "Bellibolt",
+    "genus": "EleFrog Pokémon",
+    "types": [
+      "electric"
+    ]
   },
   {
     "id": 940,
-    "name": "wattrel"
+    "name": "wattrel",
+    "displayName": "Wattrel",
+    "genus": "Storm Petrel Pokémon",
+    "types": [
+      "electric",
+      "flying"
+    ]
   },
   {
     "id": 941,
-    "name": "kilowattrel"
+    "name": "kilowattrel",
+    "displayName": "Kilowattrel",
+    "genus": "Frigatebird Pokémon",
+    "types": [
+      "electric",
+      "flying"
+    ]
   },
   {
     "id": 942,
-    "name": "maschiff"
+    "name": "maschiff",
+    "displayName": "Maschiff",
+    "genus": "Rascal Pokémon",
+    "types": [
+      "dark"
+    ]
   },
   {
     "id": 943,
-    "name": "mabosstiff"
+    "name": "mabosstiff",
+    "displayName": "Mabosstiff",
+    "genus": "Boss Pokémon",
+    "types": [
+      "dark"
+    ]
   },
   {
     "id": 944,
-    "name": "shroodle"
+    "name": "shroodle",
+    "displayName": "Shroodle",
+    "genus": "Toxic Mouse Pokémon",
+    "types": [
+      "poison",
+      "normal"
+    ]
   },
   {
     "id": 945,
-    "name": "grafaiai"
+    "name": "grafaiai",
+    "displayName": "Grafaiai",
+    "genus": "Toxic Monkey Pokémon",
+    "types": [
+      "poison",
+      "normal"
+    ]
   },
   {
     "id": 946,
-    "name": "bramblin"
+    "name": "bramblin",
+    "displayName": "Bramblin",
+    "genus": "Tumbleweed Pokémon",
+    "types": [
+      "grass",
+      "ghost"
+    ]
   },
   {
     "id": 947,
-    "name": "brambleghast"
+    "name": "brambleghast",
+    "displayName": "Brambleghast",
+    "genus": "Tumbleweed Pokémon",
+    "types": [
+      "grass",
+      "ghost"
+    ]
   },
   {
     "id": 948,
-    "name": "toedscool"
+    "name": "toedscool",
+    "displayName": "Toedscool",
+    "genus": "Woodear Pokémon",
+    "types": [
+      "ground",
+      "grass"
+    ]
   },
   {
     "id": 949,
-    "name": "toedscruel"
+    "name": "toedscruel",
+    "displayName": "Toedscruel",
+    "genus": "Woodear Pokémon",
+    "types": [
+      "ground",
+      "grass"
+    ]
   },
   {
     "id": 950,
-    "name": "klawf"
+    "name": "klawf",
+    "displayName": "Klawf",
+    "genus": "Ambush Pokémon",
+    "types": [
+      "rock"
+    ]
   },
   {
     "id": 951,
-    "name": "capsakid"
+    "name": "capsakid",
+    "displayName": "Capsakid",
+    "genus": "Spicy Pepper Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 952,
-    "name": "scovillain"
+    "name": "scovillain",
+    "displayName": "Scovillain",
+    "genus": "Spicy Pepper Pokémon",
+    "types": [
+      "grass",
+      "fire"
+    ]
   },
   {
     "id": 953,
-    "name": "rellor"
+    "name": "rellor",
+    "displayName": "Rellor",
+    "genus": "Rolling Pokémon",
+    "types": [
+      "bug"
+    ]
   },
   {
     "id": 954,
-    "name": "rabsca"
+    "name": "rabsca",
+    "displayName": "Rabsca",
+    "genus": "Rolling Pokémon",
+    "types": [
+      "bug",
+      "psychic"
+    ]
   },
   {
     "id": 955,
-    "name": "flittle"
+    "name": "flittle",
+    "displayName": "Flittle",
+    "genus": "Frill Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 956,
-    "name": "espathra"
+    "name": "espathra",
+    "displayName": "Espathra",
+    "genus": "Ostrich Pokémon",
+    "types": [
+      "psychic"
+    ]
   },
   {
     "id": 957,
-    "name": "tinkatink"
+    "name": "tinkatink",
+    "displayName": "Tinkatink",
+    "genus": "Metalsmith Pokémon",
+    "types": [
+      "fairy",
+      "steel"
+    ]
   },
   {
     "id": 958,
-    "name": "tinkatuff"
+    "name": "tinkatuff",
+    "displayName": "Tinkatuff",
+    "genus": "Hammer Pokémon",
+    "types": [
+      "fairy",
+      "steel"
+    ]
   },
   {
     "id": 959,
-    "name": "tinkaton"
+    "name": "tinkaton",
+    "displayName": "Tinkaton",
+    "genus": "Hammer Pokémon",
+    "types": [
+      "fairy",
+      "steel"
+    ]
   },
   {
     "id": 960,
-    "name": "wiglett"
+    "name": "wiglett",
+    "displayName": "Wiglett",
+    "genus": "Garden Eel Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 961,
-    "name": "wugtrio"
+    "name": "wugtrio",
+    "displayName": "Wugtrio",
+    "genus": "Garden Eel Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 962,
-    "name": "bombirdier"
+    "name": "bombirdier",
+    "displayName": "Bombirdier",
+    "genus": "Item Drop Pokémon",
+    "types": [
+      "flying",
+      "dark"
+    ]
   },
   {
     "id": 963,
-    "name": "finizen"
+    "name": "finizen",
+    "displayName": "Finizen",
+    "genus": "Dolphin Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 964,
-    "name": "palafin"
+    "name": "palafin",
+    "displayName": "Palafin",
+    "genus": "Dolphin Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 965,
-    "name": "varoom"
+    "name": "varoom",
+    "displayName": "Varoom",
+    "genus": "Single-Cyl Pokémon",
+    "types": [
+      "steel",
+      "poison"
+    ]
   },
   {
     "id": 966,
-    "name": "revavroom"
+    "name": "revavroom",
+    "displayName": "Revavroom",
+    "genus": "Multi-Cyl Pokémon",
+    "types": [
+      "steel",
+      "poison"
+    ]
   },
   {
     "id": 967,
-    "name": "cyclizar"
+    "name": "cyclizar",
+    "displayName": "Cyclizar",
+    "genus": "Mount Pokémon",
+    "types": [
+      "dragon",
+      "normal"
+    ]
   },
   {
     "id": 968,
-    "name": "orthworm"
+    "name": "orthworm",
+    "displayName": "Orthworm",
+    "genus": "Earthworm Pokémon",
+    "types": [
+      "steel"
+    ]
   },
   {
     "id": 969,
-    "name": "glimmet"
+    "name": "glimmet",
+    "displayName": "Glimmet",
+    "genus": "Ore Pokémon",
+    "types": [
+      "rock",
+      "poison"
+    ]
   },
   {
     "id": 970,
-    "name": "glimmora"
+    "name": "glimmora",
+    "displayName": "Glimmora",
+    "genus": "Ore Pokémon",
+    "types": [
+      "rock",
+      "poison"
+    ]
   },
   {
     "id": 971,
-    "name": "greavard"
+    "name": "greavard",
+    "displayName": "Greavard",
+    "genus": "Ghost Dog Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 972,
-    "name": "houndstone"
+    "name": "houndstone",
+    "displayName": "Houndstone",
+    "genus": "Ghost Dog Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 973,
-    "name": "flamigo"
+    "name": "flamigo",
+    "displayName": "Flamigo",
+    "genus": "Synchronize Pokémon",
+    "types": [
+      "flying",
+      "fighting"
+    ]
   },
   {
     "id": 974,
-    "name": "cetoddle"
+    "name": "cetoddle",
+    "displayName": "Cetoddle",
+    "genus": "Terra Whale Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 975,
-    "name": "cetitan"
+    "name": "cetitan",
+    "displayName": "Cetitan",
+    "genus": "Terra Whale Pokémon",
+    "types": [
+      "ice"
+    ]
   },
   {
     "id": 976,
-    "name": "veluza"
+    "name": "veluza",
+    "displayName": "Veluza",
+    "genus": "Jettison Pokémon",
+    "types": [
+      "water",
+      "psychic"
+    ]
   },
   {
     "id": 977,
-    "name": "dondozo"
+    "name": "dondozo",
+    "displayName": "Dondozo",
+    "genus": "Big Catfish Pokémon",
+    "types": [
+      "water"
+    ]
   },
   {
     "id": 978,
-    "name": "tatsugiri"
+    "name": "tatsugiri",
+    "displayName": "Tatsugiri",
+    "genus": "Mimicry Pokémon",
+    "types": [
+      "dragon",
+      "water"
+    ]
   },
   {
     "id": 979,
-    "name": "annihilape"
+    "name": "annihilape",
+    "displayName": "Annihilape",
+    "genus": "Rage Monkey Pokémon",
+    "types": [
+      "fighting",
+      "ghost"
+    ]
   },
   {
     "id": 980,
-    "name": "clodsire"
+    "name": "clodsire",
+    "displayName": "Clodsire",
+    "genus": "Spiny Fish Pokémon",
+    "types": [
+      "poison",
+      "ground"
+    ]
   },
   {
     "id": 981,
-    "name": "farigiraf"
+    "name": "farigiraf",
+    "displayName": "Farigiraf",
+    "genus": "Long Neck Pokémon",
+    "types": [
+      "normal",
+      "psychic"
+    ]
   },
   {
     "id": 982,
-    "name": "dudunsparce"
+    "name": "dudunsparce",
+    "displayName": "Dudunsparce",
+    "genus": "Land Snake Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 983,
-    "name": "kingambit"
+    "name": "kingambit",
+    "displayName": "Kingambit",
+    "genus": "Big Blade Pokémon",
+    "types": [
+      "dark",
+      "steel"
+    ]
   },
   {
     "id": 984,
-    "name": "great-tusk"
+    "name": "great-tusk",
+    "displayName": "Great Tusk",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "ground",
+      "fighting"
+    ]
   },
   {
     "id": 985,
-    "name": "scream-tail"
+    "name": "scream-tail",
+    "displayName": "Scream Tail",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "fairy",
+      "psychic"
+    ]
   },
   {
     "id": 986,
-    "name": "brute-bonnet"
+    "name": "brute-bonnet",
+    "displayName": "Brute Bonnet",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "grass",
+      "dark"
+    ]
   },
   {
     "id": 987,
-    "name": "flutter-mane"
+    "name": "flutter-mane",
+    "displayName": "Flutter Mane",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "ghost",
+      "fairy"
+    ]
   },
   {
     "id": 988,
-    "name": "slither-wing"
+    "name": "slither-wing",
+    "displayName": "Slither Wing",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "bug",
+      "fighting"
+    ]
   },
   {
     "id": 989,
-    "name": "sandy-shocks"
+    "name": "sandy-shocks",
+    "displayName": "Sandy Shocks",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "electric",
+      "ground"
+    ]
   },
   {
     "id": 990,
-    "name": "iron-treads"
+    "name": "iron-treads",
+    "displayName": "Iron Treads",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "ground",
+      "steel"
+    ]
   },
   {
     "id": 991,
-    "name": "iron-bundle"
+    "name": "iron-bundle",
+    "displayName": "Iron Bundle",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "ice",
+      "water"
+    ]
   },
   {
     "id": 992,
-    "name": "iron-hands"
+    "name": "iron-hands",
+    "displayName": "Iron Hands",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "fighting",
+      "electric"
+    ]
   },
   {
     "id": 993,
-    "name": "iron-jugulis"
+    "name": "iron-jugulis",
+    "displayName": "Iron Jugulis",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "dark",
+      "flying"
+    ]
   },
   {
     "id": 994,
-    "name": "iron-moth"
+    "name": "iron-moth",
+    "displayName": "Iron Moth",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "fire",
+      "poison"
+    ]
   },
   {
     "id": 995,
-    "name": "iron-thorns"
+    "name": "iron-thorns",
+    "displayName": "Iron Thorns",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "rock",
+      "electric"
+    ]
   },
   {
     "id": 996,
-    "name": "frigibax"
+    "name": "frigibax",
+    "displayName": "Frigibax",
+    "genus": "Ice Fin Pokémon",
+    "types": [
+      "dragon",
+      "ice"
+    ]
   },
   {
     "id": 997,
-    "name": "arctibax"
+    "name": "arctibax",
+    "displayName": "Arctibax",
+    "genus": "Ice Fin Pokémon",
+    "types": [
+      "dragon",
+      "ice"
+    ]
   },
   {
     "id": 998,
-    "name": "baxcalibur"
+    "name": "baxcalibur",
+    "displayName": "Baxcalibur",
+    "genus": "Ice Dragon Pokémon",
+    "types": [
+      "dragon",
+      "ice"
+    ]
   },
   {
     "id": 999,
-    "name": "gimmighoul"
+    "name": "gimmighoul",
+    "displayName": "Gimmighoul",
+    "genus": "Coin Chest Pokémon",
+    "types": [
+      "ghost"
+    ]
   },
   {
     "id": 1000,
-    "name": "gholdengo"
+    "name": "gholdengo",
+    "displayName": "Gholdengo",
+    "genus": "Coin Entity Pokémon",
+    "types": [
+      "steel",
+      "ghost"
+    ]
   },
   {
     "id": 1001,
-    "name": "wo-chien"
+    "name": "wo-chien",
+    "displayName": "Wo-Chien",
+    "genus": "Ruinous Pokémon",
+    "types": [
+      "dark",
+      "grass"
+    ]
   },
   {
     "id": 1002,
-    "name": "chien-pao"
+    "name": "chien-pao",
+    "displayName": "Chien-Pao",
+    "genus": "Ruinous Pokémon",
+    "types": [
+      "dark",
+      "ice"
+    ]
   },
   {
     "id": 1003,
-    "name": "ting-lu"
+    "name": "ting-lu",
+    "displayName": "Ting-Lu",
+    "genus": "Ruinous Pokémon",
+    "types": [
+      "dark",
+      "ground"
+    ]
   },
   {
     "id": 1004,
-    "name": "chi-yu"
+    "name": "chi-yu",
+    "displayName": "Chi-Yu",
+    "genus": "Ruinous Pokémon",
+    "types": [
+      "dark",
+      "fire"
+    ]
   },
   {
     "id": 1005,
-    "name": "roaring-moon"
+    "name": "roaring-moon",
+    "displayName": "Roaring Moon",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "dragon",
+      "dark"
+    ]
   },
   {
     "id": 1006,
-    "name": "iron-valiant"
+    "name": "iron-valiant",
+    "displayName": "Iron Valiant",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "fairy",
+      "fighting"
+    ]
   },
   {
     "id": 1007,
-    "name": "koraidon"
+    "name": "koraidon",
+    "displayName": "Koraidon",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "fighting",
+      "dragon"
+    ]
   },
   {
     "id": 1008,
-    "name": "miraidon"
+    "name": "miraidon",
+    "displayName": "Miraidon",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "electric",
+      "dragon"
+    ]
   },
   {
     "id": 1009,
-    "name": "walking-wake"
+    "name": "walking-wake",
+    "displayName": "Walking Wake",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "water",
+      "dragon"
+    ]
   },
   {
     "id": 1010,
-    "name": "iron-leaves"
+    "name": "iron-leaves",
+    "displayName": "Iron Leaves",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "grass",
+      "psychic"
+    ]
   },
   {
     "id": 1011,
-    "name": "dipplin"
+    "name": "dipplin",
+    "displayName": "Dipplin",
+    "genus": "Candy Apple Pokémon",
+    "types": [
+      "grass",
+      "dragon"
+    ]
   },
   {
     "id": 1012,
-    "name": "poltchageist"
+    "name": "poltchageist",
+    "displayName": "Poltchageist",
+    "genus": "Matcha Pokémon",
+    "types": [
+      "grass",
+      "ghost"
+    ]
   },
   {
     "id": 1013,
-    "name": "sinistcha"
+    "name": "sinistcha",
+    "displayName": "Sinistcha",
+    "genus": "Matcha Pokémon",
+    "types": [
+      "grass",
+      "ghost"
+    ]
   },
   {
     "id": 1014,
-    "name": "okidogi"
+    "name": "okidogi",
+    "displayName": "Okidogi",
+    "genus": "Retainer Pokémon",
+    "types": [
+      "poison",
+      "fighting"
+    ]
   },
   {
     "id": 1015,
-    "name": "munkidori"
+    "name": "munkidori",
+    "displayName": "Munkidori",
+    "genus": "Retainer Pokémon",
+    "types": [
+      "poison",
+      "psychic"
+    ]
   },
   {
     "id": 1016,
-    "name": "fezandipiti"
+    "name": "fezandipiti",
+    "displayName": "Fezandipiti",
+    "genus": "Retainer Pokémon",
+    "types": [
+      "poison",
+      "fairy"
+    ]
   },
   {
     "id": 1017,
-    "name": "ogerpon"
+    "name": "ogerpon",
+    "displayName": "Ogerpon",
+    "genus": "Mask Pokémon",
+    "types": [
+      "grass"
+    ]
   },
   {
     "id": 1018,
-    "name": "archaludon"
+    "name": "archaludon",
+    "displayName": "Archaludon",
+    "genus": "Alloy Pokémon",
+    "types": [
+      "steel",
+      "dragon"
+    ]
   },
   {
     "id": 1019,
-    "name": "hydrapple"
+    "name": "hydrapple",
+    "displayName": "Hydrapple",
+    "genus": "Apple Hydra Pokémon",
+    "types": [
+      "grass",
+      "dragon"
+    ]
   },
   {
     "id": 1020,
-    "name": "gouging-fire"
+    "name": "gouging-fire",
+    "displayName": "Gouging Fire",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "fire",
+      "dragon"
+    ]
   },
   {
     "id": 1021,
-    "name": "raging-bolt"
+    "name": "raging-bolt",
+    "displayName": "Raging Bolt",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "electric",
+      "dragon"
+    ]
   },
   {
     "id": 1022,
-    "name": "iron-boulder"
+    "name": "iron-boulder",
+    "displayName": "Iron Boulder",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "rock",
+      "psychic"
+    ]
   },
   {
     "id": 1023,
-    "name": "iron-crown"
+    "name": "iron-crown",
+    "displayName": "Iron Crown",
+    "genus": "Paradox Pokémon",
+    "types": [
+      "steel",
+      "psychic"
+    ]
   },
   {
     "id": 1024,
-    "name": "terapagos"
+    "name": "terapagos",
+    "displayName": "Terapagos",
+    "genus": "Tera Pokémon",
+    "types": [
+      "normal"
+    ]
   },
   {
     "id": 1025,
-    "name": "pecharunt"
+    "name": "pecharunt",
+    "displayName": "Pecharunt",
+    "genus": "Subjugation Pokémon",
+    "types": [
+      "poison",
+      "ghost"
+    ]
   }
 ]
