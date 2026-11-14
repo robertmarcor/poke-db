@@ -158,19 +158,24 @@ export default function Card3D() {
     const drawNext = () =>
       drawFace(draft, allPokemon[Math.floor(Math.random() * allPokemon.length)]).catch(() => {});
 
-    // where the card should be turned to: toward the pointer
+    // where the card should be turned to: toward the pointer while it is over the card, else straight
     let turnX = 0;
     let turnY = 0;
     let y = 0; // the turn toward the pointer so far, without the flip
     let hover = false;
     let flipAt = 0; // when the current flip started; 0 when not flipping
     const onMove = (e: PointerEvent) => {
-      turnY = (e.clientX / innerWidth - 0.5) * 1.4;
-      turnX = (e.clientY / innerHeight - 0.5) * 1;
+      const area = el.getBoundingClientRect();
+      turnY = ((e.clientX - area.left) / area.width - 0.5) * 1.4;
+      turnX = ((e.clientY - area.top) / area.height - 0.5) * 1;
       sun.position.set(-turnY * 6, turnX * 6 + 2, 4); // the glare slides across the card
     };
     const onEnter = () => (hover = true);
-    const onLeave = () => (hover = false);
+    const onLeave = () => {
+      hover = false;
+      turnX = turnY = 0;
+      sun.position.set(-2, 3, 4);
+    };
     const ease = (from: number, to: number) => from + (to - from) * 0.08;
 
     const frame = (time: number) => {
@@ -196,7 +201,7 @@ export default function Card3D() {
       renderer.render(scene, camera);
     };
 
-    addEventListener("pointermove", onMove);
+    el.addEventListener("pointermove", onMove);
     el.addEventListener("pointerenter", onEnter);
     el.addEventListener("pointerleave", onLeave);
     renderer.setAnimationLoop(frame);
@@ -205,7 +210,7 @@ export default function Card3D() {
 
     return () => {
       clearInterval(timer);
-      removeEventListener("pointermove", onMove);
+      el.removeEventListener("pointermove", onMove);
       el.removeEventListener("pointerenter", onEnter);
       el.removeEventListener("pointerleave", onLeave);
       renderer.setAnimationLoop(null);
