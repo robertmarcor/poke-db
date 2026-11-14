@@ -12,12 +12,14 @@ type Props = {
   selected: number[];
   // called with the new list when the player presses Confirm
   onConfirm: (gens: number[]) => void;
+  // the text and the look of the button that opens the picker
+  label: string;
+  className: string;
 };
 
-// A button showing the generations in play; clicking it opens a modal to change
-// them. Picks are a draft until Confirm: Escape or a click outside throws them away.
+// A button that opens a modal to choose the generations in play. Picks are a draft until Confirm: Escape or a click outside throws them away.
 // The modal is a native <dialog>, which brings the backdrop, Escape and focus handling.
-export default function GenPicker({ selected, onConfirm }: Props) {
+export default function GenPicker({ selected, onConfirm, label, className }: Props) {
   const dialog = useRef<HTMLDialogElement>(null);
   const titleId = useId();
   const [draft, setDraft] = useState(selected);
@@ -31,15 +33,16 @@ export default function GenPicker({ selected, onConfirm }: Props) {
 
   return (
     <>
-      <Button
-        variant="secondary"
+      <button
+        type="button"
+        className={`${className} ${focus}`}
         onClick={() => {
           setDraft(selected); // start from what is in play, not from an abandoned draft
           dialog.current?.showModal();
         }}
       >
-        {selected.length === allGens.length ? "All generations" : `Gen ${selected.join(", ")}`}
-      </Button>
+        {label}
+      </button>
 
       <dialog
         ref={dialog}

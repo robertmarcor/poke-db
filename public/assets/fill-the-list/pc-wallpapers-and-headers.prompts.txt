@@ -1,0 +1,20 @@
+Generated with the built-in image tool. Wallpaper variants: water, sand, brick, meadow flowers. Matching headers: grass, water, sand, brick, meadow flowers. All grayscale for accent tinting. Headers have no arrows or text. Header transparent margins trimmed for use. Browser integration and repeat seam verification pending.
+
+WALLPAPER BASE PROMPT
+Create ONE seamless repeating square wallpaper tile for the inside of a classic Pokemon PC storage box. Charming clean GBA/DS-inspired 2D pattern with subtle pixel-art edges, modern restrained refinement. STRICT neutral grayscale only for runtime accent tinting. Light-medium gray base, low contrast details so colorful Pokemon sprites remain legible on top. Flat top-down graphic, evenly lit edge to edge. Full bleed opaque texture designed to repeat in both axes. No border, frame, grid, cells, slots, text, logos, Pokemon, creatures, UI, vignette, perspective, glass or metal. Pattern small and evenly distributed; no central focal object. Single texture only, not a mockup or collection. Theme: 
+
+THEMES
+Water: gentle horizontal wavelets, staggered zigzag ripples, sparse pale glints.
+SAND. Quiet fine stippled sand with small diagonal gently curving dune-ripple lines and very sparse tiny rounded pebbles. Handheld-game pixel-inspired sand wallpaper, not photographic. Neutral monochrome gray only, low contrast.
+BRICK WALL. Small tidy horizontally laid rectangular masonry bricks, staggered running-bond rows, thin understated mortar lines, slight pixel-art speckle and tiny lighter top edges. About 16 small bricks across the tile. Nostalgic handheld PC wallpaper, flat low contrast pattern, no realistic depth or dramatic shadows. Bricks are decorative texture, NOT storage slots. Monochrome neutral gray.
+MEADOW FLOWERS. Sparse tiny five-petal flowers, paired little leaves, a few three-blade grass tufts and tiny pale ground dots scattered across a quiet gray field. Flowers small, simple pixel-inspired silhouettes, not large floral illustration. Similar scale to classic grass storage wallpaper. Neutral grayscale only.
+
+HEADER BASE PROMPT
+Generate ONE narrow horizontal title-header asset for a classic Pokemon PC storage box. 2D GBA/DS style crisp pixel art, NOT metal or glass. STRICT grayscale only, ready for accent tinting. A simple thin rectangular double-line pixel frame around a miniature landscape. Actual header about 7:1 width to height, centered on a wide transparent canvas with transparent padding above and below if necessary. Straight squared corners, small flat pale outer rim and charcoal inner line like classic handheld UI. No arrows, no text, letters, numbers, logos or creatures. Centre of interior quiet and relatively dark for white live box-title text to be placed later; scenic detail concentrated at left and right ends. Entire header fully visible with no cropping. No surrounding UI or backdrop. Scene theme: 
+
+HEADER THEMES
+Grass: rounded tree canopies and trunks at both ends, grassy ground, distant quiet foliage.
+Water: calm lake, small ripples, reeds and shore rocks at ends, faint distant shoreline.
+Sand: rolling dunes, small rocks and sparse tufts at ends, no sun disk.
+Brick: garden wall, masonry pillars and ivy at ends, low brick wall along bottom.
+Meadow flowers: daisies, leafy shrubs and grass at ends, gently rolling meadow below a quiet center.

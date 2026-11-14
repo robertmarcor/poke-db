@@ -1,9 +1,7 @@
 "use client";
 
 import { focus } from "../../components/Shell/shared";
-import { cryUrl } from "../../lib/pokemon";
-
-const VOLUME = 0.2; // the recordings are loud
+import { playCry } from "../../lib/pokemon";
 
 // A round button that plays the Pokémon's cry.
 export default function Cry({ id }: { id: number }) {
@@ -12,11 +10,7 @@ export default function Cry({ id }: { id: number }) {
       type="button"
       aria-label="Play cry"
       title="Play cry"
-      onClick={() => {
-        const cry = new Audio(cryUrl(id));
-        cry.volume = VOLUME;
-        cry.play();
-      }}
+      onClick={() => playCry(id)}
       className={`cursor-pointer rounded-full bg-background-accent/60 p-2 backdrop-blur-md hover:bg-foreground/10 ${focus}`}
     >
       <svg aria-hidden viewBox="0 0 24 24" className="size-4 fill-none stroke-current stroke-2">

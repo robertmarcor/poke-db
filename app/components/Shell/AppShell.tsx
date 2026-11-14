@@ -79,8 +79,16 @@ function PageTitle() {
   const name = decodeURIComponent(section || "home");
   if (!inside) return name;
   return (
-    <Link href={`/${section}`} aria-label={`Back to ${name}`} className={`pointer-events-auto rounded-full px-3 py-1 hover:bg-(--accent)/15 ${focus}`}>
-      ‹ {name}
+    // drawn as a button (outline, fill, arrow), so it reads as "back" and not as a title
+    <Link
+      href={`/${section}`}
+      aria-label={`Back to ${name}`}
+      className={`pointer-events-auto flex items-center gap-2 rounded-full border border-(--accent)/60 bg-(--accent)/15 py-1 pr-4 pl-3 hover:bg-(--accent)/30 ${focus}`}
+    >
+      <svg aria-hidden viewBox="0 0 24 24" className="size-4 fill-none stroke-current stroke-3">
+        <path d="M20 12H5M11 5l-7 7 7 7" strokeLinecap="round" strokeLinejoin="round" />
+      </svg>
+      {name}
     </Link>
   );
 }
@@ -94,9 +102,6 @@ function ScreenBackdrop({ color }: { color: string }) {
   const home = usePathname() === "/";
   return <div className={backdrop}>{home && <HudDial color={color} className="size-full" />}</div>;
 }
-
-// How the page-load shutters move: closed for `delay`, then open over `duration`.
-const shutter = { delay: 0.3, duration: 0.6, ease: [0.6, 0, 0.2, 1] } as const;
 
 // Wide screens start with the menu open.
 const wide = "(width >= 64rem)";
@@ -144,7 +149,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   const showHint = toggled === null && !hintOff;
   // whether the theme picker (right-click on the theme button) is showing
   const [picking, setPicking] = useState(false);
-  // false while the shutters cover the screen on page load
+  // false while the screen is still opening on page load
   const [opened, setOpened] = useState(false);
   // the theme being hovered (or focused) in the picker, shown as a live preview
   const [preview, setPreview] = useState<string | null>(null);
@@ -213,7 +218,25 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
 
         {/* pointer-events-none: this box is a plain rectangle that also covers the
             brand and menu; only the clipped screen and the controls take clicks */}
-        <div className="pointer-events-none relative ml-(--push) h-full *:pointer-events-auto">
+        <motion.div
+          className={`pointer-events-none relative ml-(--push) h-full *:pointer-events-auto ${opened ? "" : "lid-reveal"}`}
+          // Page-load opening. Everything in here (the screen, its outline and
+          // glow, the title and controls) starts hidden; .lid-reveal in shell.css
+          // uncovers it from the middle outward. --lid is how far each edge of the
+          // uncovered band is from its side: 50% = closed, 0% = fully open.
+          initial={{ "--lid": "50%" }}
+          animate={{ "--lid": "0%" }}
+          transition={{ delay: 0.3, duration: 0.6, ease: [0.6, 0, 0.2, 1] }}
+          onAnimationComplete={() => setOpened(true)}
+        >
+          {/* the two edges of the opening, drawn as accent lines: one line across
+              the middle while closed, then they part. Removed once open. */}
+          {!opened && (
+            <>
+              <div className="pointer-events-none! absolute inset-x-0 top-(--lid) z-10 h-0.5 bg-(--accent)" />
+              <div className="pointer-events-none! absolute inset-x-0 bottom-(--lid) z-10 h-0.5 bg-(--accent)" />
+            </>
+          )}
           {/* empty copy of the screen shape that carries the glow, so the
               scrolling page itself never has to be filtered */}
           <div
@@ -238,27 +261,6 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
                 <Footer />
               </footer>
             </div>
-
-            {/* Page-load shutters: two bezel-coloured plates that cover the screen,
-                then slide apart into the bezel (the shape clips them as they leave).
-                They sit inside the frame's line, and are removed once open. */}
-            {!opened && (
-              <div aria-hidden className="screen-inner pointer-events-none absolute inset-0.5">
-                <motion.div
-                  className="absolute inset-x-0 top-0 h-1/2 border-b-2 border-(--accent) bg-background"
-                  initial={{ y: 0 }}
-                  animate={{ y: "-100%" }}
-                  transition={shutter}
-                  onAnimationComplete={() => setOpened(true)}
-                />
-                <motion.div
-                  className="absolute inset-x-0 bottom-0 h-1/2 border-t-2 border-(--accent) bg-background"
-                  initial={{ y: 0 }}
-                  animate={{ y: "100%" }}
-                  transition={shutter}
-                />
-              </div>
-            )}
           </div>
 
           {/* glass: a see-through sheen over the screen, cut to the same shape;
@@ -353,7 +355,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
               ))}
             </div>
           )}
-        </div>
+        </motion.div>
 
         {/* hint bubble under the lens, with a small arrow pointing up at it */}
         {showHint && (

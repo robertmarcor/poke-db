@@ -1,0 +1,3 @@
+Edit the previous generated mystery blob guessing-game thumbnail. Remove all color: use only pure black, white, and neutral shades of gray, with absolutely no blue, cyan, or other color tint. Preserve the exact landscape composition, playful black blob silhouette, large white question mark, comic burst shards, and sparkles. Keep strong contrast and readability at small thumbnail size. Change only the palette to monochrome grayscale. No new text or elements.
+
+Generated with the built-in image generation tool.

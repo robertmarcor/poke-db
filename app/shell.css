@@ -171,3 +171,10 @@
     ),
     rgb(255 255 255 / var(--tint));
 }
+
+/* Page-load opening: hides everything above the top edge and below the bottom edge
+   of the opening (--lid is animated in AppShell.tsx), outline and glow included.
+   The sides stay open so the glow isn't cut off there. */
+.lid-reveal {
+  clip-path: inset(calc(var(--lid) - 1px) -2rem);
+}

@@ -1,8 +1,5 @@
-import Link from "next/link";
-import Card3D from "./components/Card3D";
+import CardHand from "./components/CardHand";
 import PokemonSearch from "./components/PokemonSearch";
-import { focus } from "./components/Shell/shared";
-import GameCards from "./Games/GameCards";
 import { allPokemon } from "./lib/pokemon";
 
 export default function Home() {
@@ -15,14 +12,7 @@ export default function Home() {
         </p>
       </div>
       <PokemonSearch />
-      {/* the way into the Pokédex: a 3D collectible card that keeps flipping to another Pokémon */}
-      <Link href="/Pokedex" aria-label="Open the Pokédex" className={`rounded-2xl ${focus}`}>
-        <Card3D />
-      </Link>
-      <section className="grid w-full gap-4">
-        <h2>Ready to play?</h2>
-        <GameCards />
-      </section>
+      <CardHand />
     </div>
   );
 }

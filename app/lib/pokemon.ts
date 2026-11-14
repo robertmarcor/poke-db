@@ -13,6 +13,10 @@ export const fold = (text: string) =>
     .replace(/[\u{300}-\u{36f}]/gu, "") // the accent marks NFD splits off
     .toLowerCase();
 
+// What a player has to type for a name in the games: only its letters and digits,
+// lowercase and without accents. "Mr. Mime" -> "mrmime".
+export const typable = (text: string) => fold(text).replace(/[^a-z0-9]/g, "");
+
 // Every generation: the National Pokédex ids it covers, and a starter to show as its face.
 // shortcut: hardcoded; add a line when a new generation is released
 export const generations = [
@@ -45,3 +49,9 @@ export const shinySpriteUrl = (id: number) => `${files}/sprites/master/sprites/p
 export const itemUrl = (name: string) => `${files}/sprites/master/sprites/items/${name}.png`;
 export const rareCandyUrl = `${files}/sprites/master/sprites/items/dream-world/rare-candy.png`;
 export const cryUrl =(id: number) => `${files}/cries/main/cries/pokemon/latest/${id}.ogg`;
+// Plays the Pokémon's cry (browser only).
+export function playCry(id: number) {
+  const cry = new Audio(cryUrl(id));
+  cry.volume = 0.2; // the recordings are loud
+  cry.play();
+}

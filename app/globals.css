@@ -117,6 +117,149 @@ body {
   display: none; /* the accent colour marks the chosen one */
 }
 
+/* The screen the silhouette stands on in Who's That (Games/whos-that/WhosThat.tsx):
+   a burst of shards. The picture is gray and twice as wide as it is high; multiplying
+   it with the theme colour tints the light parts and leaves the dark ones dark.
+   center / cover: a narrow screen shows only the middle of it. */
+.game-screen {
+  overflow: hidden; /* also clips the countdown bar to the rounded corners */
+  --tint: color-mix(in srgb, var(--accent) 75%, white); /* a little lighter, so the black silhouette stands out */
+  background:
+    linear-gradient(var(--tint), var(--tint)),
+    url("/assets/whos-that/reveal-burst-gray-wide-v1.webp") center / cover;
+  background-blend-mode: multiply;
+}
+
+/* The Who's That UI kit (public/assets/whos-that/ui): gray sprites, cut from one sheet. */
+
+/* An icon (the Sprite component sets --sprite and --tint). The gray picture is
+   multiplied with the tint, white meaning "leave it silver"; the mask then cuts
+   the colour back to the picture's own shape. */
+.kit-icon {
+  display: inline-block;
+  vertical-align: middle;
+  background:
+    linear-gradient(var(--tint, white), var(--tint, white)),
+    var(--sprite) center / contain no-repeat;
+  background-blend-mode: multiply;
+  mask: var(--sprite) center / contain no-repeat;
+}
+
+/* Approved glass artwork, sliced so the corners stay crisp as controls grow. */
+.kit-button,
+.kit-input {
+  min-height: 3.25rem;
+  border: 0.875rem solid transparent;
+  border-image: url("/assets/whos-that/ui/button.webp") 60 fill;
+  color: #f5f7fa;
+  transition: filter 150ms;
+}
+.kit-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+  cursor: pointer;
+}
+.kit-button:enabled:hover {
+  filter: brightness(1.25);
+}
+.kit-button.secondary {
+  border-image-source: url("/assets/whos-that/ui/button-secondary.webp");
+}
+.kit-button:enabled:active {
+  border-image-source: url("/assets/whos-that/ui/button-pressed.webp");
+  border-image-slice: 36;
+  filter: none;
+}
+.kit-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.kit-input {
+  display: grid;
+  align-items: center;
+  padding: 0.25rem 0.5rem;
+  /* Keep the game artwork from showing through the sprite's transparent center. */
+  background: #181a1e padding-box;
+  border-image-source: url("/assets/whos-that/ui/input.webp");
+}
+.kit-input.compact {
+  border-image-source: url("/assets/whos-that/ui/input-compact.webp");
+  border-image-slice: 36;
+}
+.kit-input:focus-within {
+  border-image-source: url("/assets/whos-that/ui/input-focus.webp");
+  border-image-slice: 60;
+}
+@media (prefers-reduced-motion: reduce) {
+  .kit-button,
+  .kit-input {
+    transition: none;
+  }
+}
+
+/* Fill the List (Games/fill-the-list/FillTheList.tsx): the PC box pictures are gray,
+   and are multiplied with a light mix of the theme colour. The component sets --art. */
+/* (the header picture is stretched to its box; the wallpaper repeats) */
+.pc-art {
+  --tint: color-mix(in srgb, var(--accent) 50%, white);
+  background-image: linear-gradient(var(--tint), var(--tint)), var(--art);
+  background-blend-mode: multiply;
+}
+
+/* The countdown bar in Who's That (Games/whos-that/WhosThat.tsx): empties over
+   the round and is red for the last third. The component sets how long it takes. */
+.timer-bar {
+  transform-origin: left;
+  animation: timer linear forwards;
+}
+@keyframes timer {
+  66% {
+    background: white;
+  }
+  67% {
+    background: var(--destructive);
+  }
+  to {
+    background: var(--destructive);
+    transform: scaleX(0);
+  }
+}
+
+/* The front page's hand of cards on a phone (components/CardHand.tsx): a ring in 3D space.
+   Every card stands on a circle, 120 degrees from the next, always facing the viewer;
+   the perspective makes the ones at the back smaller. The component sets --turn (how far
+   the ring is turned) and --i (the card's place on it). Registering --turn as an angle
+   lets it be animated, so the cards travel along the circle when the ring snaps into place. */
+@property --turn {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0deg;
+}
+@media (width < 40rem) {
+  .card-ring {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    perspective: 50rem;
+    transform-style: preserve-3d; /* cards nearer the viewer are drawn on top */
+    touch-action: pan-y; /* sideways swipes turn the ring; up and down still scrolls the page */
+    transition: --turn 0.5s;
+  }
+  .card-ring.dragging {
+    transition: none; /* follow the finger exactly */
+  }
+  .card-ring > * {
+    grid-area: 1 / 1; /* all in the same spot, then moved out onto the circle */
+    --a: calc(var(--i) * 120deg + var(--turn));
+    transform: translate3d(calc(sin(var(--a)) * 8rem), 0, calc(cos(var(--a)) * 8rem - 8rem));
+  }
+}
+
 /* The type filter's panel (Pokedex/PokedexList.tsx): sits just under the button
    that opened it. Browsers without anchor positioning show it in the top corner. */
 @supports (position-area: bottom) {
