@@ -1,10 +1,10 @@
 "use client";
 
-// TEST: the Pokédex card as a real 3D object (three.js): a thick, glossy card that
-// floats and turns toward the pointer. Only used by app/card-test; delete both to revert.
+// The Pokédex card as a real 3D object (three.js): a thick, glossy card that floats,
+// turns toward the pointer, and every few seconds flips over to show another Pokémon.
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
-import { artworkUrl, type Pokemon } from "../lib/pokemon";
+import { allPokemon, artworkUrl, type Pokemon } from "../lib/pokemon";
 import { typingColors } from "../lib/typings";
 
 // card size in scene units, and the pixel size of the picture painted on its face
@@ -31,6 +31,7 @@ async function drawFace(canvas: HTMLCanvasElement, pokemon: Pokemon) {
   const font = getComputedStyle(document.body).fontFamily;
   const c = canvas.getContext("2d")!;
   const w = canvas.width;
+  c.textAlign = "left"; // the last drawing on this canvas left it on "right"
 
   const paper = c.createLinearGradient(0, 0, 0, canvas.height);
   paper.addColorStop(0, "#161618");
@@ -89,7 +90,7 @@ async function drawFace(canvas: HTMLCanvasElement, pokemon: Pokemon) {
   c.fillText(String(pokemon.statTotal), w - 36, 735);
 }
 
-export default function Card3D({ pokemon }: { pokemon: Pokemon }) {
+export default function Card3D() {
   const box = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -101,7 +102,7 @@ export default function Card3D({ pokemon }: { pokemon: Pokemon }) {
 
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(35, el.clientWidth / el.clientHeight);
-    camera.position.z = 9;
+    camera.position.z = 7.5;
     scene.add(new THREE.AmbientLight(0xffffff, 2));
     const sun = new THREE.DirectionalLight(0xffffff, 2);
     sun.position.set(-2, 3, 4);
@@ -128,9 +129,11 @@ export default function Card3D({ pokemon }: { pokemon: Pokemon }) {
     body.geometry.center();
 
     // the face: the painted canvas, laid just in front of the body
+    // each new face is painted on `draft` first and copied over while the card is edge-on
     const canvas = document.createElement("canvas");
-    canvas.width = W * PX;
-    canvas.height = H * PX;
+    const draft = document.createElement("canvas");
+    canvas.width = draft.width = W * PX;
+    canvas.height = draft.height = H * PX;
     const texture = new THREE.CanvasTexture(canvas);
     texture.colorSpace = THREE.SRGBColorSpace;
     texture.anisotropy = renderer.capabilities.getMaxAnisotropy(); // stays sharp when tilted
@@ -147,37 +150,76 @@ export default function Card3D({ pokemon }: { pokemon: Pokemon }) {
     card.rotation.z = -0.1; // lies tilted, like the flat card
     scene.add(card);
 
+    const showDraft = () => {
+      canvas.getContext("2d")!.drawImage(draft, 0, 0);
+      texture.needsUpdate = true;
+    };
+    // paints a random Pokémon on the draft; a failed image load just skips this one
+    const drawNext = () =>
+      drawFace(draft, allPokemon[Math.floor(Math.random() * allPokemon.length)]).catch(() => {});
+
     // where the card should be turned to: toward the pointer
     let turnX = 0;
     let turnY = 0;
+    let y = 0; // the turn toward the pointer so far, without the flip
+    let hover = false;
+    let flipAt = 0; // when the current flip started; 0 when not flipping
     const onMove = (e: PointerEvent) => {
-      turnY = (e.clientX / innerWidth - 0.5) * 1.2;
-      turnX = (e.clientY / innerHeight - 0.5) * 0.8;
+      turnY = (e.clientX / innerWidth - 0.5) * 1.4;
+      turnX = (e.clientY / innerHeight - 0.5) * 1;
+      sun.position.set(-turnY * 6, turnX * 6 + 2, 4); // the glare slides across the card
     };
+    const onEnter = () => (hover = true);
+    const onLeave = () => (hover = false);
+    const ease = (from: number, to: number) => from + (to - from) * 0.08;
+
     const frame = (time: number) => {
-      card.rotation.x += (turnX - card.rotation.x) * 0.08;
-      card.rotation.y += (turnY - card.rotation.y) * 0.08;
+      // a flip turns the card edge-on, swaps the face there, and comes back from the
+      // other side, so the blank back never shows
+      let flip = 0;
+      if (flipAt) {
+        const t = (time - flipAt) / 700;
+        if (t >= 1) flipAt = 0;
+        else if (t < 0.5) flip = t * Math.PI;
+        else {
+          showDraft();
+          flip = (t - 1) * Math.PI;
+        }
+      }
+      y = ease(y, turnY);
+      card.rotation.x = ease(card.rotation.x, turnX);
+      card.rotation.y = y + flip;
+      // hovered: straightens and comes closer, like the flat card did
+      card.rotation.z = ease(card.rotation.z, hover ? 0 : -0.1);
+      card.scale.setScalar(ease(card.scale.x, hover ? 1.08 : 1));
       card.position.y = Math.sin(time / 900) * 0.08;
       renderer.render(scene, camera);
     };
 
     const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let timer: ReturnType<typeof setInterval> | undefined;
     if (!still) {
       addEventListener("pointermove", onMove);
+      el.addEventListener("pointerenter", onEnter);
+      el.addEventListener("pointerleave", onLeave);
       renderer.setAnimationLoop(frame);
+      timer = setInterval(() => drawNext().then(() => (flipAt = performance.now())), 5000);
     }
-    drawFace(canvas, pokemon).then(() => {
-      texture.needsUpdate = true;
+    drawNext().then(() => {
+      showDraft();
       if (still) renderer.render(scene, camera);
     });
 
     return () => {
+      clearInterval(timer);
       removeEventListener("pointermove", onMove);
+      el.removeEventListener("pointerenter", onEnter);
+      el.removeEventListener("pointerleave", onLeave);
       renderer.setAnimationLoop(null);
       renderer.dispose();
       renderer.domElement.remove();
     };
-  }, [pokemon]);
+  }, []);
 
-  return <div ref={box} aria-hidden className="h-96 w-72" />;
+  return <div ref={box} aria-hidden className="h-104 w-80 max-w-full" />;
 }
