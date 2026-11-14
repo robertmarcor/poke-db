@@ -3,7 +3,7 @@
    push on the screen and the screen's shape are both calculated from it. */
 .shell {
   --open: 0;
-  --accent: #ef4444; /* theme colour; AppShell.tsx overrides it */
+  --accent: #0ea5e9; /* theme colour; AppShell.tsx overrides it */
   --menu-w: 10rem; /* side menu width */
   --brand-w: 9.5rem; /* top-left notch: room for the lens + logo */
   --notch-h: 3.5rem; /* height of the top-left notch */
@@ -28,7 +28,8 @@
   --k: calc(var(--r) * 0.707); /* the same distance along a diagonal */
 }
 .screen-frame,
-.screen {
+.screen,
+.screen-inner {
   /* the left notch can shrink to nothing, so its rounding shrinks with it */
   --rl: clamp(0px, var(--l) / 2, var(--r));
   --kl: calc(var(--rl) * 0.707);
@@ -49,13 +50,16 @@
     from 0 calc(var(--notch-h) + var(--rl)),
     curve to var(--rl) var(--notch-h) with 0 var(--notch-h),
     line to calc(var(--l) - var(--rl)) var(--notch-h),
-    curve to calc(var(--l) + var(--kl)) calc(var(--notch-h) - var(--kl)) with var(--l) var(--notch-h),
+    curve to calc(var(--l) + var(--kl)) calc(var(--notch-h) - var(--kl)) with
+      var(--l) var(--notch-h),
     line to calc(var(--l) + var(--notch-h) - var(--k)) var(--k),
-    curve to calc(var(--l) + var(--notch-h) + var(--r)) 0 with calc(var(--l) + var(--notch-h)) 0,
+    curve to calc(var(--l) + var(--notch-h) + var(--r)) 0 with
+      calc(var(--l) + var(--notch-h)) 0,
     line to calc(100% - var(--r)) 0,
     curve to 100% var(--r) with 100% 0,
     line to 100% calc(100% - var(--c) - var(--r)),
-    curve to calc(100% - var(--k)) calc(100% - var(--c) + var(--k)) with 100% calc(100% - var(--c)),
+    curve to calc(100% - var(--k)) calc(100% - var(--c) + var(--k)) with 100%
+      calc(100% - var(--c)),
     line to calc(100% - var(--c) + var(--k)) calc(100% - var(--k)),
     curve to calc(100% - var(--c) - var(--r)) 100% with calc(100% - var(--c)) 100%,
     line to var(--r) 100%,
@@ -67,7 +71,8 @@
   --l: var(--notch-l);
   --c: var(--cut);
 }
-.screen {
+.screen,
+.screen-inner {
   /* these px offsets keep the line 2px thick along the diagonals */
   --l: calc(var(--notch-l) - 1.17px);
   --c: calc(var(--cut) - 1.17px);
@@ -92,7 +97,11 @@
     ),
     radial-gradient(
       ellipse 70% 60% at 100% 100%,
-      color-mix(in srgb, oklch(from var(--accent) l c calc(h - 60)) var(--screen-glow), transparent),
+      color-mix(
+        in srgb,
+        oklch(from var(--accent) l c calc(h - 60)) var(--screen-glow),
+        transparent
+      ),
       transparent
     );
 }
@@ -104,8 +113,31 @@
 /* The lens (menu button): always blue whatever the theme; Motion pulses --glow */
 .lens {
   --glow: 0px;
-  background: radial-gradient(circle at 30% 30%, #fff 0 8%, #7dd3fc 22%, #0284c7 70%);
+  background: radial-gradient(
+    circle at 30% 30%,
+    #fff 0 8%,
+    #7dd3fc 22%,
+    #0284c7 70%
+  );
   filter: drop-shadow(0 0 var(--glow) #38bdf8);
+}
+/* "Press me" hint: the lens bounces every few seconds until its first click.
+   Uses the scale property, so it stacks with Motion's hover/tap transform. */
+.lens-hint {
+  animation: lens-bounce 3s infinite;
+}
+@keyframes lens-bounce {
+  0%,
+  22%,
+  100% {
+    scale: 1;
+  }
+  8% {
+    scale: 1.25;
+  }
+  15% {
+    scale: 0.94;
+  }
 }
 
 /* The theme button: a glossy gem in the theme colour, a small sibling of the lens */

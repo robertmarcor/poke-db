@@ -75,3 +75,54 @@ body {
     @apply leading-relaxed;
   }
 }
+
+/* Dropdowns (Pokedex/PokedexList.tsx). base-select is what lets CSS style the
+   opened menu of a real <select>; browsers without it keep their own menu. */
+.dropdown {
+  appearance: none; /* for browsers without base-select: at least hide their arrow */
+  appearance: base-select;
+}
+.dropdown::picker(select) {
+  appearance: base-select;
+}
+.dropdown::picker-icon {
+  display: none; /* we draw our own arrow */
+}
+.dropdown::picker(select) {
+  margin-top: 0.5rem;
+  max-height: 20rem;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  padding: 0.25rem;
+  border: 1px solid color-mix(in srgb, var(--foreground) 15%, transparent);
+  border-radius: 1rem;
+  background: var(--background-accent);
+  color: var(--foreground);
+  box-shadow: 0 8px 32px rgb(0 0 0 / 0.3);
+}
+.dropdown option {
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.75rem;
+  cursor: pointer;
+}
+.dropdown option:hover,
+.dropdown option:focus-visible {
+  background: color-mix(in srgb, var(--foreground) 10%, transparent);
+  outline: none;
+}
+.dropdown option:checked {
+  color: var(--accent);
+}
+.dropdown option::checkmark {
+  display: none; /* the accent colour marks the chosen one */
+}
+
+/* The type filter's panel (Pokedex/PokedexList.tsx): sits just under the button
+   that opened it. Browsers without anchor positioning show it in the top corner. */
+@supports (position-area: bottom) {
+  .type-menu {
+    inset: auto;
+    margin: 0.5rem 0 0;
+    position-area: bottom span-right;
+  }
+}

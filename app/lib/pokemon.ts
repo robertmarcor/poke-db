@@ -3,15 +3,45 @@
 import list from "../data/pokemon.json";
 
 export type Pokemon = (typeof list)[number];
-export const pokemon: Pokemon[] = list;
+export const allPokemon: Pokemon[] = list;
 
-// National Pokédex id of the last Pokémon in each generation, gen 1 first.
-// shortcut: hardcoded, returns 0 for ids past the last entry; add an entry when a new generation is released
-const genEnds = [151, 251, 386, 493, 649, 721, 809, 905, 1025];
-export const generationOf = (id: number) => genEnds.findIndex((end) => id <= end) + 1;
+// Lowercase and strip accents, for comparing typed text with names: "Flabébé" -> "flabebe".
+// The result has the same length as the input, so positions line up with the real name.
+export const fold = (text: string) =>
+  text
+    .normalize("NFD")
+    .replace(/[\u{300}-\u{36f}]/gu, "") // the accent marks NFD splits off
+    .toLowerCase();
+
+// Every generation: the National Pokédex ids it covers, and a starter to show as its face.
+// shortcut: hardcoded; add a line when a new generation is released
+export const generations = [
+  { gen: 1, first: 1, last: 151, starter: 1 }, // Bulbasaur
+  { gen: 2, first: 152, last: 251, starter: 155 }, // Cyndaquil
+  { gen: 3, first: 252, last: 386, starter: 258 }, // Mudkip
+  { gen: 4, first: 387, last: 493, starter: 387 }, // Turtwig
+  { gen: 5, first: 494, last: 649, starter: 498 }, // Tepig
+  { gen: 6, first: 650, last: 721, starter: 656 }, // Froakie
+  { gen: 7, first: 722, last: 809, starter: 722 }, // Rowlet
+  { gen: 8, first: 810, last: 905, starter: 813 }, // Scorbunny
+  { gen: 9, first: 906, last: 1025, starter: 912 }, // Quaxly
+];
+
+// Every Pokémon from the given generations, e.g. pokemonInGens([1, 3]).
+export function pokemonInGens(gens: number[]) {
+  const chosen = generations.filter((g) => gens.includes(g.gen));
+  return allPokemon.filter((p) => chosen.some((g) => p.id >= g.first && p.id <= g.last));
+}
 
 // Images and cries are static files on GitHub, so the id is all we need (no API call).
 const files = "https://raw.githubusercontent.com/PokeAPI";
 export const artworkUrl = (id: number) =>
   `${files}/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
-export const cryUrl = (id: number) => `${files}/cries/main/cries/pokemon/latest/${id}.ogg`;
+export const shinyArtworkUrl = (id: number) =>
+  `${files}/sprites/master/sprites/pokemon/other/official-artwork/shiny/${id}.png`;
+export const spriteUrl = (id: number) => `${files}/sprites/master/sprites/pokemon/${id}.png`;
+export const shinySpriteUrl = (id: number) => `${files}/sprites/master/sprites/pokemon/shiny/${id}.png`;
+// shortcut: the small game icon for items, since only that set has every evolution item; the rare candy is the larger drawn one
+export const itemUrl = (name: string) => `${files}/sprites/master/sprites/items/${name}.png`;
+export const rareCandyUrl = `${files}/sprites/master/sprites/items/dream-world/rare-candy.png`;
+export const cryUrl =(id: number) => `${files}/cries/main/cries/pokemon/latest/${id}.ogg`;

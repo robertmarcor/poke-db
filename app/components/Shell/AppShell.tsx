@@ -11,6 +11,7 @@ import {
 import { usePathname } from "next/navigation";
 import { motion, useScroll, useTransform } from "motion/react";
 import Footer from "../footer";
+import HudDial from "./HudDial";
 import Sidebar from "./Sidebar";
 import { focus, spring } from "./shared";
 import Link from "next/link";
@@ -52,15 +53,50 @@ function toggleMode() {
     (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
   const next = current === "dark" ? "light" : "dark";
   localStorage.setItem("mode", next);
-  document.documentElement.dataset.mode = next;
+  applyMode(next);
+}
+
+// Puts a picked mode on the page, and makes the browser's own bar (Safari's tab
+// bar, Chrome's toolbar on Android) match: the theme-color tags from layout.tsx
+// follow the system setting, so point them at the picked mode's background instead.
+// shortcut: on a reload the bar shows the system's colour until the app has loaded
+function applyMode(mode: string) {
+  document.documentElement.dataset.mode = mode;
+  const background = getComputedStyle(document.documentElement).getPropertyValue("--background");
+  for (const tag of document.querySelectorAll('meta[name="theme-color"]')) {
+    tag.removeAttribute("media");
+    tag.setAttribute("content", background);
+  }
 }
 
 // First part of the URL, shown at the top of the screen. On dynamic routes
 // (/Pokedex/[id]) the URL is only known per request, so this sits in its own
 // component behind <Suspense> and the rest of the shell can still be prerendered.
+// On a page inside a section (/Pokedex/6) it is a link back to that section.
+// shortcut: goes to the section's front page, not the filters or page you came from (the browser's back button does that); remember the last list address if that gets annoying
 function PageTitle() {
-  return decodeURIComponent(usePathname().split("/")[1] || "home");
+  const [section, inside] = usePathname().split("/").slice(1);
+  const name = decodeURIComponent(section || "home");
+  if (!inside) return name;
+  return (
+    <Link href={`/${section}`} aria-label={`Back to ${name}`} className={`pointer-events-auto rounded-full px-3 py-1 hover:bg-(--accent)/15 ${focus}`}>
+      ‹ {name}
+    </Link>
+  );
 }
+
+// The screen's background, behind the scrolling page (which is see-through). The
+// home page gets the HUD dial on it; every other page gets it plain, so its
+// content has a clean screen. Reads the URL, so like PageTitle it sits behind
+// <Suspense>, with the plain version as fallback.
+const backdrop = "screen-inner absolute inset-0.5 bg-background";
+function ScreenBackdrop({ color }: { color: string }) {
+  const home = usePathname() === "/";
+  return <div className={backdrop}>{home && <HudDial color={color} className="size-full" />}</div>;
+}
+
+// How the page-load shutters move: closed for `delay`, then open over `duration`.
+const shutter = { delay: 0.3, duration: 0.6, ease: [0.6, 0, 0.2, 1] } as const;
 
 // Wide screens start with the menu open.
 const wide = "(width >= 64rem)";
@@ -88,17 +124,28 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   // On mount, write the theme to localStorage, so the default is stored even
   // before the theme button is ever clicked (a saved theme is written back as is).
   useEffect(() => localStorage.setItem("theme", readTheme()), []);
-  // Dev only: React's Strict Mode remount wipes the data-mode that layout.tsx's
-  // script put on <html>, so put it back. Does nothing in production.
+  // Re-apply a saved mode once the app has loaded: this colours the browser's bar,
+  // and in development puts back the data-mode that React's Strict Mode remount wipes.
   useLayoutEffect(() => {
     const mode = localStorage.getItem("mode");
-    if (mode) document.documentElement.dataset.mode = mode;
+    if (mode) applyMode(mode);
   }, []);
   // the menu starts open on wide screens until the lens is clicked
   const [toggled, setToggled] = useState<boolean | null>(null);
   const open = toggled ?? isWide;
+  // The "click the lens" hint (bounce + bubble) shows until the lens is clicked;
+  // "Don't show again" saves lensHint=off in localStorage and it stays away.
+  // Off on the server, so it never flashes for people who dismissed it.
+  const hintOff = useSyncExternalStore(
+    subscribeTheme,
+    () => localStorage.getItem("lensHint") === "off",
+    () => true,
+  );
+  const showHint = toggled === null && !hintOff;
   // whether the theme picker (right-click on the theme button) is showing
   const [picking, setPicking] = useState(false);
+  // false while the shutters cover the screen on page load
+  const [opened, setOpened] = useState(false);
   // the theme being hovered (or focused) in the picker, shown as a live preview
   const [preview, setPreview] = useState<string | null>(null);
   const shownTheme = (picking && preview) || theme;
@@ -114,12 +161,18 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
 
   return (
     <motion.div
-      className="shell h-dvh overflow-hidden p-1.5 sm:p-3"
+      className="shell relative h-dvh overflow-hidden p-1.5 sm:p-3"
       style={{ "--accent": themes[shownTheme] } as React.CSSProperties}
       initial={false}
       animate={{ "--open": open ? 1 : 0 }}
       transition={spring}
     >
+      {/* the bezel's dial, on every page: at the bottom of the menu column, so it
+          shows while the menu is open and the screen covers it when it is closed */}
+      <HudDial
+        color={themes[shownTheme]}
+        className="absolute bottom-1.5 left-1.5 size-[calc(var(--menu-w)-0.75rem)] sm:bottom-3 sm:left-3"
+      />
       <div className="relative h-full">
         <div className="absolute top-0 left-0 flex w-(--brand-w) items-center gap-3">
           <motion.button
@@ -128,7 +181,8 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
             aria-label="Menu"
             aria-expanded={open}
             aria-controls="side-nav"
-            className={`lens size-12 shrink-0 cursor-pointer rounded-full ring-4 ring-slate-100 ring-inset ${focus}`}
+            // lens-hint: a "press me" bounce (shell.css)
+            className={`lens ${showHint ? "lens-hint" : ""} size-12 shrink-0 cursor-pointer rounded-full ring-4 ring-slate-100 ring-inset ${focus}`}
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.92 }}
             animate={{ "--glow": ["0px", "8px", "0px"] }}
@@ -159,12 +213,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
 
         {/* pointer-events-none: this box is a plain rectangle that also covers the
             brand and menu; only the clipped screen and the controls take clicks */}
-        <motion.div
-          className="pointer-events-none relative ml-(--push) h-full *:pointer-events-auto"
-          initial={{ opacity: 0, scaleY: 0.02 }}
-          animate={{ opacity: 1, scaleY: 1 }}
-          transition={spring}
-        >
+        <div className="pointer-events-none relative ml-(--push) h-full *:pointer-events-auto">
           {/* empty copy of the screen shape that carries the glow, so the
               scrolling page itself never has to be filtered */}
           <div
@@ -175,17 +224,41 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
           </div>
 
           <div className="screen-frame relative h-full bg-(--accent) p-0.5">
+            <Suspense fallback={<div className={backdrop} />}>
+              <ScreenBackdrop color={themes[shownTheme]} />
+            </Suspense>
             {/* the footer is the last thing in the scroll: at the bottom of the
                 screen on short pages, below the content on long ones */}
             <div
               ref={screen}
-              className="screen flex h-full flex-col overflow-y-auto bg-background pt-(--notch-h) *:shrink-0"
+              className="screen relative flex h-full flex-col overflow-y-auto pt-(--notch-h) *:shrink-0"
             >
               <main className="flex flex-1 flex-col p-4">{children}</main>
               <footer className="mt-auto pb-4">
                 <Footer />
               </footer>
             </div>
+
+            {/* Page-load shutters: two bezel-coloured plates that cover the screen,
+                then slide apart into the bezel (the shape clips them as they leave).
+                They sit inside the frame's line, and are removed once open. */}
+            {!opened && (
+              <div aria-hidden className="screen-inner pointer-events-none absolute inset-0.5">
+                <motion.div
+                  className="absolute inset-x-0 top-0 h-1/2 border-b-2 border-(--accent) bg-background"
+                  initial={{ y: 0 }}
+                  animate={{ y: "-100%" }}
+                  transition={shutter}
+                  onAnimationComplete={() => setOpened(true)}
+                />
+                <motion.div
+                  className="absolute inset-x-0 bottom-0 h-1/2 border-t-2 border-(--accent) bg-background"
+                  initial={{ y: 0 }}
+                  animate={{ y: "100%" }}
+                  transition={shutter}
+                />
+              </div>
+            )}
           </div>
 
           {/* glass: a see-through sheen over the screen, cut to the same shape;
@@ -280,7 +353,29 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
               ))}
             </div>
           )}
-        </motion.div>
+        </div>
+
+        {/* hint bubble under the lens, with a small arrow pointing up at it */}
+        {showHint && (
+          <motion.div
+            className="absolute top-15 left-0 rounded-lg bg-(--primary) px-3 py-2 text-white shadow-lg before:absolute before:-top-1 before:left-4.5 before:size-3 before:rotate-45 before:bg-(--primary)"
+            initial={{ opacity: 0, y: -6 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={spring}
+          >
+            <p className="text-sm font-bold">Click Lens for menu</p>
+            <button
+              type="button"
+              onClick={() => {
+                localStorage.setItem("lensHint", "off");
+                window.dispatchEvent(new Event("storage"));
+              }}
+              className="cursor-pointer text-xs underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+            >
+              Don&apos;t show again ✕
+            </button>
+          </motion.div>
+        )}
       </div>
     </motion.div>
   );

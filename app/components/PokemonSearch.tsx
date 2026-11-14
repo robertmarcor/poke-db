@@ -2,21 +2,13 @@
 
 import { useId, useState } from "react";
 import { useRouter } from "next/navigation";
-import { pokemon } from "../lib/pokemon";
+import { allPokemon, fold } from "../lib/pokemon";
 import { focus } from "./Shell/shared";
 
 const MAX_RESULTS = 8;
 
-// Lowercase and strip accents so "flabebe" finds "Flabébé". The result has the
-// same length as the input, so a match position is also the position in the real name.
-const fold = (text: string) =>
-  text
-    .normalize("NFD")
-    .replace(/[\u{300}-\u{36f}]/gu, "") // the accent marks NFD splits off
-    .toLowerCase();
-
 // Folded once when the page loads, not on every key press.
-const index = pokemon.map((p) => ({ ...p, folded: fold(p.displayName) }));
+const index = allPokemon.map((p) => ({ ...p, folded: fold(p.displayName) }));
 
 // Every Pokémon whose name contains q: an exact match first ("mew" before
 // "mewtwo"), then names that start with it, then the rest, each in Pokédex order.
