@@ -1,26 +1,77 @@
 @import "tailwindcss";
 @import "./shell.css";
 
+/* Colour tokens. Use them as Tailwind classes: bg-primary, text-accent,
+   bg-background-accent, border-destructive, and so on. */
 :root {
+  /* Light mode. The dark values are in the two blocks further down. */
+  color-scheme: light;
   --background: #ffffff;
+  --background-accent: #f4f4f5; /* cards, panels, secondary buttons */
   --foreground: #171717;
+  --screen-glow: 0%; /* strength of the screen's colour wash (shell.css): off on white */
+  --primary: #0369a1; /* main actions; the blue of the lens. White text on it passes contrast */
+  --destructive: #dc2626; /* delete, give up, reset */
+  /* --accent is the theme colour the user picks; AppShell.tsx sets it */
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-background-accent: var(--background-accent);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-accent: var(--accent);
+  --color-destructive: var(--destructive);
   --font-sans: var(--font-montserrat);
   --font-mono: var(--font-geist-mono);
 }
 
+/* Dark mode, in two places that must stay identical: when the system is dark
+   and nobody picked light, and when the mode button (AppShell.tsx) picked dark.
+   (light-dark() would avoid the repeat but needs a 2024+ browser.) */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-mode="light"]) {
+    color-scheme: dark;
     --background: #0a0a0a;
+    --background-accent: #1c1c1f;
     --foreground: #ededed;
+    --screen-glow: 9%;
   }
+}
+:root[data-mode="dark"] {
+  color-scheme: dark;
+  --background: #0a0a0a;
+  --background-accent: #1c1c1f;
+  --foreground: #ededed;
+  --screen-glow: 9%;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+/* Typography: plain h1-h4 and p are styled without any classes. */
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-bold text-balance;
+  }
+  h1 {
+    @apply text-3xl sm:text-4xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  h4 {
+    @apply text-lg;
+  }
+  p {
+    @apply leading-relaxed;
+  }
 }

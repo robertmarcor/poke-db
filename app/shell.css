@@ -79,6 +79,23 @@
 .screen::-webkit-scrollbar {
   display: none; /* Safari before 18.2 */
 }
+/* The screen's backdrop, behind every page: two very faint washes of colour,
+   the theme colour from the top-left corner and a neighbouring hue from the
+   bottom-right. No pattern. It stays put while the page scrolls.
+   --screen-glow is the strength, set per mode in globals.css (0% = off). */
+.screen {
+  background-image:
+    radial-gradient(
+      ellipse 70% 60% at 0% 0%,
+      color-mix(in srgb, var(--accent) var(--screen-glow), transparent),
+      transparent
+    ),
+    radial-gradient(
+      ellipse 70% 60% at 100% 100%,
+      color-mix(in srgb, oklch(from var(--accent) l c calc(h - 60)) var(--screen-glow), transparent),
+      transparent
+    );
+}
 /* accent-coloured glow around the screen */
 .screen-glow {
   filter: drop-shadow(0 0 14px color-mix(in srgb, var(--accent) 40%, transparent));
@@ -89,4 +106,36 @@
   --glow: 0px;
   background: radial-gradient(circle at 30% 30%, #fff 0 8%, #7dd3fc 22%, #0284c7 70%);
   filter: drop-shadow(0 0 var(--glow) #38bdf8);
+}
+
+/* The theme button: a glossy gem in the theme colour, a small sibling of the lens */
+.gem {
+  background: radial-gradient(
+    circle at 30% 30%,
+    #fff 0 7%,
+    color-mix(in srgb, var(--accent) 55%, #fff) 22%,
+    var(--accent) 70%
+  );
+  box-shadow:
+    0 0 10px color-mix(in srgb, var(--accent) 60%, transparent),
+    inset 0 -2px 3px rgb(0 0 0 / 0.3);
+}
+
+/* Glass over the screen, cartoon style: a faint white tint over everything plus
+   two hard-edged diagonal glare streaks (one thick, one thin) near the top-left.
+   --glare is the streaks' strength, --tint the overall whiteness. */
+.glass {
+  --glare: 0.12;
+  --tint: 0.03;
+  --streak: rgb(255 255 255 / var(--glare));
+  background:
+    linear-gradient(
+      120deg,
+      transparent 12%,
+      var(--streak) 12% 21%,
+      transparent 21% 24%,
+      var(--streak) 24% 27%,
+      transparent 27%
+    ),
+    rgb(255 255 255 / var(--tint));
 }

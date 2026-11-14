@@ -1,6 +1,13 @@
 "use client";
 
-import { useEffect, useRef, useState, useSyncExternalStore } from "react";
+import {
+  Suspense,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+  useSyncExternalStore,
+} from "react";
 import { usePathname } from "next/navigation";
 import { motion, useScroll, useTransform } from "motion/react";
 import Footer from "../footer";
@@ -35,6 +42,26 @@ function saveTheme(name: string) {
   window.dispatchEvent(new Event("storage"));
 }
 
+// Dark or light mode. Until one is picked the site follows the system setting.
+// A pick is saved in localStorage and put on <html data-mode>, which globals.css
+// reads; the script in layout.tsx puts it back before the first paint on later visits.
+// shortcut: other open tabs keep their mode until reloaded
+function toggleMode() {
+  const current =
+    localStorage.getItem("mode") ??
+    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const next = current === "dark" ? "light" : "dark";
+  localStorage.setItem("mode", next);
+  document.documentElement.dataset.mode = next;
+}
+
+// First part of the URL, shown at the top of the screen. On dynamic routes
+// (/Pokedex/[id]) the URL is only known per request, so this sits in its own
+// component behind <Suspense> and the rest of the shell can still be prerendered.
+function PageTitle() {
+  return decodeURIComponent(usePathname().split("/")[1] || "home");
+}
+
 // Wide screens start with the menu open.
 const wide = "(width >= 64rem)";
 function subscribeWide(onChange: () => void) {
@@ -61,11 +88,21 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   // On mount, write the theme to localStorage, so the default is stored even
   // before the theme button is ever clicked (a saved theme is written back as is).
   useEffect(() => localStorage.setItem("theme", readTheme()), []);
+  // Dev only: React's Strict Mode remount wipes the data-mode that layout.tsx's
+  // script put on <html>, so put it back. Does nothing in production.
+  useLayoutEffect(() => {
+    const mode = localStorage.getItem("mode");
+    if (mode) document.documentElement.dataset.mode = mode;
+  }, []);
   // the menu starts open on wide screens until the lens is clicked
   const [toggled, setToggled] = useState<boolean | null>(null);
   const open = toggled ?? isWide;
+  // whether the theme picker (right-click on the theme button) is showing
+  const [picking, setPicking] = useState(false);
+  // the theme being hovered (or focused) in the picker, shown as a live preview
+  const [preview, setPreview] = useState<string | null>(null);
+  const shownTheme = (picking && preview) || theme;
   const nextTheme = themeNames[(themeNames.indexOf(theme) + 1) % themeNames.length];
-  const page = decodeURIComponent(usePathname().split("/")[1] || "home");
   // how far the screen is scrolled, 0 to 1; drives the indicator on its right edge
   const screen = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ container: screen });
@@ -78,7 +115,7 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
   return (
     <motion.div
       className="shell h-dvh overflow-hidden p-1.5 sm:p-3"
-      style={{ "--accent": themes[theme] } as React.CSSProperties}
+      style={{ "--accent": themes[shownTheme] } as React.CSSProperties}
       initial={false}
       animate={{ "--open": open ? 1 : 0 }}
       transition={spring}
@@ -151,6 +188,10 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
             </div>
           </div>
 
+          {/* glass: a see-through sheen over the screen, cut to the same shape;
+              clicks and scrolling pass straight through it */}
+          <div aria-hidden className="screen-frame glass pointer-events-none! absolute inset-0" />
+
           {/* scroll indicator (the real scrollbar is hidden in shell.css): a small
               pill that travels between the theme button and the chamfer */}
           <div
@@ -164,19 +205,81 @@ export default function AppShell({ children }: { children: React.ReactNode }) {
           </div>
 
           {/* current page, centred in the raised top of the screen */}
-          <p className="pointer-events-none! absolute top-0 right-14 left-[calc(var(--notch-l)+var(--notch-h))] flex h-(--notch-h) items-center justify-center text-sm font-bold tracking-[0.3em] text-(--accent) uppercase">
-            {page}
+          <p className="pointer-events-none! absolute top-0 right-22 left-[calc(var(--notch-l)+var(--notch-h))] flex h-(--notch-h) items-center justify-center text-sm font-bold tracking-[0.3em] text-(--accent) uppercase">
+            <Suspense>
+              <PageTitle />
+            </Suspense>
           </p>
 
-          <motion.button
-            type="button"
-            aria-label={`Theme: ${theme}. Switch to ${nextTheme}`}
-            onClick={() => saveTheme(nextTheme)}
-            className={`absolute top-3 right-3 size-8 cursor-pointer rounded-full bg-(--accent) ${focus}`}
-            whileHover={{ scale: 1.12 }}
-            whileTap={{ scale: 0.88 }}
-            transition={spring}
-          />
+          {/* display controls, in one pill: dark/light switch, then the theme button */}
+          <div className="absolute top-2.5 right-2.5 flex items-center gap-1.5 rounded-full border border-(--accent)/40 bg-background/70 p-1">
+            <motion.button
+              type="button"
+              aria-label="Switch between dark and light mode"
+              title="Dark / light mode"
+              onClick={toggleMode}
+              className={`grid size-7 cursor-pointer place-items-center rounded-full hover:bg-foreground/10 ${focus}`}
+              whileTap={{ scale: 0.88 }}
+              transition={spring}
+            >
+              {/* half-filled circle: the usual "contrast" icon, the same in both modes */}
+              <svg aria-hidden viewBox="0 0 24 24" className="size-5">
+                <circle cx="12" cy="12" r="9" className="fill-none stroke-current stroke-2" />
+                <path d="M12 3a9 9 0 0 0 0 18z" className="fill-current" />
+              </svg>
+            </motion.button>
+            <motion.button
+              type="button"
+              aria-label={`Theme: ${theme}. Switch to ${nextTheme}`}
+              title="Click for the next theme, right-click to pick one"
+              aria-expanded={picking}
+              onClick={() => saveTheme(nextTheme)}
+              onContextMenu={(e) => {
+                e.preventDefault();
+                setPreview(null);
+                setPicking(!picking);
+              }}
+              className={`gem size-7 cursor-pointer rounded-full border-2 border-white/60 ${focus}`}
+              whileHover={{ scale: 1.12 }}
+              whileTap={{ scale: 0.88 }}
+              transition={spring}
+            />
+          </div>
+
+          {/* theme picker: opens on right-click; closes on a pick, Escape, or when
+              focus leaves it (a click anywhere else) */}
+          {picking && (
+            <div
+              role="group"
+              aria-label="Pick a theme"
+              onPointerLeave={() => setPreview(null)}
+              onBlur={(e) => {
+                if (!e.currentTarget.contains(e.relatedTarget)) setPicking(false);
+              }}
+              onKeyDown={(e) => {
+                if (e.key === "Escape") setPicking(false);
+              }}
+              className="absolute top-13 right-3 flex gap-2 rounded-full border border-current/25 bg-background p-2"
+            >
+              {themeNames.map((name) => (
+                <button
+                  key={name}
+                  type="button"
+                  autoFocus={name === theme}
+                  onPointerEnter={() => setPreview(name)}
+                  onFocus={() => setPreview(name)}
+                  aria-label={`${name} theme`}
+                  aria-pressed={name === theme}
+                  onClick={() => {
+                    saveTheme(name);
+                    setPicking(false);
+                  }}
+                  style={{ background: themes[name] }}
+                  className="size-6 cursor-pointer rounded-full ring-offset-2 ring-offset-background focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-current aria-pressed:ring-2 aria-pressed:ring-current"
+                />
+              ))}
+            </div>
+          )}
         </motion.div>
       </div>
     </motion.div>
