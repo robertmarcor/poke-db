@@ -158,6 +158,9 @@ export default function Card3D() {
     const drawNext = () =>
       drawFace(draft, allPokemon[Math.floor(Math.random() * allPokemon.length)]).catch(() => {});
 
+    // reduced motion: the card still answers the pointer, but never moves by itself (no bob, no flips)
+    const calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
     // where the card should be turned to: toward the pointer
     let turnX = 0;
     let turnY = 0;
@@ -192,23 +195,18 @@ export default function Card3D() {
       // hovered: straightens and comes closer, like the flat card did
       card.rotation.z = ease(card.rotation.z, hover ? 0 : -0.1);
       card.scale.setScalar(ease(card.scale.x, hover ? 1.08 : 1));
-      card.position.y = Math.sin(time / 900) * 0.08;
+      if (!calm) card.position.y = Math.sin(time / 900) * 0.08;
       renderer.render(scene, camera);
     };
 
-    const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
-    let timer: ReturnType<typeof setInterval> | undefined;
-    if (!still) {
-      addEventListener("pointermove", onMove);
-      el.addEventListener("pointerenter", onEnter);
-      el.addEventListener("pointerleave", onLeave);
-      renderer.setAnimationLoop(frame);
-      timer = setInterval(() => drawNext().then(() => (flipAt = performance.now())), 5000);
-    }
-    drawNext().then(() => {
-      showDraft();
-      if (still) renderer.render(scene, camera);
-    });
+    addEventListener("pointermove", onMove);
+    el.addEventListener("pointerenter", onEnter);
+    el.addEventListener("pointerleave", onLeave);
+    renderer.setAnimationLoop(frame);
+    const timer = calm
+      ? undefined
+      : setInterval(() => drawNext().then(() => (flipAt = performance.now())), 5000);
+    drawNext().then(showDraft);
 
     return () => {
       clearInterval(timer);
