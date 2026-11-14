@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://pokedb.r5m4.dev/sitemap.xml

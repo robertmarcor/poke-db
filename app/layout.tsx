@@ -14,8 +14,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "R5PokèDB",
+  metadataBase: new URL("https://pokedb.r5m4.dev"),
+  // pages set their own title, which fills in %s
+  title: { default: "R5PokèDB: Pokédex and Pokémon games", template: "%s | R5PokèDB" },
   description: "A Pokédex to look up any Pokémon, with games to test what you know.",
+  // "./" is the address of the page being shown, without ?q and the like
+  alternates: { canonical: "./" },
+  openGraph: { siteName: "R5PokèDB", type: "website" },
 };
 
 // Colours the browser's own bar (Safari's tab bar, Chrome's toolbar on Android)

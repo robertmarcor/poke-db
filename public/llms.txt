@@ -1,0 +1,15 @@
+# R5PokèDB
+
+> A Pokédex to look up any of the 1,025 Pokémon, with games to test what you know. Data comes from PokeAPI.
+
+## Pages
+
+- [Home](https://pokedb.r5m4.dev/): search for a Pokémon by name
+- [Pokédex](https://pokedb.r5m4.dev/Pokedex): the full list. Filter with `?q=<name>` and `?gen=<1-9>`, page with `?page=<n>`
+- [One Pokémon](https://pokedb.r5m4.dev/Pokedex/25): `/Pokedex/<National Pokédex number, 1-1025>`. Shows types, description, height, weight, base stats, abilities, type matchups and evolutions
+- [Sitemap](https://pokedb.r5m4.dev/sitemap.xml): every page
+
+## Games
+
+- [Who's That Pokémon?](https://pokedb.r5m4.dev/Games/whos-that): name the Pokémon from its silhouette
+- [Fill the List](https://pokedb.r5m4.dev/Games/fill-the-list): name as many Pokémon as you can

@@ -1,4 +1,5 @@
 import { Suspense } from "react";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
@@ -26,6 +27,18 @@ const MAX_TOTAL = 720; // highest base stat total (Arceus)
 // "special-attack" -> "Special Attack"
 const label = (apiName: string) =>
   apiName.replaceAll("-", " ").replace(/\b\w/g, (c) => c.toUpperCase());
+
+// The title, description and share picture, all from the baked list (no PokeAPI call).
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { id } = await params;
+  const entry = allPokemon.find((p) => p.id === Number(id));
+  if (!entry) return {};
+  return {
+    title: `${entry.displayName} #${entry.id}`,
+    description: `${entry.displayName}, the ${entry.genus} (${entry.types.join("/")} type). See its stats, abilities, type matchups and evolutions.`,
+    openGraph: { images: [artworkUrl(entry.id)] },
+  };
+}
 
 // params is only known per request, so it is awaited inside <Suspense>. Next
 // saves each finished page after its first visit (see "ISR with Cache Components").

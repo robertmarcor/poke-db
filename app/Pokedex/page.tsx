@@ -1,6 +1,11 @@
 import { Suspense } from "react";
 import PokedexList from "./PokedexList";
 
+export const metadata = {
+  title: "Pokédex",
+  description: "Browse all 1,025 Pokémon. Search by name and filter by generation.",
+};
+
 export default function PokedexPage() {
   return (
     <div className="mx-auto grid w-full max-w-3xl gap-6">
